@@ -1,0 +1,212 @@
+{
+  "release": "1.0.0",
+  "date": "2026-09-19",
+  "file_count": 42,
+  "files": [
+    {
+      "path": "00_orientation/CONCEPT_MAP.md",
+      "sha256": "3d5f738358f5fc29fe84cea2a2f7ee71b26839a613d387ef97d712a939b6437a",
+      "bytes": 943
+    },
+    {
+      "path": "00_orientation/DEPENDENCY_GRAPH.md",
+      "sha256": "9cb5f1cfcac572debad1be2d21d54942a063f01657c09d5fb52ac3b15494b591",
+      "bytes": 846
+    },
+    {
+      "path": "00_orientation/EPISTEMIC_LEGEND.md",
+      "sha256": "691f06e0d721ecfbd9ee37e63cf0d1e830070a2669fcf542052856bf96067b0f",
+      "bytes": 874
+    },
+    {
+      "path": "00_orientation/START_HERE.md",
+      "sha256": "4b342826a96607d1f9b0e429beddf7a48f14ce4e1891c70a23b679a35db322c8",
+      "bytes": 981
+    },
+    {
+      "path": "01_foundations/closure_identity.es.md",
+      "sha256": "9ca8cab64109c6b97834f79996df490bd1252f69377086482073c82333d56033",
+      "bytes": 1200
+    },
+    {
+      "path": "01_foundations/generative_core.es.md",
+      "sha256": "1de2e2492799d63ee1ddb921d43aa3b5fd4971e400d9fe6020c406b55557a6ff",
+      "bytes": 2153
+    },
+    {
+      "path": "01_foundations/order_four_and_pi.es.md",
+      "sha256": "e104bb5017b80ea171e80b055d100fb957fa2fbdff286f729f886d17cebad4ff",
+      "bytes": 2011
+    },
+    {
+      "path": "01_foundations/scale_rate_time.es.md",
+      "sha256": "07fff193f1e0483fa695919437ecfdb643c370c44129ad1b92faf11ec96fff18",
+      "bytes": 1518
+    },
+    {
+      "path": "02_formal_core/comparator_and_residue.md",
+      "sha256": "76587e82607fffe0bd05348baa3e9328746a5101ae4c8288728553ff4e19a607",
+      "bytes": 1095
+    },
+    {
+      "path": "02_formal_core/order_four_operator.md",
+      "sha256": "c1af3d4834194b8d4e1fd27de7500790204ea71cf834c052fd0b77f8f597f9e8",
+      "bytes": 734
+    },
+    {
+      "path": "02_formal_core/second_order_dynamics.md",
+      "sha256": "d00a5214f98c0d3df8b7b4ea6c1cd1c854b4f546457cfd4f98d609adf7cb5f60",
+      "bytes": 933
+    },
+    {
+      "path": "03_navier_stokes/README.md",
+      "sha256": "e47ec0896630c12c31579f13615b8584313b6b5424fa4c0bfb5eef34c7ce802e",
+      "bytes": 1413
+    },
+    {
+      "path": "03_navier_stokes/STATUS.md",
+      "sha256": "25e1f6025b3dacdca428a7682d2cf4d173ecc7ddba3e965095e9cb09e9db99ac",
+      "bytes": 2004
+    },
+    {
+      "path": "03_navier_stokes/data/README.md",
+      "sha256": "05cfe5d5bd3a8a71edcd3eeb016dc026e5594dcb981ec9fb80b0328edb0e9d2f",
+      "bytes": 1131
+    },
+    {
+      "path": "03_navier_stokes/data/phase3_extreme_tail.csv",
+      "sha256": "3adcd5f2363290ed1d15870ab8831922f078730150d642a49cca63a6e01334c4",
+      "bytes": 612
+    },
+    {
+      "path": "03_navier_stokes/data/phase4_episodes.csv",
+      "sha256": "31065876016d65f40561f011b78ee4c028d75d4bfec8597d1c3cbba586ab088d",
+      "bytes": 1426
+    },
+    {
+      "path": "03_navier_stokes/data/phase4_lowest_states.csv",
+      "sha256": "6c3f91760e52f490e5f9804515f6b25affcd20342b53b1b47f38f75fcfeda9d5",
+      "bytes": 798
+    },
+    {
+      "path": "03_navier_stokes/data/phase5_kappa_interval_means.csv",
+      "sha256": "546e8dada8fce9891fbb7c56b03d688cd60f3c89e0bf1d062158c1a57c761339",
+      "bytes": 478
+    },
+    {
+      "path": "03_navier_stokes/docs/benchmarks.md",
+      "sha256": "a274d5ba2c2ec59e95fc4546f759dc8debfd60e10380d76c8fa45080879cb3a7",
+      "bytes": 921
+    },
+    {
+      "path": "03_navier_stokes/docs/channel_evolution_law.md",
+      "sha256": "5a89cd77c0d7fab0a55d3d8833669035c916dfb866d353224c03263cd33c2d11",
+      "bytes": 674
+    },
+    {
+      "path": "03_navier_stokes/docs/exact_material_channels.md",
+      "sha256": "1358a7e1456d2fdaf0a4a3377764bec9e928f88638ad40e0b56417a282607026",
+      "bytes": 412
+    },
+    {
+      "path": "03_navier_stokes/docs/jhtdb_evidence.md",
+      "sha256": "8d75a7f6ad9383d20fc6f2bd68effbedc7a184f4c923e020ef8eb37ee101edcd",
+      "bytes": 1104
+    },
+    {
+      "path": "03_navier_stokes/docs/relational_correspondence.md",
+      "sha256": "771709ab14031ab0670abe396d6233024e9f0258d71cdafa40e1d6be2077f2d6",
+      "bytes": 892
+    },
+    {
+      "path": "03_navier_stokes/manuscript.md",
+      "sha256": "4bd6c8fd45b488ef618289c192b174336168740c4d27b04c07fc6996427dc43a",
+      "bytes": 15010
+    },
+    {
+      "path": "03_navier_stokes/references.bib",
+      "sha256": "77665450f6530b834dd6eaecc526726830a795734caa4332efd3542d3a5e4b61",
+      "bytes": 2062
+    },
+    {
+      "path": "03_navier_stokes/scripts/material_observables.py",
+      "sha256": "65c5bc4412ff1fea7a02c06ab929f4187f22b5aa6be7b6ec7de94a542c136878",
+      "bytes": 4984
+    },
+    {
+      "path": "03_navier_stokes/scripts/restricted_euler_benchmark.py",
+      "sha256": "36042c2aef20e834e62e69aa17af5c5ad898c10bd5d31779fb84d6edd04f751b",
+      "bytes": 2093
+    },
+    {
+      "path": "03_navier_stokes/scripts/review_checks.py",
+      "sha256": "8aa6152eaabc768325f38b01c0e2ee8a90c7aec9a470673d46cd849a78fd1526",
+      "bytes": 1161
+    },
+    {
+      "path": "04_results/NO_GO_REGISTER.md",
+      "sha256": "9778f19e10e73fb46c1dd7d6786cf3f2ea38815d57fd93026aa249459bfe93ce",
+      "bytes": 1429
+    },
+    {
+      "path": "04_results/OPEN_PROBLEMS.md",
+      "sha256": "a903bd492b362dec83aa65b0103c27e2658fb6f4a1e37b87a2d4a684b65c1582",
+      "bytes": 1454
+    },
+    {
+      "path": "04_results/RESULTS_REGISTER.md",
+      "sha256": "84fbd108a2b02ef77531992f3b39f542290ce601614185a713cfa48f8b511998",
+      "bytes": 1354
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "7d0349499e603e8251d1614f26684fddfee6daeecafa250e83e763c8724174fd",
+      "bytes": 320
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "26226b7f230ba0c42428607a1e403980b17d9f4bbde900d2caf4f790cdf31954",
+      "bytes": 390
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "3687e7cccb0c1739847be66ef9f85c4c765882fecbc0403927a98325bc662ab8",
+      "bytes": 2430
+    },
+    {
+      "path": "README.md",
+      "sha256": "d8469fb8bf0e28a59af34f64aff5267516c1cdfd62208afd3015d5bf6cfc5935",
+      "bytes": 4759
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "ab548cfa5515bf202f5b12dc09831fa44fb1b19330b1fdbe27c1af9a7bae36f2",
+      "bytes": 1177
+    },
+    {
+      "path": "publication/academic_context_and_research_interfaces.md",
+      "sha256": "894e673c3d23068bbcac5cc2d44e24222c87f8413391b26871b2deecb85b0beb",
+      "bytes": 33713
+    },
+    {
+      "path": "publication/relational_geometry_core.es.md",
+      "sha256": "b1df0f816f30fb067c4f9c44ceb65492ce10a48990add81a996d5138c25259d1",
+      "bytes": 38789
+    },
+    {
+      "path": "references/EXTERNAL_SOURCES.md",
+      "sha256": "de6070aa845013123348327ce534cd880749ab9a2ca1c5550342181a4871d873",
+      "bytes": 1689
+    },
+    {
+      "path": "tests/test_exact_identities.py",
+      "sha256": "3c7148f2b1987297c5c1f5b292f2fb70116f9dad4281a005c999763ba5090fb2",
+      "bytes": 1187
+    },
+    {
+      "path": "tests/test_repository.py",
+      "sha256": "2a0a5c04dfe7b927188bd48bfb25aebefa8894032d6edcb711ef2e3ec5e6bc5c",
+      "bytes": 766
+    }
+  ]
+}
