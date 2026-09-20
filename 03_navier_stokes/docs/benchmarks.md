@@ -6,7 +6,7 @@ Purpose: rule out the idea that small turning is intrinsically singular or that 
 
 ## 2. Restricted Euler — local model
 
-Purpose: test the channel law when anisotropic nonlocal pressure effects are removed. The bundled script reproduces collapse toward \(\rho_\perp\to0\) while the model approaches its finite-time singular event.
+Purpose: test the channel law when anisotropic nonlocal pressure effects are removed. The bundled script reproduces collapse toward $\rho_\perp\to0$ while the model approaches its finite-time singular event.
 
 ## 3. DNS/JHTDB — full viscous dynamics
 

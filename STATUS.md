@@ -7,7 +7,7 @@ This repository is a self-contained research release. Its claims are intentional
 - dependency order of the conceptual vocabulary;
 - graph/circuit and operator examples of internal reconstructibility;
 - conditional order-four operator cycle;
-- continuous \(2\pi\)-periodic interpolation under \(J^2=-I\);
+- continuous $2\pi$-periodic interpolation under $J^2=-I$;
 - conditional comparator dynamics and spectral scale–rate relation;
 - exact Navier–Stokes material identities and growth-coordinate transverse law.
 
@@ -15,7 +15,7 @@ This repository is a self-contained research release. Its claims are intentional
 
 - quaternionic route to induced orthogonality;
 - binary/Mersenne heritage+novedad construction;
-- oscillatory \(R\varpi=\sqrt\Gamma\) scale–rate law.
+- oscillatory $R\varpi=\sqrt\Gamma$ scale–rate law.
 
 ### Physical correspondences under test
 

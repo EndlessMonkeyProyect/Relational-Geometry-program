@@ -15,19 +15,19 @@
 
 La diferencia no necesita que primero se hayan contado dos objetos. El conteo sólo aparece cuando una arquitectura puede conservar simultáneamente registros distinguibles. Por eso la precedencia adoptada es
 
-\[
+$$
 \text{diferencia}\prec\text{cardinalidad}.
-\]
+$$
 
 ### Relación y comparación
 
 [Definición] Una comparación se representa como
 
-\[
+$$
 \mathcal C(a,b)=(q,r),
-\]
+$$
 
-donde \(q\) es la parte resuelta respecto de la arquitectura disponible y \(r\) es el residuo cuya eliminación perdería una diferencia relevante.
+donde $q$ es la parte resuelta respecto de la arquitectura disponible y $r$ es el residuo cuya eliminación perdería una diferencia relevante.
 
 El residuo no es materia ni energía por definición. Es información pendiente respecto de una arquitectura de referencia.
 
@@ -45,8 +45,8 @@ Cierre no equivale a retorno, residuo cero, órbita cerrada ni desaparición de 
 
 Una identidad nueva requiere simultáneamente:
 
-\[
+$$
 \boxed{\text{herencia}+\text{novedad}.}
-\]
+$$
 
 Herencia permite reconocer pertenencia; novedad impide que la identidad sea mera repetición. La identidad es por ello una arquitectura capaz de reconocerse bajo transformaciones que preservan sus relaciones definitorias.

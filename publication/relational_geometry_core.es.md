@@ -1,5 +1,5 @@
 # De la diferencia al cierre, y del cierre a la dinámica
-## Núcleo generativo, cardinalidad, orientación, \(\pi\), ritmo y laboratorio Navier–Stokes
+## Núcleo generativo, cardinalidad, orientación, $\pi$, ritmo y laboratorio Navier–Stokes
 
 **Le Matt Ansatz Di Ego**  
 **Le Matt Ansatz Di Ego — septiembre de 2026**
@@ -12,7 +12,7 @@ Este documento intenta decir primero **qué entendemos**, y sólo después cómo
 
 La intención no es comenzar con una ecuación física conocida y reinterpretarla retrospectivamente. El orden de trabajo es el contrario:
 
-\[
+$$
 \boxed{
 \text{entendimiento}
 \longrightarrow
@@ -24,7 +24,7 @@ La intención no es comenzar con una ecuación física conocida y reinterpretarl
 \longrightarrow
 \text{medición y falsación}
 }
-\]
+$$
 
 La narrativa no sustituye a la matemática. La matemática tampoco se usa para fingir que una intuición ya fue derivada. Cada capa tiene una función distinta.
 
@@ -76,13 +76,13 @@ Una diferencia no necesita que previamente hayamos contado “dos cosas”. Lo q
 
 Por tanto:
 
-\[
+$$
 \boxed{
 \text{diferencia}
 \quad\text{precede lógicamente a}\quad
 \text{cardinalidad}.
 }
-\]
+$$
 
 La cardinalidad no crea la diferencia. La cardinalidad es una propiedad posterior de una arquitectura que ya puede mantener diferencias sin colapsarlas unas en otras.
 
@@ -94,11 +94,11 @@ En este programa, “información” no significa de entrada bits de Shannon.
 
 Esta definición es deliberadamente anterior a una codificación estadística. Una vez elegido un alfabeto, una probabilidad o un canal, podrá hablarse de bits. Antes de eso, el contenido mínimo es simplemente:
 
-\[
+$$
 \boxed{
 \text{hay una diferencia que debe conservarse para no identificar estados distintos.}
 }
-\]
+$$
 
 ---
 
@@ -118,14 +118,14 @@ Esta observación será importante para la emergencia de dimensión: **orientars
 
 **[Definición]** Representamos una comparación como
 
-\[
+$$
 \mathcal C(a,b)=(q,r),
-\]
+$$
 
 con
 
-- \(q\): parte que la arquitectura actual logra resolver o acreditar;
-- \(r\): residuo que todavía no puede absorber sin perder una diferencia relevante.
+- $q$: parte que la arquitectura actual logra resolver o acreditar;
+- $r$: residuo que todavía no puede absorber sin perder una diferencia relevante.
 
 El residuo no es materia, energía ni una dimensión física por definición.
 
@@ -133,17 +133,17 @@ Es una deuda de representación.
 
 Si
 
-\[
+$$
 r=0,
-\]
+$$
 
 la comparación puede resolverse con la arquitectura presente.
 
 Si
 
-\[
+$$
 r\neq0
-\]
+$$
 
 y descartar ese residuo cambiaría la solución, la arquitectura debe encontrar una manera de conservarlo.
 
@@ -153,24 +153,24 @@ y descartar ese residuo cambiaría la solución, la arquitectura debe encontrar 
 
 La comparación puede aplicarse a sus propios productos:
 
-\[
+$$
 \mathcal C
 \longrightarrow
 \mathcal C(\mathcal C)
 \longrightarrow
 \mathcal C(\mathcal C(\mathcal C))
 \longrightarrow\cdots
-\]
+$$
 
 Esto introduce una **profundidad lógica**.
 
 La profundidad no es todavía tiempo.
 
-\[
+$$
 \boxed{
 \text{orden generativo}\neq\text{duración física}.
 }
-\]
+$$
 
 Una estructura puede tener niveles de autorreferencia antes de que exista un reloj con el cual asociarles intervalos.
 
@@ -196,69 +196,69 @@ La formulación madura es:
 
 En una realización gráfica simple, una relación nueva puede primero aumentar el rango:
 
-\[
+$$
 \Delta \operatorname{rank} C=1.
-\]
+$$
 
 Eso acredita **novedad**.
 
 Después, otra relación puede cerrar un circuito sin aumentar nuevamente el rango:
 
-\[
+$$
 \Delta \operatorname{rank} C=0.
-\]
+$$
 
 Por ejemplo,
 
-\[
+$$
 x_0\leftrightarrow x_1,
 \qquad
 x_0\leftrightarrow x_2,
 \qquad
 x_1\leftrightarrow x_2.
-\]
+$$
 
 Las diferencias orientadas alrededor del circuito satisfacen
 
-\[
+$$
 \boxed{
 \delta_{01}+\delta_{12}+\delta_{20}=0.
 }
-\]
+$$
 
-La relación de \(x_2\) con \(x_0\) ya puede reconstruirse mediante el camino que pasa por \(x_1\).
+La relación de $x_2$ con $x_0$ ya puede reconstruirse mediante el camino que pasa por $x_1$.
 
 El punto conceptual es crucial:
 
-\[
+$$
 \boxed{
 \text{novedad}\neq\text{cierre}.
 }
-\]
+$$
 
 La novedad amplía; el cierre hace internamente reconstruible lo ampliado.
 
 ## 10. Cierre por holonomía
 
-Una generalización usa operadores de transporte \(T_e\). Para un circuito
+Una generalización usa operadores de transporte $T_e$. Para un circuito
 
-\[
+$$
 \gamma=e_1e_2\cdots e_k,
-\]
+$$
 
 se define
 
-\[
+$$
 \mathcal H_\gamma=T_{e_k}\cdots T_{e_1}.
-\]
+$$
 
 Un candidato abstracto de cierre es
 
-\[
+$$
 \boxed{
 \mathcal H_\gamma([x])=[x].
 }
-\]
+$$
 
 La arquitectura recorre una cadena de relaciones y puede volver a reconocer la clase relacional del estado de partida.
 
@@ -270,13 +270,13 @@ Una identidad nueva no puede ser sólo repetición, porque entonces no sería nu
 
 El programa propone por ello:
 
-\[
+$$
 \boxed{
 \text{particularización}
 \Longrightarrow
 \text{herencia} + \text{novedad} + \text{cierre}.
 }
-\]
+$$
 
 - **Herencia:** algo del estado puede ser reconstruido desde la arquitectura previa.
 - **Novedad:** algo no puede reducirse a ese cierre previo.
@@ -316,13 +316,13 @@ Esta lectura motiva una regla conceptual:
 
 Formalmente, la idea sería
 
-\[
+$$
 \text{residuo irreducible}
 \longrightarrow
 \text{nuevo grado independiente}
 \longrightarrow
 \text{dimensionalidad efectiva mayor}.
-\]
+$$
 
 **[Pendiente]** Esta flecha todavía necesita un criterio general de suficiencia. Independencia lineal, por sí sola, no obliga a una dimensión física ni a ortogonalidad.
 
@@ -336,17 +336,17 @@ El número cuatro aparece en el programa por varias rutas. La madurez del docume
 
 Hoy deben distinguirse al menos cuatro apariciones.
 
-### 15.1 Cuatro como ciclo local de un operador con \(J^2=-I\)
+### 15.1 Cuatro como ciclo local de un operador con $J^2=-I$
 
-Si una realización algebraica dispone de un operador \(J\) tal que
+Si una realización algebraica dispone de un operador $J$ tal que
 
-\[
+$$
 J^2=-I,
-\]
+$$
 
 entonces
 
-\[
+$$
 J^0=I,
 \qquad
 J^1=J,
@@ -356,87 +356,87 @@ J^2=-I,
 J^3=-J,
 \qquad
 J^4=I.
-\]
+$$
 
 Por tanto
 
-\[
+$$
 \boxed{
 I\to J\to -I\to -J\to I
 }
-\]
+$$
 
 es un ciclo discreto de orden cuatro.
 
-**[Exacto condicionado a \(J^2=-I\)]** El retorno local ocurre en cuatro pasos orientados.
+**[Exacto condicionado a $J^2=-I$]** El retorno local ocurre en cuatro pasos orientados.
 
 Lo que esta ecuación **no** demuestra es por qué la ontología mínima está obligada a elegir un operador de ese tipo.
 
-### 15.2 Cuatro puntos, \(V_4\), \(Q_8\) y cuaterniones
+### 15.2 Cuatro puntos, $V_4$, $Q_8$ y cuaterniones
 
 Para cuatro puntos proyectivos existe una realización en la que las dobles transposiciones forman el grupo de Klein
 
-\[
+$$
 V_4\simeq\mathbb Z_2\times\mathbb Z_2.
-\]
+$$
 
-Un levantamiento coherente a \(SL_2(\mathbb C)\) produce una copia de
+Un levantamiento coherente a $SL_2(\mathbb C)$ produce una copia de
 
-\[
+$$
 Q_8=\{\pm I,\pm A,\pm B,\pm C\},
-\]
+$$
 
 cuyo álgebra real es cuaterniónica.
 
 En esa realización, un generador imaginario unitario cumple
 
-\[
+$$
 J^2=-I
-\]
+$$
 
 y la norma algebraica induce un producto interno con
 
-\[
+$$
 \boxed{\langle x,Jx\rangle=0.}
-\]
+$$
 
 Esto es valioso porque la transversalidad aparece **después** de la estructura algebraica, en lugar de postularse desde el origen.
 
 Pero el sentido lógico es:
 
-\[
+$$
 \boxed{
 \text{si hay una realización apropiada de cuatro relaciones}
 \Rightarrow
 \text{puede emerger la estructura cuaterniónica}.
 }
-\]
+$$
 
 No es todavía:
 
-\[
+$$
 \text{ontología}\Rightarrow\text{cuatro necesariamente}.
-\]
+$$
 
 ### 15.3 Cuatro como primera herencia + novedad en la realización binaria
 
 Adóptese específicamente
 
-\[
+$$
 r_V(\varepsilon)=2^{-\varepsilon},
 \qquad
 r_m(\varepsilon)=1-2^{-\varepsilon},
-\]
+$$
 
 y defínase
 
-\[
+$$
 M_\varepsilon=\frac{r_m}{r_V}=2^\varepsilon-1.
-\]
+$$
 
 La secuencia comienza
 
-\[
+$$
 M_1=1,
 \quad
 M_2=3,
@@ -448,23 +448,23 @@ M_4=15=3\cdot5,
 M_5=31,
 \quad
 M_6=63=3^2\cdot7.
-\]
+$$
 
 Si “herencia” significa conservar un factor ya acreditado y “novedad” introducir al menos un factor nuevo, entonces en
 
-\[
+$$
 \boxed{\varepsilon=4}
-\]
+$$
 
 aparecen simultáneamente
 
-\[
+$$
 3\quad\text{heredado},
 \qquad
 5\quad\text{nuevo}.
-\]
+$$
 
-**[Exacto dentro de la realización binaria]** \(\varepsilon=4\) es el primer índice con herencia y novedad simultáneas bajo esas definiciones.
+**[Exacto dentro de la realización binaria]** $\varepsilon=4$ es el primer índice con herencia y novedad simultáneas bajo esas definiciones.
 
 **[Pendiente]** Derivar por qué la arquitectura generativa debe seleccionar precisamente la regla binaria. La teoría de números posterior no puede justificarla retrospectivamente.
 
@@ -474,7 +474,7 @@ Los documentos exploratorios encontraron una estructura particular de cuartetos 
 
 Su papel correcto es de **candidato de realización** y de posible puente entre incidencia proyectiva y cierre algebraico.
 
-**[Pendiente]** Demostrar que el cuatro que aparece allí es el mismo objeto estructural que el ciclo \(C_4\), y no simplemente otra estructura de cardinalidad cuatro.
+**[Pendiente]** Demostrar que el cuatro que aparece allí es el mismo objeto estructural que el ciclo $C_4$, y no simplemente otra estructura de cardinalidad cuatro.
 
 ## 16. La afirmación madura sobre el cuatro
 
@@ -486,70 +486,70 @@ Hoy podemos decir:
 
 ---
 
-# VI. Dónde entra \(\pi\)
+# VI. Dónde entra $\pi$
 
-## 17. El ciclo discreto no necesita \(\pi\)
+## 17. El ciclo discreto no necesita $\pi$
 
 El ciclo
 
-\[
+$$
 I\to J\to-I\to-J\to I
-\]
+$$
 
 es puramente algebraico.
 
 No contiene una longitud de circunferencia ni una medida angular continua. Su cardinalidad es cuatro y su cierre se obtiene por la identidad
 
-\[
+$$
 J^4=I.
-\]
+$$
 
 Por tanto:
 
-\[
+$$
 \boxed{
 \pi\text{ no es necesario para el cierre discreto }C_4.
 }
-\]
+$$
 
-## 18. \(\pi\) aparece al hacer continua la orientación
+## 18. $\pi$ aparece al hacer continua la orientación
 
 Si queremos interpolar continuamente entre los estados del ciclo, introducimos
 
-\[
+$$
 U(\theta)=e^{\theta J}.
-\]
+$$
 
 Como
 
-\[
+$$
 J^2=-I,
-\]
+$$
 
 la serie exponencial se organiza como
 
-\[
+$$
 \boxed{
 e^{\theta J}=\cos\theta\,I+\sin\theta\,J.}
-\]
+$$
 
 Entonces
 
-\[
+$$
 U(\theta+2\pi)=U(\theta),
-\]
+$$
 
 y
 
-\[
+$$
 J=e^{(\pi/2)J}.
-\]
+$$
 
-**[Exacto condicionado a la parametrización continua]** \(2\pi\) es el período del subgrupo continuo generado por \(J\).
+**[Exacto condicionado a la parametrización continua]** $2\pi$ es el período del subgrupo continuo generado por $J$.
 
 La lectura conceptual es:
 
-\[
+$$
 \boxed{
 \text{ciclo discreto}
 \longrightarrow
@@ -557,19 +557,19 @@ La lectura conceptual es:
 \longrightarrow
 \text{período }2\pi.
 }
-\]
+$$
 
-No estamos derivando \(\pi\) desde “la nada”. Estamos localizando el punto preciso en que \(\pi\) se vuelve necesario: cuando una orientación discreta se representa mediante un parámetro continuo y periódico.
+No estamos derivando $\pi$ desde “la nada”. Estamos localizando el punto preciso en que $\pi$ se vuelve necesario: cuando una orientación discreta se representa mediante un parámetro continuo y periódico.
 
-## 19. Qué hacer con las otras apariciones de \(\pi\)
+## 19. Qué hacer con las otras apariciones de $\pi$
 
-En otras realizaciones matemáticas, \(\pi\) aparece también en densidades de coprimos, estructuras de Farey, series e identidades analíticas. Esas apariciones son matemáticamente reales, pero no deben presentarse como una derivación ontológica independiente.
+En otras realizaciones matemáticas, $\pi$ aparece también en densidades de coprimos, estructuras de Farey, series e identidades analíticas. Esas apariciones son matemáticamente reales, pero no deben presentarse como una derivación ontológica independiente.
 
 Conteos asintóticos, densidades y sumas infinitas ya utilizan una estructura aritmética/analítica mucho más rica que la unidad singular.
 
 Por eso la posición adoptada es:
 
-> **\(\pi\) no pertenece a la cardinalidad mínima por sí sola. Dentro de la realización actual, su lugar estructural más limpio aparece al pasar del cierre orientado discreto a una parametrización continua.**
+> **$\pi$ no pertenece a la cardinalidad mínima por sí sola. Dentro de la realización actual, su lugar estructural más limpio aparece al pasar del cierre orientado discreto a una parametrización continua.**
 
 Esta formulación evita circularidades y preserva las observaciones alternativas como pistas, no como fundamento.
 
@@ -583,13 +583,13 @@ Una vez existe una familia de transformaciones, podemos comparar cuán rápido c
 
 Antes de elegir un reloj, lo primario puede ser una razón de ritmos:
 
-\[
+$$
 \boxed{
 \frac{\varpi_i}{\varpi_j}.
 }
-\]
+$$
 
-Ese cociente es adimensional. Dice cuántas unidades de transformación de \(i\) ocurren por cada unidad de transformación de \(j\).
+Ese cociente es adimensional. Dice cuántas unidades de transformación de $i$ ocurren por cada unidad de transformación de $j$.
 
 Ésta es la forma más disciplinada de la intuición:
 
@@ -599,101 +599,101 @@ Elegir uno de esos procesos como referencia convierte la razón en una medida de
 
 ## 21. Dinámica espectral de segundo orden
 
-En una realización concreta, sea un comparador \(C\) y
+En una realización concreta, sea un comparador $C$ y
 
-\[
+$$
 G=C^\dagger C\ge0.
-\]
+$$
 
 Una dinámica mínima, simétrica bajo avance/retorno y derivada de una acción cuadrática, toma la forma
 
-\[
+$$
 \boxed{
 \ddot f+\Gamma Gf=0.
 }
-\]
+$$
 
 Para un modo propio
 
-\[
+$$
 Gu_i=\lambda_i u_i,
-\]
+$$
 
 se obtiene
 
-\[
+$$
 \boxed{
 \varpi_i^2=\Gamma\lambda_i.
 }
-\]
+$$
 
 Si el comparador lleva escala y se define
 
-\[
+$$
 R_i=\lambda_i^{-1/2},
-\]
+$$
 
 entonces
 
-\[
+$$
 \boxed{
 R_i|\varpi_i|=\sqrt{\Gamma}=:v_*.
 }
-\]
+$$
 
 Y para dos modos de la misma familia,
 
-\[
+$$
 \boxed{
 \frac{|\varpi_i|}{|\varpi_j|}
 =
 \frac{R_j}{R_i}.
 }
-\]
+$$
 
 Esta relación realiza matemáticamente la idea de que escala y ritmo son comparables sin necesitar un reloj absoluto.
 
-## 22. \(c\) como puente, no como premisa universal
+## 22. $c$ como puente, no como premisa universal
 
 Si en una realización física independiente se demuestra que
 
-\[
+$$
 v_*=c,
-\]
+$$
 
 o más generalmente
 
-\[
+$$
 v_*=\beta c,
 \qquad 0\le\beta\le1,
-\]
+$$
 
 entonces
 
-\[
+$$
 \varpi=\frac{\beta c}{R}.
-\]
+$$
 
 Una duración asociada a esa relación puede escribirse
 
-\[
+$$
 \mathcal T=\frac{R}{\beta c}.
-\]
+$$
 
 La comparación entre dos ritmos es entonces
 
-\[
+$$
 \frac{\varpi_i}{\varpi_j}
 =
 \frac{\beta_i}{\beta_j}
 \frac{R_j}{R_i}.
-\]
+$$
 
-Si comparten la misma referencia causal \(\beta\), ésta se cancela.
+Si comparten la misma referencia causal $\beta$, ésta se cancela.
 
-Ésta es la formulación correcta de “la velocidad como fracción de \(c\)”: \(c\) actúa como referencia dimensional/causal de una realización relativista posterior, no como ingrediente del origen lógico.
+Ésta es la formulación correcta de “la velocidad como fracción de $c$”: $c$ actúa como referencia dimensional/causal de una realización relativista posterior, no como ingrediente del origen lógico.
 
-**NO-GO:** introducir \(c\) como constante fundamental dentro de Navier–Stokes incompresible sólo porque aparece en otro puente del programa.
+**NO-GO:** introducir $c$ como constante fundamental dentro de Navier–Stokes incompresible sólo porque aparece en otro puente del programa.
 
 ---
 
@@ -703,59 +703,59 @@ Si comparten la misma referencia causal \(\beta\), ésta se cancela.
 
 La relación
 
-\[
+$$
 R\varpi=\text{constante}
-\]
+$$
 
 es natural para la realización oscilatoria anterior. Pero Navier–Stokes posee un escalamiento parabólico distinto.
 
 Bajo
 
-\[
+$$
 u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
-\]
+$$
 
 una longitud escala como
 
-\[
+$$
 R\mapsto\lambda^{-1}R,
-\]
+$$
 
 mientras una tasa material escala como
 
-\[
+$$
 \varpi\mapsto\lambda^2\varpi.
-\]
+$$
 
 Por tanto
 
-\[
+$$
 R\varpi\mapsto\lambda R\varpi
-\]
+$$
 
 no es invariante, mientras
 
-\[
+$$
 \boxed{R^2\varpi}
-\]
+$$
 
 sí lo es.
 
 Esto obliga a distinguir dos realizaciones:
 
-\[
+$$
 \boxed{
 \text{tipo oscilatorio/onda: }R\varpi=v_*
 }
-\]
+$$
 
 frente a
 
-\[
+$$
 \boxed{
 \text{tipo parabólico/difusivo: }R^2\varpi=\nu_*.
 }
-\]
+$$
 
 Esta distinción fija el alcance de cada realización. Muestra que “ritmo” no debe identificarse con una única ley universal antes de declarar qué dinámica lo realiza.
 
@@ -767,50 +767,50 @@ Esta distinción fija el alcance de cada realización. Muestra que “ritmo” n
 
 Sea
 
-\[
+$$
 \omega=q\xi,
 \qquad
 q=|\omega|>0,
 \qquad
 |\xi|=1.
-\]
+$$
 
-La dirección \(\xi\) funciona como una referencia local de la vorticidad presente.
+La dirección $\xi$ funciona como una referencia local de la vorticidad presente.
 
 Derivando a lo largo de una trayectoria material,
 
-\[
+$$
 D_t\omega=(D_tq)\xi+qD_t\xi.
-\]
+$$
 
 Definimos
 
-\[
+$$
 \boxed{
 a=D_t\log q,\qquad b=D_t\xi.}
-\]
+$$
 
-Como \(|\xi|=1\),
+Como $|\xi|=1$,
 
-\[
+$$
 \xi\cdot b=0.
-\]
+$$
 
 Entonces
 
-\[
+$$
 \boxed{
 \frac{D_t\omega}{q}=a\xi+b
 }
-\]
+$$
 
 y
 
-\[
+$$
 \boxed{
 \frac{|D_t\omega|^2}{q^2}=a^2+|b|^2.
 }
-\]
+$$
 
 **[Exacto]** La tasa material se divide en un canal paralelo a la referencia actual y un canal transversal que actualiza esa referencia.
 
@@ -820,21 +820,21 @@ Ontológicamente debemos ser cuidadosos: esto no prueba cierre. Lo que sí propo
 
 Definimos
 
-\[
+$$
 \Omega:=\frac{|D_t\omega|}{q}=\sqrt{a^2+|b|^2}.
-\]
+$$
 
-Cuando \(a>0\), podemos escribir
+Cuando $a>0$, podemos escribir
 
-\[
+$$
 a=\Omega\cos\theta,
 \qquad
 |b|=\Omega\sin\theta.
-\]
+$$
 
 De modo que
 
-\[
+$$
 \boxed{
 \rho_\perp
 =
@@ -842,133 +842,133 @@ De modo que
 =
 \sin^2\theta.
 }
-\]
+$$
 
-Un \(\rho_\perp\) pequeño significa que el cambio material está mayoritariamente alineado con la referencia actual \(\xi\).
+Un $\rho_\perp$ pequeño significa que el cambio material está mayoritariamente alineado con la referencia actual $\xi$.
 
 Eso es una **sintonía de tasa**, no una identidad ni un cierre ontológico.
 
-El vórtice de Burgers ofrece precisamente el recordatorio adecuado: puede existir crecimiento perfectamente paralelo, \(b=0\), dentro de una solución regular del modelo clásico. Por tanto:
+El vórtice de Burgers ofrece precisamente el recordatorio adecuado: puede existir crecimiento perfectamente paralelo, $b=0$, dentro de una solución regular del modelo clásico. Por tanto:
 
-\[
+$$
 \boxed{
 \rho_\perp\ll1
 \not\Rightarrow
 \text{singularidad, cierre ni peligro por sí solo}.
 }
-\]
+$$
 
 ## 26. Contar cambio en lugar de imponer un reloj
 
 Definimos el contador adimensional
 
-\[
+$$
 \boxed{dN=\Omega\,dt.}
-\]
+$$
 
-No afirmamos que \(N\) sea “el tiempo verdadero”. Es la cantidad acumulada de cambio material medida en unidades de la tasa local.
+No afirmamos que $N$ sea “el tiempo verdadero”. Es la cantidad acumulada de cambio material medida en unidades de la tasa local.
 
 Como
 
-\[
+$$
 d\log q=a\,dt,
-\]
+$$
 
 se obtiene
 
-\[
+$$
 \boxed{
 dG=d\log q=\cos\theta\,dN.}
-\]
+$$
 
 Y sobre un intervalo,
 
-\[
+$$
 \boxed{
 G=\log\frac{q_2}{q_1}
 =
 \int\cos\theta\,dN.
 }
-\]
+$$
 
 Aquí reaparece, ahora dentro de una ecuación física exacta, la idea de comparación de ritmos:
 
-- \(dN\) cuenta cuánto cambio material ocurre;
-- \(\cos\theta\) dice qué fracción de ese cambio queda sincronizada con la amplificación de la referencia actual.
+- $dN$ cuenta cuánto cambio material ocurre;
+- $\cos\theta$ dice qué fracción de ese cambio queda sincronizada con la amplificación de la referencia actual.
 
 ## 27. La ecuación dinámica más importante de la etapa actual
 
 Definamos
 
-\[
+$$
 \mathcal V:=\frac{D_t\omega}{q}=a\xi+b,
 \qquad
 \mathcal Y:=D_t\mathcal V.
-\]
+$$
 
 Una derivación exacta da
 
-\[
+$$
 D_tb
 =
 P_\xi^\perp\mathcal Y
 -ab
 -|b|^2\xi.
-\]
+$$
 
 Proyectando sobre el plano transversal,
 
-\[
+$$
 \boxed{
 P_\xi^\perp D_tb
 =
 \mathcal Y_\perp-ab.
 }
-\]
+$$
 
 Y usando la coordenada de crecimiento
 
-\[
+$$
 dG=a\,dt,
-\]
+$$
 
 obtenemos
 
-\[
+$$
 \boxed{
 P_\xi^\perp\frac{db}{dG}
 =
 \frac{\mathcal Y_\perp}{a}-b.
 }
-\]
+$$
 
 Ésta es la ecuación que mejor conversa hoy con el núcleo ontológico.
 
 ## 28. Lectura relacional de la ecuación — sin lenguaje de fuerza
 
-No es necesario interpretar el término \(-b\) como una fuerza que “empuja” al sistema.
+No es necesario interpretar el término $-b$ como una fuerza que “empuja” al sistema.
 
 Una lectura más fiel al programa es:
 
-> **una diferencia transversal ya existente no se conserva automáticamente mientras la referencia acumula crecimiento. Para seguir siendo relevante debe volver a ser acreditada por la dinámica a través de \(\mathcal Y_\perp/a\).**
+> **una diferencia transversal ya existente no se conserva automáticamente mientras la referencia acumula crecimiento. Para seguir siendo relevante debe volver a ser acreditada por la dinámica a través de $\mathcal Y_\perp/a$.**
 
 En ausencia de suficiente novedad transversal,
 
-\[
+$$
 \frac{\mathcal Y_\perp}{a}\approx0,
-\]
+$$
 
 la ecuación en coordenadas de crecimiento contiene
 
-\[
+$$
 \frac{db}{dG}\sim-b,
-\]
+$$
 
 y el desajuste transversal se reduce respecto del crecimiento acumulado.
 
 Esto permite expresar la intuición en el vocabulario del programa:
 
-\[
+$$
 \boxed{
 \text{diferencia}
 \longrightarrow
@@ -976,7 +976,7 @@ Esto permite expresar la intuición en el vocabulario del programa:
 \longrightarrow
 \text{o pierde peso relativo frente a la referencia en crecimiento}.
 }
-\]
+$$
 
 Pero todavía no llamamos a esto “cierre”. Para cerrar haría falta demostrar una reconstrucción interna de identidad, no solamente una alineación local de tasas.
 
@@ -986,11 +986,11 @@ En Euler, la evolución de la orientación se conecta con el Hessiano de presió
 
 Por ello la pregunta dinámica ya no es vaga:
 
-> **¿qué parte de \(\mathcal Y_\perp/a\) reacredita suficiente diferencia transversal para sacar al sistema de la sintonía casi paralela, y bajo qué condiciones puede o no hacerlo indefinidamente?**
+> **¿qué parte de $\mathcal Y_\perp/a$ reacredita suficiente diferencia transversal para sacar al sistema de la sintonía casi paralela, y bajo qué condiciones puede o no hacerlo indefinidamente?**
 
 Éste es un objetivo matemático real porque el término que falta controlar es explícito.
 
-También aclara por qué un diagnóstico basado únicamente en \(\kappa\) es insuficiente. \(\kappa\) resumía cómo cambiaba \(\rho_\perp\); era una huella. La ecuación de \(b\) muestra el balance que genera esa huella.
+También aclara por qué un diagnóstico basado únicamente en $\kappa$ es insuficiente. $\kappa$ resumía cómo cambiaba $\rho_\perp$; era una huella. La ecuación de $b$ muestra el balance que genera esa huella.
 
 ---
 
@@ -998,7 +998,7 @@ También aclara por qué un diagnóstico basado únicamente en \(\kappa\) es ins
 
 ## 30. JHTDB como diagnóstico, no demostración
 
-Los experimentos numéricos realizados en turbulencia homogénea isotrópica forzada encontraron estados de alta vorticidad con \(\rho_\perp\) pequeño y episodios cortos en los que \(q\) sigue creciendo mientras el cambio permanece casi paralelo.
+Los experimentos numéricos realizados en turbulencia homogénea isotrópica forzada encontraron estados de alta vorticidad con $\rho_\perp$ pequeño y episodios cortos en los que $q$ sigue creciendo mientras el cambio permanece casi paralelo.
 
 Eso es suficiente para rechazar ciertas barreras puntuales demasiado simples.
 
@@ -1011,7 +1011,7 @@ La evaluación metodológica de los datos obliga además a limitar dos afirmacio
 
 Por tanto, el siguiente experimento correcto es calcular directamente desde la PDE
 
-\[
+$$
 D_t\omega
 =
 S\omega
@@ -1019,7 +1019,7 @@ S\omega
 \nu\Delta\omega
 +
 \nabla\times f,
-\]
+$$
 
 separar sus componentes y cerrar el presupuesto con incertidumbre controlada.
 
@@ -1042,15 +1042,15 @@ Esta escalera impide declarar un mecanismo universal sólo porque funciona en un
 
 Ésta es una distinción que el documento debe mantener visible:
 
-\[
+$$
 \boxed{
 \text{sintonía dinámica}
 \neq
 \text{cierre identitario}.
 }
-\]
+$$
 
-En NS, \(b\) pequeño dice que la dirección actual cambia poco respecto del crecimiento de magnitud. No dice que la arquitectura haya construido una imagen autorreferenciada de sí misma.
+En NS, $b$ pequeño dice que la dirección actual cambia poco respecto del crecimiento de magnitud. No dice que la arquitectura haya construido una imagen autorreferenciada de sí misma.
 
 Para conectar ambos niveles necesitamos un criterio adicional.
 
@@ -1058,7 +1058,7 @@ Para conectar ambos niveles necesitamos un criterio adicional.
 
 Un puente no trivial debería tener la forma
 
-\[
+$$
 \boxed{
 \text{variables físicas}
 \longrightarrow
@@ -1066,14 +1066,14 @@ Un puente no trivial debería tener la forma
 \longrightarrow
 \text{consecuencia cuantitativa nueva}.
 }
-\]
+$$
 
 Por ejemplo, habría que demostrar alguna de estas posibilidades:
 
 - que un ciclo de relaciones materiales produce un invariante de holonomía medible;
-- que la necesidad de reacreditar \(b\) está limitada por un cierre de rango o por una condición de sector;
+- que la necesidad de reacreditar $b$ está limitada por un cierre de rango o por una condición de sector;
 - que una escala espacial independiente satisface una ley de ritmo derivada, no definida;
-- que el paso entre sectores restringe cuantitativamente la acumulación de \(G\).
+- que el paso entre sectores restringe cuantitativamente la acumulación de $G$.
 
 Mientras no exista ese tercer paso —la consecuencia cuantitativa— el vínculo sigue siendo **[Correspondencia/Hipótesis]**.
 
@@ -1085,7 +1085,7 @@ Mientras no exista ese tercer paso —la consecuencia cuantitativa— el víncul
 
 El programa puede leerse ahora como una sola pregunta que se va haciendo más exigente:
 
-\[
+$$
 \boxed{
 \begin{aligned}
 &\text{unidad singular}
@@ -1120,7 +1120,7 @@ El programa puede leerse ahora como una sola pregunta que se va haciendo más ex
 \text{reorganización}.
 \end{aligned}
 }
-\]
+$$
 
 La física entra después, preguntando qué sistemas realizan esas operaciones y qué observables permiten distinguirlas.
 
@@ -1159,11 +1159,11 @@ Esta última frase es importante porque conecta el lenguaje fundacional con una 
 ### [Exacto o exacto condicional]
 
 - cierre de circuito y relaciones de rango dentro de realizaciones gráficas;
-- \(J^2=-I\Rightarrow J^4=I\);
-- en la realización cuaterniónica, \(\langle x,Jx\rangle=0\);
-- \(e^{\theta J}=\cos\theta I+\sin\theta J\) y período \(2\pi\);
-- bajo la realización binaria, \(M_\varepsilon=2^\varepsilon-1\) y la primera herencia+novedad ocurre en \(\varepsilon=4\);
-- bajo la dinámica espectral elegida, \(R_i|\varpi_i|=\sqrt\Gamma\);
+- $J^2=-I\Rightarrow J^4=I$;
+- en la realización cuaterniónica, $\langle x,Jx\rangle=0$;
+- $e^{\theta J}=\cos\theta I+\sin\theta J$ y período $2\pi$;
+- bajo la realización binaria, $M_\varepsilon=2^\varepsilon-1$ y la primera herencia+novedad ocurre en $\varepsilon=4$;
+- bajo la dinámica espectral elegida, $R_i|\varpi_i|=\sqrt\Gamma$;
 - en Navier–Stokes, las descomposiciones materiales y la ecuación transversal de crecimiento son identidades exactas.
 
 ## 37. Lo que no debe afirmarse todavía
@@ -1172,11 +1172,11 @@ Esta última frase es importante porque conecta el lenguaje fundacional con una 
 - que toda diferencia nueva cree una dimensión;
 - que independencia implique ortogonalidad;
 - que el cuatro esté derivado una sola vez desde un principio universal;
-- que \(\pi\) haya sido derivado desde cero;
+- que $\pi$ haya sido derivado desde cero;
 - que Mersenne sea fundacional;
-- que \(R\varpi=v_*\) sea universal para toda dinámica;
-- que \(v_*=c\) esté derivado;
-- que \(c\) deba entrar en Navier–Stokes incompresible;
+- que $R\varpi=v_*$ sea universal para toda dinámica;
+- que $v_*=c$ esté derivado;
+- que $c$ deba entrar en Navier–Stokes incompresible;
 - que baja transversalidad sea cierre o singularidad;
 - que la evidencia JHTDB actual pruebe cancelación viscosa física;
 - que el programa haya resuelto la regularidad de Navier–Stokes.
@@ -1197,19 +1197,19 @@ Esta última frase es importante porque conecta el lenguaje fundacional con una 
 
 **T5 — El teorema del cuatro.** Demostrar, o falsar, que las distintas apariciones de cuatro son realizaciones de una misma estructura mínima.
 
-**T6 — Continuación y \(\pi\).** Precisar qué hipótesis adicionales convierten el ciclo discreto en una familia continua y qué estructura métrica/medible aparece entonces.
+**T6 — Continuación y $\pi$.** Precisar qué hipótesis adicionales convierten el ciclo discreto en una familia continua y qué estructura métrica/medible aparece entonces.
 
 **T7 — Sectorización.** Demostrar cuándo los cierres forman clases discretas bajo transformaciones que preservan identidad.
 
 ## 39. Objetivos dinámicos prioritarios
 
-**D1 — Reacreditación transversal.** Descomponer \(\mathcal Y_\perp/a\) en términos físicos y determinar qué parte controla el signo de la salida/entrada al canal casi paralelo.
+**D1 — Reacreditación transversal.** Descomponer $\mathcal Y_\perp/a$ en términos físicos y determinar qué parte controla el signo de la salida/entrada al canal casi paralelo.
 
-**D2 — Presupuesto PDE directo.** Calcular \(D_t\omega\) instantáneamente desde los términos de NS y cerrar el balance sin depender de ajustes temporales compartidos.
+**D2 — Presupuesto PDE directo.** Calcular $D_t\omega$ instantáneamente desde los términos de NS y cerrar el balance sin depender de ajustes temporales compartidos.
 
-**D3 — Estadística no condicionada.** Sembrar trayectorias sin seleccionar previamente \(q\) extremo y medir la distribución de presupuestos de crecimiento.
+**D3 — Estadística no condicionada.** Sembrar trayectorias sin seleccionar previamente $q$ extremo y medir la distribución de presupuestos de crecimiento.
 
-**D4 — Escala independiente.** Comparar \(\Omega\) con una escala espacial obtenida independientemente y decidir si la realización física relevante es lineal \(R\varpi\), parabólica \(R^2\varpi\) u otra.
+**D4 — Escala independiente.** Comparar $\Omega$ con una escala espacial obtenida independientemente y decidir si la realización física relevante es lineal $R\varpi$, parabólica $R^2\varpi$ u otra.
 
 **D5 — Benchmark singular.** Evaluar los observables del programa sobre una construcción singular explícita sin ajustar definiciones después de observar su comportamiento.
 
@@ -1221,21 +1221,21 @@ Esta última frase es importante porque conecta el lenguaje fundacional con una 
 
 Elegir cualquier representación real de
 
-\[
+$$
 J=\begin{pmatrix}0&-1\\1&0\end{pmatrix}.
-\]
+$$
 
 Entonces
 
-\[
+$$
 J^2=-I,
 \qquad
 J^4=I.
-\]
+$$
 
-Aplicar sucesivamente a \(x=(1,0)^T\):
+Aplicar sucesivamente a $x=(1,0)^T$:
 
-\[
+$$
 (1,0)
 \to
 (0,1)
@@ -1245,34 +1245,34 @@ Aplicar sucesivamente a \(x=(1,0)^T\):
 (0,-1)
 \to
 (1,0).
-\]
+$$
 
-No se necesita \(\pi\) para verificar el cierre discreto.
+No se necesita $\pi$ para verificar el cierre discreto.
 
 Para la interpolación continua, calcular
 
-\[
+$$
 e^{\theta J}
 =
 \begin{pmatrix}
 \cos\theta&-\sin\theta\\
 \sin\theta&\cos\theta
 \end{pmatrix},
-\]
+$$
 
-y comprobar el período \(2\pi\).
+y comprobar el período $2\pi$.
 
 ## 41. Reproducir la primera herencia+novedad binaria
 
 Calcular
 
-\[
+$$
 M_\varepsilon=2^\varepsilon-1
-\]
+$$
 
-para \(\varepsilon=1,\dots,6\) y factorizar:
+para $\varepsilon=1,\dots,6$ y factorizar:
 
-| \(\varepsilon\) | \(M_\varepsilon\) | factores | lectura |
+| $\varepsilon$ | $M_\varepsilon$ | factores | lectura |
 |---:|---:|---|---|
 | 1 | 1 | — | base |
 | 2 | 3 | 3 | novedad |
@@ -1285,36 +1285,36 @@ La conclusión “primer caso en 4” depende de la regla binaria y de las defin
 
 ## 42. Reproducir el reparto material NS
 
-Dada cualquier trayectoria con \(\omega(t)\neq0\):
+Dada cualquier trayectoria con $\omega(t)\neq0$:
 
-1. calcular \(q=|\omega|\);
-2. calcular \(\xi=\omega/q\);
-3. calcular \(a=D_t\log q\);
-4. calcular \(b=D_t\xi\);
-5. comprobar \(\xi\cdot b=0\);
+1. calcular $q=|\omega|$;
+2. calcular $\xi=\omega/q$;
+3. calcular $a=D_t\log q$;
+4. calcular $b=D_t\xi$;
+5. comprobar $\xi\cdot b=0$;
 6. comprobar
 
-\[
+$$
 \frac{|D_t\omega|^2}{q^2}=a^2+|b|^2;
-\]
+$$
 
 7. calcular
 
-\[
+$$
 \rho_\perp=\frac{|b|^2}{a^2+|b|^2};
-\]
+$$
 
-8. cuando \(a>0\), integrar
+8. cuando $a>0$, integrar
 
-\[
+$$
 G=\int a\,dt
-\]
+$$
 
 y verificar independientemente
 
-\[
+$$
 \boxed{G=\log(q_2/q_1).}
-\]
+$$
 
 Esta última identidad debe ser el control primario de cualquier reconstrucción numérica.
 
@@ -1328,19 +1328,19 @@ El origen no necesita empezar con espacio, tiempo, fuerza o partícula. Puede em
 
 De esa pregunta emergen, en orden, referencia, relación, comparación, residuo, recursión y cierre. La cardinalidad llega después de la diferencia. La dimensión se vuelve necesaria sólo cuando la información nueva no puede expresarse en la arquitectura existente. La orientación exige referencias adicionales. La identidad se entiende mejor como sintonía interna bajo transformación que como inmovilidad.
 
-El cuatro aparece hoy en varias realizaciones rigurosas, pero todavía no en un único teorema fundacional. Ésa no es una debilidad que deba esconderse: es un objetivo claramente formulado. Del mismo modo, \(\pi\) no es necesario para el ciclo discreto; entra de manera natural cuando ese ciclo se parametriza continuamente.
+El cuatro aparece hoy en varias realizaciones rigurosas, pero todavía no en un único teorema fundacional. Ésa no es una debilidad que deba esconderse: es un objetivo claramente formulado. Del mismo modo, $\pi$ no es necesario para el ciclo discreto; entra de manera natural cuando ese ciclo se parametriza continuamente.
 
 El ritmo introduce el siguiente nivel. Antes que un tiempo absoluto, pueden compararse transformaciones. Una dinámica espectral concreta produce una relación entre escala y ritmo; otra dinámica, como Navier–Stokes, exige una ley de escala distinta. La arquitectura debe respetar esas diferencias en vez de imponer una sola fórmula a todos los sistemas.
 
 Navier–Stokes resulta entonces especialmente valioso como laboratorio. Su descomposición material muestra una referencia local, una amplificación sobre esa referencia y una actualización transversal. Más importante aún, la ecuación exacta
 
-\[
+$$
 \boxed{
 P_\xi^\perp\frac{db}{dG}
 =
 \frac{\mathcal Y_\perp}{a}-b
 }
-\]
+$$
 
 permite expresar una idea fundacional en forma calculable: **una diferencia transversal debe ser reacreditada dinámicamente para conservar su peso relativo durante el crecimiento**.
 

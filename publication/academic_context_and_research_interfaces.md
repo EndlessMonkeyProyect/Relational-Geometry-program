@@ -11,7 +11,7 @@
 
 The Relational Geometry Program asks whether several structures commonly taken as primitive in physical description—cardinality, dimension, geometry, time, identity, and physical scale—can instead be introduced in a strict order of logical dependence beginning from distinguishability, comparison, residue, recursion, and closure. Its canonical dependency chain is
 
-\[
+$$
 \text{singular unit}
 \to \text{reflection}
 \to \text{difference}
@@ -21,7 +21,7 @@ The Relational Geometry Program asks whether several structures commonly taken a
 \to \text{recursion}
 \to \text{closure}
 \to \text{identity}.
-\]
+$$
 
 This document does not claim that this program is equivalent to any established framework. Its purpose is narrower and more useful: to locate the program relative to existing academic traditions, identify genuine mathematical overlaps, distinguish superficial analogies from testable correspondences, and specify interfaces through which the proposal can be evaluated by specialists.
 
@@ -51,13 +51,13 @@ This distinction is essential for academic comparison. A neighboring theory can 
 
 No external framework is cited here as retrospective justification for the program's ontology. The intended direction remains
 
-\[
+$$
 \text{concept}
 \to \text{formal obligation}
 \to \text{mathematical realization}
 \to \text{physical bridge}
 \to \text{measurement or falsification}.
-\]
+$$
 
 For the internal conceptual statement, see [`relational_geometry_core.es.md`](relational_geometry_core.es.md).
 
@@ -77,11 +77,11 @@ This is not yet a physical statement. It is a dependency rule: one should not us
 
 A comparison is modeled schematically as
 
-\[
+$$
 \mathcal C(a,b)=(q,r),
-\]
+$$
 
-where \(q\) denotes the part resolved under the current comparison and \(r\) the residue that remains unrepresented by the current architecture.
+where $q$ denotes the part resolved under the current comparison and $r$ the residue that remains unrepresented by the current architecture.
 
 The residue is not identified with energy, matter, entropy, or noise. It is a formal placeholder for **unabsorbed distinguishability**. If a residue must be preserved and cannot be represented by the current relational degrees of freedom, the architecture must be enlarged.
 
@@ -97,60 +97,60 @@ Identity is then interpreted as the capacity to remain internally recognizable u
 
 ### 2.4 Conditional order-four realization
 
-One formal realization introduces a generator \(J\) satisfying
+One formal realization introduces a generator $J$ satisfying
 
-\[
+$$
 J^2=-I.
-\]
+$$
 
 Then
 
-\[
+$$
 J^4=I,
-\]
+$$
 
 and the discrete orbit
 
-\[
+$$
 x,\;Jx,\;-x,\;-Jx,\;x
-\]
+$$
 
 has order four. This is **not** taken to prove that nature is fundamentally four-fold. It is a conditional realization showing that a minimal algebraic notion of repeated transversal transformation can generate an order-four cycle.
 
 When that discrete cycle is embedded in a continuous one-parameter group,
 
-\[
+$$
 e^{\theta J}=\cos\theta\,I+\sin\theta\,J,
-\]
+$$
 
-\(2\pi\) appears as the period of the continuous parametrization. Thus the program separates two questions that are often conflated:
+$2\pi$ appears as the period of the continuous parametrization. Thus the program separates two questions that are often conflated:
 
 - why a discrete closure can have order four;
-- why its continuous realization carries a \(2\pi\) period.
+- why its continuous realization carries a $2\pi$ period.
 
 ### 2.5 Rate and operational time
 
 In a quadratic spectral realization,
 
-\[
+$$
 G=C^\dagger C,
 \qquad
 \ddot f+\Gamma Gf=0,
-\]
+$$
 
-and an eigenmode \(Gu_i=\lambda_i u_i\) has
+and an eigenmode $Gu_i=\lambda_i u_i$ has
 
-\[
+$$
 \varpi_i^2=\Gamma\lambda_i.
-\]
+$$
 
-If \(R_i=\lambda_i^{-1/2}\), then
+If $R_i=\lambda_i^{-1/2}$, then
 
-\[
+$$
 R_i|\varpi_i|=\sqrt\Gamma.
-\]
+$$
 
-This relation is internal to that realization. It motivates an operational reading of time as comparison of rates, but it is not exported universally. In particular, incompressible Navier–Stokes has parabolic scaling, for which a scale-rate invariant has the form \(R^2\varpi\), not \(R\varpi\).
+This relation is internal to that realization. It motivates an operational reading of time as comparison of rates, but it is not exported universally. In particular, incompressible Navier–Stokes has parabolic scaling, for which a scale-rate invariant has the form $R^2\varpi$, not $R\varpi$.
 
 ---
 
@@ -229,13 +229,13 @@ If no such distinction can be formalized, the ontological notion of closure rema
 
 The conditional relation
 
-\[
+$$
 J^2=-I
-\]
+$$
 
 places the program in contact with a large and mature mathematical landscape: complex structures, symplectic geometry, Clifford algebras, quaternionic structures, rotations, and spin representations.
 
-The academic opportunity is not to claim novelty for \(J^2=-I\) or for quaternionic algebra. Those are standard structures. The question is whether a **minimal closure requirement selects one of them without inserting orthogonality by hand**.
+The academic opportunity is not to claim novelty for $J^2=-I$ or for quaternionic algebra. Those are standard structures. The question is whether a **minimal closure requirement selects one of them without inserting orthogonality by hand**.
 
 Three distinctions are especially important.
 
@@ -247,13 +247,13 @@ Therefore the program's route from residue to a new degree of freedom is logical
 
 ### 4.2 Order four is conditional, not numerological
 
-Once \(J^2=-I\) is available, order four follows exactly. But the scientific question lies one step earlier: **what generative condition selects such a \(J\)?**
+Once $J^2=-I$ is available, order four follows exactly. But the scientific question lies one step earlier: **what generative condition selects such a $J$?**
 
 A convincing theorem would need to show that a minimal nontrivial self-referential closure satisfying explicit economy and nondegeneracy axioms necessarily carries a complex/quaternionic structure, or else state the additional assumptions required.
 
-### 4.3 Continuous periodicity and \(\pi\)
+### 4.3 Continuous periodicity and $\pi$
 
-The appearance of \(2\pi\) in \(e^{\theta J}\) is mathematically standard once a continuous rotation group has been chosen. The potentially interesting claim is therefore not that \(\pi\) is produced ex nihilo, but that a discrete closure and its continuous representation may occupy different logical layers.
+The appearance of $2\pi$ in $e^{\theta J}$ is mathematically standard once a continuous rotation group has been chosen. The potentially interesting claim is therefore not that $\pi$ is produced ex nihilo, but that a discrete closure and its continuous representation may occupy different logical layers.
 
 This separation suggests a clean academic problem:
 
@@ -267,11 +267,11 @@ The program's current time proposal can be stated modestly:
 
 > duration is operationally meaningful only as comparison between changes.
 
-If two processes have rates \(\varpi_i\) and \(\varpi_j\), the primitive comparison is the dimensionless ratio
+If two processes have rates $\varpi_i$ and $\varpi_j$, the primitive comparison is the dimensionless ratio
 
-\[
+$$
 \frac{\varpi_i}{\varpi_j}.
-\]
+$$
 
 A dimensional time parameter is introduced only after choosing a reference process.
 
@@ -293,25 +293,25 @@ The Navier–Stokes branch is currently the program's strongest contact with a m
 
 The branch writes
 
-\[
+$$
 \omega=q\xi,
 \qquad
 \frac{D_t\omega}{q}=a\xi+b,
-\]
+$$
 
 with
 
-\[
+$$
 a=D_t\log q,
 \qquad
 b=D_t\xi,
 \qquad
 b\perp\xi.
-\]
+$$
 
 The exact growth-coordinate evolution law is
 
-\[
+$$
 \boxed{
 P_\xi^\perp\frac{db}{dG}
 =
@@ -320,7 +320,7 @@ P_\xi^\perp\frac{db}{dG}
 \qquad
 \mathcal Y=D_t\left(\frac{D_t\omega}{q}\right),
 \qquad dG=a\,dt.
-\]
+$$
 
 This equation is useful academically because it converts a broad relational idea into a precise PDE question: **during positive vorticity amplification, what continuously re-accredits transverse change, and what causes it to decay relative to the growing reference direction?**
 
@@ -330,9 +330,9 @@ Constantin–Fefferman and later Beirão da Veiga–Berselli established that ge
 
 Recent work by Grujić further isolates the direction equation and emphasizes that strain enters it through the tangential component
 
-\[
+$$
 P_{\xi^\perp}S\xi,
-\]
+$$
 
 which is precisely the strain-induced transverse tilting used in the present decomposition.
 
@@ -342,7 +342,7 @@ which is precisely the strain-induced transverse tilting used in the present dec
 
 Gibbon, Holm, Kerr, and Roulstone reformulated Euler vorticity dynamics using a quaternionic tetrad containing the vorticity growth rate and rotation rate. Their Lagrangian equations expose the role of the pressure Hessian in controlling the evolution of direction.
 
-**Relation to the program:** the Euler limit of the present \((a,b,\mathcal Y)\) formulation overlaps directly with this established Lagrangian structure. The correct academic positioning is therefore not that the Euler directional law is new, but that the program embeds a closely related structure into a broader viscous/material diagnostic and interprets it through its own reference–difference language.
+**Relation to the program:** the Euler limit of the present $(a,b,\mathcal Y)$ formulation overlaps directly with this established Lagrangian structure. The correct academic positioning is therefore not that the Euler directional law is new, but that the program embeds a closely related structure into a broader viscous/material diagnostic and interprets it through its own reference–difference language.
 
 This literature also identifies the pressure Hessian as a natural place to look for a nonlocal mechanism capable of opposing the local collapse of transverse turning.
 
@@ -352,11 +352,11 @@ Holzner and collaborators demonstrated experimentally and numerically that visco
 
 **Relation to the program:** this directly supports the need to compute the PDE residual
 
-\[
+$$
 r_\perp^{\mathrm{PDE}}
 =
 P_\xi^\perp\frac{\nu\Delta\omega+\nabla\times f}{q}
-\]
+$$
 
 independently. Any claim of strain–viscous compensation must be based on this independently evaluated quantity, not on a residual reconstructed by subtraction.
 
@@ -364,7 +364,7 @@ independently. Any claim of strain–viscous compensation must be based on this 
 
 Buaria, Lawson, and Wilczek report that vorticity amplification is accompanied by increasing twisting of vortex lines followed by an anti-twist associated with arrest of growth in their studied configurations.
 
-**Relation to the program:** this is a strong empirical/theoretical neighbor of the "exit from a low-turning channel" question. The two descriptions are not identical: vortex-line twist is a spatial geometric quantity, whereas \(b=D_t\xi\) is a material directional rate. A valuable project is to compute both on the same trajectories and test whether one predicts the other.
+**Relation to the program:** this is a strong empirical/theoretical neighbor of the "exit from a low-turning channel" question. The two descriptions are not identical: vortex-line twist is a spatial geometric quantity, whereas $b=D_t\xi$ is a material directional rate. A valuable project is to compute both on the same trajectories and test whether one predicts the other.
 
 ### 6.5 Burgers vortex as an exact NO-GO benchmark
 
@@ -400,10 +400,10 @@ That provides a high-quality falsification test.
 | Residue | complement, defect, unresolved mode | tracks information not represented in current substructure | not yet tied to a canonical algebraic quotient | derive a universal closure/sufficiency criterion |
 | Closure by self-representation | fixed points, recursion, categorical self-reference | self-description can be formalized abstractly | fixed point alone does not imply novelty or identity | construct nontrivial closure theorem with novelty condition |
 | Identity as invariant closure | structural individuation; symmetry orbit | identity linked to preserved invariants | program requires generative emergence of invariants | classify transformations preserving closure class |
-| \(J^2=-I\) and order four | complex/quaternionic structures | exact algebraic match | selection of \(J\) is not derived | prove or falsify necessity from minimal closure axioms |
-| Continuous \(2\pi\) cycle | one-parameter rotation groups | exact once continuous complex structure exists | does not derive \(\pi\) from the discrete count | characterize canonical interpolation conditions |
+| $J^2=-I$ and order four | complex/quaternionic structures | exact algebraic match | selection of $J$ is not derived | prove or falsify necessity from minimal closure axioms |
+| Continuous $2\pi$ cycle | one-parameter rotation groups | exact once continuous complex structure exists | does not derive $\pi$ from the discrete count | characterize canonical interpolation conditions |
 | Time as rate comparison | relational clocks; partial observables | evolution expressed by correlations | no clock admissibility theorem yet | recover proper/operational time in known models |
-| NS material direction \(b\) | vorticity-direction dynamics | exact overlap in directional variable | relational interpretation adds no theorem by itself | derive a new bound or classifier using full PDE terms |
+| NS material direction $b$ | vorticity-direction dynamics | exact overlap in directional variable | relational interpretation adds no theorem by itself | derive a new bound or classifier using full PDE terms |
 | Transverse reaccreditation | pressure-Hessian/viscous reorientation | exact PDE terms can sustain turning | "information" language must map quantitatively | compute signed contributions on DNS and benchmarks |
 | Sectorization | superselection, dynamical phases, orbit classes | discrete classes may arise from invariant structure | no equivalence currently established | derive disconnected closure classes from explicit axioms |
 
@@ -421,7 +421,7 @@ A strong result would separate return, fixed point, consistency, and identity-ge
 
 ### 8.2 A necessity theorem for the order-four structure
 
-Show that explicit minimal assumptions imply a complex or quaternionic generator with \(J^2=-I\), rather than choosing that algebra because it realizes the desired cycle.
+Show that explicit minimal assumptions imply a complex or quaternionic generator with $J^2=-I$, rather than choosing that algebra because it realizes the desired cycle.
 
 Failure would also be informative: it would demote order four from a structural necessity to one realization among many.
 
@@ -463,8 +463,8 @@ For clarity, the repository does not presently identify:
 - residue with entropy or energy;
 - self-reference with consciousness;
 - the order-four algebra with spacetime dimension;
-- \(2\pi\) periodicity with a derivation of physical \(\pi\);
-- the spectral radius \(R_i\) with a physical particle radius;
+- $2\pi$ periodicity with a derivation of physical $\pi$;
+- the spectral radius $R_i$ with a physical particle radius;
 - a relational rate with the speed of light in incompressible flow;
 - low material turning with regularity;
 - a vortex with a particle;

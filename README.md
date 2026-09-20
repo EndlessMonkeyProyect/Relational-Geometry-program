@@ -6,7 +6,7 @@
 
 This repository presents a self-contained research program built from a strict order of logical dependence:
 
-\[
+$$
 \text{singular unit}
 \to \text{reflection}
 \to \text{difference}
@@ -16,7 +16,7 @@ This repository presents a self-contained research program built from a strict o
 \to \text{recursion}
 \to \text{closure}
 \to \text{identity}.
-\]
+$$
 
 The program asks whether categories usually taken as primitive—cardinality, dimension, geometry, time, force, particle, and physical scale—can instead be introduced only when they become necessary to preserve distinguishable information.
 
@@ -39,10 +39,10 @@ The Navier–Stokes branch is a technical laboratory, not a claimed solution of 
 - Difference is treated as logically prior to counting.
 - Comparison is represented as resolved content plus residue.
 - Closure is not identified with return, a small residual, or disappearance of difference; it is modeled as internal reconstructibility/autoreference.
-- In a conditional algebraic realization with \(J^2=-I\), the local discrete cycle has order four and \(J^4=I\).
-- The continuous interpolation \(e^{\theta J}=\cos\theta I+\sin\theta J\) has period \(2\pi\); \(\pi\) enters at the continuous periodic representation, not in the four-step discrete count itself.
-- A quadratic variational dynamics with comparator \(G=C^\dagger C\) yields \(\ddot f+\Gamma Gf=0\), hence \(\varpi_i^2=\Gamma\lambda_i\) and, for \(R_i=\lambda_i^{-1/2}\), \(R_i|\varpi_i|=\sqrt\Gamma\) within that realization.
-- Navier–Stokes has a different, parabolic scaling; a physically meaningful scale–rate lift must respect that distinction rather than importing a universal \(R\varpi=\mathrm{const}\) law.
+- In a conditional algebraic realization with $J^2=-I$, the local discrete cycle has order four and $J^4=I$.
+- The continuous interpolation $e^{\theta J}=\cos\theta I+\sin\theta J$ has period $2\pi$; $\pi$ enters at the continuous periodic representation, not in the four-step discrete count itself.
+- A quadratic variational dynamics with comparator $G=C^\dagger C$ yields $\ddot f+\Gamma Gf=0$, hence $\varpi_i^2=\Gamma\lambda_i$ and, for $R_i=\lambda_i^{-1/2}$, $R_i|\varpi_i|=\sqrt\Gamma$ within that realization.
+- Navier–Stokes has a different, parabolic scaling; a physically meaningful scale–rate lift must respect that distinction rather than importing a universal $R\varpi=\mathrm{const}$ law.
 
 ## What is not claimed
 
@@ -50,9 +50,9 @@ This repository does **not** claim:
 
 - a derivation of physics from first principles;
 - that all appearances of the number four have a single proven origin;
-- that \(\pi\) has been derived from nothing;
+- that $\pi$ has been derived from nothing;
 - that a proton, vortex, or other physical object is identical to the abstract closure construction;
-- that \(c\) is a primitive constant of incompressible Navier–Stokes;
+- that $c$ is a primitive constant of incompressible Navier–Stokes;
 - that low transverse turning implies singularity or closure;
 - a proof of regularity or blowup for unforced three-dimensional Navier–Stokes.
 
@@ -61,7 +61,7 @@ This repository does **not** claim:
 - [`00_orientation/START_HERE.md`](00_orientation/START_HERE.md) — reading order.
 - [`00_orientation/EPISTEMIC_LEGEND.md`](00_orientation/EPISTEMIC_LEGEND.md) — status labels.
 - [`publication/academic_context_and_research_interfaces.md`](publication/academic_context_and_research_interfaces.md) — academic positioning, neighboring frameworks, and testable interfaces.
-- [`01_foundations/`](01_foundations/) — conceptual core and the roles of four, \(\pi\), rate, and time.
+- [`01_foundations/`](01_foundations/) — conceptual core and the roles of four, $\pi$, rate, and time.
 - [`02_formal_core/`](02_formal_core/) — compact formal constructions.
 - [`03_navier_stokes/`](03_navier_stokes/) — technical fluid-dynamics branch.
 - [`04_results/`](04_results/) — result, no-go, and open-problem registers.
