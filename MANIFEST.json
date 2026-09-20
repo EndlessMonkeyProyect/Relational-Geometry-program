@@ -1,7 +1,7 @@
 {
   "release": "1.0.0",
   "date": "2026-09-19",
-  "file_count": 42,
+  "file_count": 43,
   "files": [
     {
       "path": "00_orientation/CONCEPT_MAP.md",
@@ -20,8 +20,8 @@
     },
     {
       "path": "00_orientation/START_HERE.md",
-      "sha256": "e11ba1f695183ba916e29846747faaf4b55dc2d483b52c51e58ff5e347eba8b7",
-      "bytes": 979
+      "sha256": "0b0d31278f04d9c27ecc26e00e98f44b105ce428f534dde848809bb35ab2f533",
+      "bytes": 1135
     },
     {
       "path": "01_foundations/closure_identity.es.md",
@@ -170,13 +170,13 @@
     },
     {
       "path": "README.es.md",
-      "sha256": "916f132bcf63d398d1e347cc84f116fb77c78933097bfc2b814c8e27d7987e54",
-      "bytes": 2424
+      "sha256": "5452cc7301287452500e9b063f561e004d5af6870548001a4f7bea28c1195f34",
+      "bytes": 2551
     },
     {
       "path": "README.md",
-      "sha256": "f184382d7f03ff5721a91b2fc28dc7bd6cae907e40858b6b8661b59ca8cf6446",
-      "bytes": 4731
+      "sha256": "1431994d7b5a3c8c1e04d4d4076a1626e4a57063b663fae9a67d0a97223a833f",
+      "bytes": 5097
     },
     {
       "path": "STATUS.md",
@@ -187,6 +187,11 @@
       "path": "publication/academic_context_and_research_interfaces.md",
       "sha256": "50bacaa2070f221be01f97b7240253007240070345e45ce6306508358753c351",
       "bytes": 33655
+    },
+    {
+      "path": "publication/relational_geometry_program_presentation_EN.pdf",
+      "sha256": "7fba856862945f08d6ed9d2c7263bd4c01aa74ef8e7bdf9107faa8dd33ec61e3",
+      "bytes": 106913
     },
     {
       "path": "publication/relational_geometry_core.es.md",

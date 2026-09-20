@@ -1,6 +1,6 @@
 # Start here
 
-The repository is meant to be read in dependency order rather than by topic popularity.
+The repository is meant to be read in dependency order rather than by topic popularity. For a concise overview before following that order, see the [English program presentation](../publication/relational_geometry_program_presentation_EN.pdf).
 
 1. **Conceptual statement:** `publication/relational_geometry_core.es.md`.
 2. **Academic positioning:** `publication/academic_context_and_research_interfaces.md`.

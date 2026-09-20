@@ -20,7 +20,7 @@ $$
 
 La pregunta central es si categorías que normalmente se toman como primitivas —cardinalidad, dimensión, geometría, tiempo, fuerza, partícula y escala física— pueden introducirse sólo cuando se vuelven necesarias para conservar información distinguible.
 
-El texto conceptual principal es [`publication/relational_geometry_core.es.md`](publication/relational_geometry_core.es.md). La rama de Navier–Stokes es un laboratorio técnico y no una afirmación de solución del problema de regularidad; su manuscrito está en [`03_navier_stokes/manuscript.md`](03_navier_stokes/manuscript.md).
+El texto conceptual principal es [`publication/relational_geometry_core.es.md`](publication/relational_geometry_core.es.md). También hay una [presentación general del programa en inglés](publication/relational_geometry_program_presentation_EN.pdf). La rama de Navier–Stokes es un laboratorio técnico y no una afirmación de solución del problema de regularidad; su manuscrito está en [`03_navier_stokes/manuscript.md`](03_navier_stokes/manuscript.md).
 
 El repositorio mantiene separados: definición, resultado exacto, derivación interna, correspondencia, hipótesis, observación computacional, pendiente y NO-GO. Esa separación es parte del método, no una nota editorial.
 

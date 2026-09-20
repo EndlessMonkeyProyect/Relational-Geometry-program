@@ -30,6 +30,8 @@ The repository deliberately separates five layers:
 
 The main conceptual text is [`publication/relational_geometry_core.es.md`](publication/relational_geometry_core.es.md).
 
+For a concise presentation of the full program in English, see [`publication/relational_geometry_program_presentation_EN.pdf`](publication/relational_geometry_program_presentation_EN.pdf).
+
 For academic positioning, neighboring frameworks, and concrete research interfaces, see [`publication/academic_context_and_research_interfaces.md`](publication/academic_context_and_research_interfaces.md).
 
 The Navier–Stokes branch is a technical laboratory, not a claimed solution of the regularity problem. Its current core result is an exact material decomposition and an exact evolution law for the transverse channel in growth coordinates. See [`03_navier_stokes/manuscript.md`](03_navier_stokes/manuscript.md).
@@ -60,6 +62,7 @@ This repository does **not** claim:
 
 - [`00_orientation/START_HERE.md`](00_orientation/START_HERE.md) — reading order.
 - [`00_orientation/EPISTEMIC_LEGEND.md`](00_orientation/EPISTEMIC_LEGEND.md) — status labels.
+- [`publication/relational_geometry_program_presentation_EN.pdf`](publication/relational_geometry_program_presentation_EN.pdf) — concise English presentation of the program.
 - [`publication/academic_context_and_research_interfaces.md`](publication/academic_context_and_research_interfaces.md) — academic positioning, neighboring frameworks, and testable interfaces.
 - [`01_foundations/`](01_foundations/) — conceptual core and the roles of four, $\pi$, rate, and time.
 - [`02_formal_core/`](02_formal_core/) — compact formal constructions.
