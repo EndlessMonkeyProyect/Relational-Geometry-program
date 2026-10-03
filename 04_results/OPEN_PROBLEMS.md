@@ -1,20 +1,20 @@
-# Open problems
+# Next research questions
 
-## Foundational
+Each question starts from an available result and names the next advance.
 
-- **T1:** Formalize nontrivial reflection without presupposing the space of differences.
-- **T2:** Derive a category-independent criterion deciding when a residue is representable without architectural enlargement.
-- **T3:** Unify rank closure, cycle closure, algebraic closure, and holonomy under one abstract criterion.
-- **T4:** Derive inheritance + novelty + closure without relying on the binary/Mersenne realization.
-- **T5:** Prove or falsify a common minimal origin for the order-four appearances.
-- **T6:** Specify the extra hypotheses required to pass from discrete closure to continuous periodic parameterization.
-- **T7:** Derive sectorization and rules for transitions between closure classes.
+| Starting point | Next result sought | Review route |
+|---|---|---|
+| Signature and novelty criterion | Characterize useful contracts and algorithms for their refinement | R1 |
+| Minimal reflexive extension | Derive a law selecting admissible comparisons and compatible identity extensions | R2 |
+| Independent phase representation | Construct operational phase actions in a specified domain | R3 |
+| Invariant measure on signatures | Establish an independent map to a physical measure | R3 / R7 |
+| Exact compatibility reclosure | Bound representation size, interface width, certificate verification and witness extraction | R4 |
+| Explicit truncated counters | Extend efficient composition to constraint families with controlled interactions | R4 |
+| Accredited-descent proposal | Find a computable potential and verified progress with explicit resource bounds | R4 |
+| Exact Navier–Stokes transverse law | Close the instantaneous PDE budget and determine the signed contributions | R5 |
+| Selected JHTDB states | Reproduce extraction and evaluate unconditional trajectories with uncertainty estimates | R5 |
+| Gauge-invariant commutator observable | Characterize which additional comparisons separate the relevant state sector | R6 |
+| Block forms on states | Prove coercivity and compare it with physical dynamics, tracking scale dependence | R6 |
+| Conditional scale–rate bridge | Derive an observable map and independent system-specific selection rule | R7 |
 
-## Dynamical / physical
-
-- **D1:** Close the instantaneous Navier–Stokes vorticity budget with quantified numerical uncertainty.
-- **D2:** Identify the signed pressure/viscous/forcing terms that reaccredit transverse change in growth coordinates.
-- **D3:** Build unbiased episode statistics without conditioning on extreme vorticity at a central time.
-- **D4:** Test independent spatial scales against linear, parabolic, and alternative scale–rate laws.
-- **D5:** Evaluate the observables on explicit singular constructions without changing definitions after inspection.
-- **D6:** Produce a quantitative relational closure invariant that implies a new physical restriction rather than a change of variables.
+See [REVIEW.md](../REVIEW.md) for the object, expertise and useful deliverable for each route.

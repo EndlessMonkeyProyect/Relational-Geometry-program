@@ -1,84 +1,48 @@
 # Relational Geometry Program
-## Difference, closure, identity, rate comparison, and a Navier–Stokes laboratory
 
-**Author:** Le Matt Ansatz Di Ego  
-**Public release:** 1.0 — September 2026
+**How distinguishable information supports geometry, identity, and composition**
 
-This repository presents a self-contained research program built from a strict order of logical dependence:
+Le Matt Ansatz Di Ego · [Español](README.es.md) · [Review invitation](REVIEW.md)
 
-$$
-\text{singular unit}
-\to \text{reflection}
-\to \text{difference}
-\to \text{relation}
-\to \text{comparison}
-\to \text{residue}
-\to \text{recursion}
-\to \text{closure}
-\to \text{identity}.
-$$
+The Relational Geometry Program develops a common language for a concrete question: **what information must a system preserve to distinguish states, retain its identity, and compose with other systems?** Its central move is to start with distinctions and comparisons, then construct the representations needed to retain them.
 
-The program asks whether categories usually taken as primitive—cardinality, dimension, geometry, time, force, particle, and physical scale—can instead be introduced only when they become necessary to preserve distinguishable information.
+This repository brings together conceptual foundations, explicit mathematical constructions, and computational laboratories. Its value is structural and practical: it connects questions about information and geometry to objects that can be calculated, checked, and extended. We invite focused review of those connections and their applications.
 
-The repository deliberately separates five layers:
+## Contributions worth examining
 
-1. **ontology and definitions** — what the words mean inside the program;
-2. **formal realizations** — mathematics that follows from explicit assumptions;
-3. **correspondences** — structural similarities that do not establish identity;
-4. **physical laboratories** — systems used to test whether the formal language acquires predictive content;
-5. **falsifiers and open problems** — explicit places where the program can fail.
+| Contribution | What it establishes | Why it matters |
+|---|---|---|
+| **Information and closure** | A signature partitions states by the questions they can answer; a new comparison refines that partition exactly when it does not factor through the existing signature. | Gives an operational criterion for new information and sufficient descriptions. |
+| **Minimal reflexive extension** | An antisymmetric, norm-preserving linear comparison satisfies $J^2=-I$. A nonzero new direction generates a real plane and a four-phase orbit. | Connects stated comparison rules to dimension, orthogonality, and a closed phase structure. |
+| **Sixteen phase signatures and invariant measure** | Two independently accessible four-phase coordinates give $\mathbb Z_4^2$. A normalized local inner product invariant under both phase translations assigns weight $1/16$ to each signature and $15/16$ to its complement. | Makes the chain from phase structure to counting and measure explicit and reviewable. |
+| **Exact composition of capsules** | Joining compatible relations and eliminating internal variables preserves the full relation visible at the external boundary. | Provides a compositional foundation for constraint solving and reusable interfaces. |
+| **Navier–Stokes observables** | Exact material identities separate vorticity amplification from turning and express transverse evolution per unit logarithmic growth. | Supplies measurable diagnostics and a target for pressure, viscosity, and forcing budgets. |
+| **Non-Abelian relational observable** | An explicit $SU(2)$ commutator observable measures failure of two holonomies to commute. | Gives the Yang–Mills branch a computable object and a route toward coercivity questions. |
 
-The main conceptual text is [`publication/relational_geometry_core.es.md`](publication/relational_geometry_core.es.md).
+These results have different scopes. Algebraic statements apply under the hypotheses written in their proofs; model computations have documented protocols; physical interpretations identify additional maps to observables that need review. The [results register](04_results/RESULTS_REGISTER.md) connects each contribution to its evidence.
 
-For a concise presentation of the full program in English, see [`publication/relational_geometry_program_presentation_EN.pdf`](publication/relational_geometry_program_presentation_EN.pdf).
+## Read according to your interest
 
-For academic positioning, neighboring frameworks, and concrete research interfaces, see [`publication/academic_context_and_research_interfaces.md`](publication/academic_context_and_research_interfaces.md).
+- **Understand the program:** [Spanish overview](publication/PROGRAM_OVERVIEW.es.md) and [integrated conceptual and mathematical core](publication/relational_geometry_core.es.md).
+- **Check the mathematics:** [information and closure](02_formal_core/closure_information.es.md), [reflexive extension](02_formal_core/reflexive_extension.es.md), [phase structure and invariant measure](02_formal_core/phase_measure.es.md), and [composition theorem](02_formal_core/compatible_reclosure.es.md).
+- **Explore applications:** [computation and constraints](05_computation/README.md), [Navier–Stokes](03_navier_stokes/README.md), [Yang–Mills](06_yang_mills/README.md), and [physical research targets](publication/physical_bridges.es.md).
+- **Contribute a review:** choose a [specific review question](REVIEW.md). A focused check of one proof, implementation, or physical bridge is a useful contribution.
 
-The Navier–Stokes branch is a technical laboratory, not a claimed solution of the regularity problem. Its current core result is an exact material decomposition and an exact evolution law for the transverse channel in growth coordinates. See [`03_navier_stokes/manuscript.md`](03_navier_stokes/manuscript.md).
+The shared architecture is the research program's organizing proposal. Each domain supplies its own objects, hypotheses, and evidence. Computational complexity bounds, dynamical selection of comparisons, and conversion of formal measure into physical observables are active research targets.
 
-## What is established inside the repository
+## Reproduce and inspect
 
-- Difference is treated as logically prior to counting.
-- Comparison is represented as resolved content plus residue.
-- Closure is not identified with return, a small residual, or disappearance of difference; it is modeled as internal reconstructibility/autoreference.
-- In a conditional algebraic realization with $J^2=-I$, the local discrete cycle has order four and $J^4=I$.
-- The continuous interpolation $e^{\theta J}=\cos\theta I+\sin\theta J$ has period $2\pi$; $\pi$ enters at the continuous periodic representation, not in the four-step discrete count itself.
-- A quadratic variational dynamics with comparator $G=C^\dagger C$ yields $\ddot f+\Gamma Gf=0$, hence $\varpi_i^2=\Gamma\lambda_i$ and, for $R_i=\lambda_i^{-1/2}$, $R_i|\varpi_i|=\sqrt\Gamma$ within that realization.
-- Navier–Stokes has a different, parabolic scaling; a physically meaningful scale–rate lift must respect that distinction rather than importing a universal $R\varpi=\mathrm{const}$ law.
-
-## What is not claimed
-
-This repository does **not** claim:
-
-- a derivation of physics from first principles;
-- that all appearances of the number four have a single proven origin;
-- that $\pi$ has been derived from nothing;
-- that a proton, vortex, or other physical object is identical to the abstract closure construction;
-- that $c$ is a primitive constant of incompressible Navier–Stokes;
-- that low transverse turning implies singularity or closure;
-- a proof of regularity or blowup for unforced three-dimensional Navier–Stokes.
-
-## Navigation
-
-- [`00_orientation/START_HERE.md`](00_orientation/START_HERE.md) — reading order.
-- [`00_orientation/EPISTEMIC_LEGEND.md`](00_orientation/EPISTEMIC_LEGEND.md) — status labels.
-- [`publication/relational_geometry_program_presentation_EN.pdf`](publication/relational_geometry_program_presentation_EN.pdf) — concise English presentation of the program.
-- [`publication/academic_context_and_research_interfaces.md`](publication/academic_context_and_research_interfaces.md) — academic positioning, neighboring frameworks, and testable interfaces.
-- [`01_foundations/`](01_foundations/) — conceptual core and the roles of four, $\pi$, rate, and time.
-- [`02_formal_core/`](02_formal_core/) — compact formal constructions.
-- [`03_navier_stokes/`](03_navier_stokes/) — technical fluid-dynamics branch.
-- [`04_results/`](04_results/) — result, no-go, and open-problem registers.
-- [`tests/`](tests/) — exact-identity and release-consistency tests.
-
-## Reproducibility
-
-From the repository root:
+Use Python 3.11 or later. From the repository root:
 
 ```bash
+python -m pip install -r requirements.txt
 python -m pytest -q
-python 03_navier_stokes/scripts/restricted_euler_benchmark.py   # quick smoke test
-python 03_navier_stokes/scripts/restricted_euler_benchmark.py --full  # documented 200 trajectories; slower
+python 03_navier_stokes/scripts/restricted_euler_benchmark.py
 python 03_navier_stokes/scripts/review_checks.py
+python 06_yang_mills/scripts/gaussian_control.py --quick
+python tools/public_release.py
 ```
 
-The bundled JHTDB files are compact derived tables, not a replacement for a complete database extraction. Their limitations are documented in `03_navier_stokes/data/README.md`.
+The tests check finite examples, algebraic consistency, and release integrity. Proofs and assumptions are included in the documents. See [status](STATUS.md) for evidence levels and [contributing](CONTRIBUTING.md) for review and reproduction details.
+
+Authorship and reuse terms are recorded in [CITATION.cff](CITATION.cff) and [NOTICE.md](NOTICE.md).

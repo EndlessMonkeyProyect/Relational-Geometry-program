@@ -1,17 +1,14 @@
-# Epistemic legend
+# How to read the results
 
-Every substantive statement should be read under one of these labels.
+Each result carries the kind of support needed to assess it.
 
-- **[Definition]** — fixes vocabulary inside the program.
-- **[Exact]** — mathematical identity or theorem under explicit hypotheses.
-- **[Program derivation]** — follows rigorously inside an adopted realization, without yet asserting that nature selects it.
-- **[Computational observation]** — obtained numerically under a documented protocol.
-- **[Correspondence]** — structural similarity; not identity.
-- **[Hypothesis]** — proposed bridge whose necessity is not derived.
-- **[Pending]** — a concrete unresolved step.
-- **NO-GO** — a route known to be insufficient, circular, or contradicted in the stated class.
+| Label | Meaning | Useful review |
+|---|---|---|
+| Definition | Specifies an object or adopted conceptual vocabulary. | Clarity, consistency, explanatory usefulness. |
+| Exact under stated hypotheses | A mathematical consequence with assumptions and a proof. | Check each implication and the stated domain. |
+| Explicit realization | A construction satisfying declared rules. | Check the construction and which systems realize the rules. |
+| Computational observation | A finite numerical result from a documented method. | Reproduce it and evaluate numerical or sampling uncertainty. |
+| Physical bridge | A proposed map from a formal object to a measurable quantity. | Specify the observable and test the map independently. |
+| Research target | A question with a defined next result or experiment. | Help establish the missing step. |
 
-Two rules are central:
-
-1. A definitional identity is not empirical evidence.
-2. A numerical fit or structural analogy is not a physical derivation.
+“Exact” describes mathematical status under the assumptions; independent review has its own status. A finite computational check supports a construction within the tested cases. Physical validation requires a specified observable and independent data.

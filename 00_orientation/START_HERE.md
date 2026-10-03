@@ -1,21 +1,15 @@
-# Start here
+# Choose a reading route
 
-The repository is meant to be read in dependency order rather than by topic popularity. For a concise overview before following that order, see the [English program presentation](../publication/relational_geometry_program_presentation_EN.pdf).
+For a first visit, read the [program overview in Spanish](../publication/PROGRAM_OVERVIEW.es.md) or the [English introduction](../README.md). Both explain the contribution before the technical detail.
 
-1. **Conceptual statement:** `publication/relational_geometry_core.es.md`.
-2. **Academic positioning:** `publication/academic_context_and_research_interfaces.md`.
-3. **Epistemic rules:** `EPISTEMIC_LEGEND.md`.
-4. **Closure and identity:** `01_foundations/closure_identity.es.md`.
-5. **Order four and $\pi$:** `01_foundations/order_four_and_pi.es.md`.
-6. **Rate and operational time:** `01_foundations/scale_rate_time.es.md`.
-7. **Formal realizations:** `02_formal_core/`.
-8. **Navier–Stokes laboratory:** `03_navier_stokes/README.md` and `03_navier_stokes/manuscript.md`.
-9. **What survives and what fails:** `04_results/`.
+| Your interest | Start with | Then examine |
+|---|---|---|
+| Conceptual architecture | [Integrated core](../publication/relational_geometry_core.es.md) | [Dependency order](DEPENDENCY_GRAPH.md) |
+| Mathematical review | [Results register](../04_results/RESULTS_REGISTER.md) | The proof linked in each result |
+| Algorithms and constraints | [Computation](../05_computation/README.md) | [Composition theorem](../02_formal_core/compatible_reclosure.es.md) |
+| Fluid dynamics | [Navier–Stokes](../03_navier_stokes/README.md) | [Technical manuscript](../03_navier_stokes/manuscript.md) |
+| Gauge theory | [Yang–Mills](../06_yang_mills/README.md) | The commutator observable and Gaussian control |
+| Physical interpretation | [Physical bridges](../publication/physical_bridges.es.md) | Maps to observables and review targets |
+| A focused contribution | [Review invitation](../REVIEW.md) | [Contribution guide](../CONTRIBUTING.md) |
 
-The intended discipline is
-
-$$
-\text{concept}\to\text{formal obligation}\to\text{mathematical realization}\to\text{physical bridge}\to\text{measurement/falsification}.
-$$
-
-A later layer may not be used as a retrospective premise for an earlier one.
+The [status labels](EPISTEMIC_LEGEND.md) specify the evidence for each statement. Definitions, proofs, computations, and physical proposals can all be valuable; each asks a different kind of review.

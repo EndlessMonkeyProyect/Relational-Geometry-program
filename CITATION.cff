@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this research repository, please cite it as follows."
-title: "Relational Geometry Program: Difference, Closure, Identity, and a Navier-Stokes Laboratory"
+message: "Please cite the version and the specific result used."
+title: "Relational Geometry Program: Information, Phase, Composition, and Physical Laboratories"
 type: software
 authors:
   - name: "Le Matt Ansatz Di Ego"
-version: "1.0.0"
-date-released: "2026-09-19"
+version: "2.1.0-review"
+date-released: "2026-10-03"
 license: "NOASSERTION"

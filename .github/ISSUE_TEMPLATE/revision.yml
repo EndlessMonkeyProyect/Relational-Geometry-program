@@ -1,0 +1,60 @@
+name: Revisión de un resultado
+description: Revisar una demostración, reproducir un cálculo o proponer una extensión concreta.
+title: "[R#] Resultado o pregunta de revisión"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English and Spanish reviews are welcome. Please identify a focused question and provide evidence that another reviewer can check.
+
+        Gracias por contribuir a la revisión del programa. Indique el resultado, sus supuestos y la evidencia que sustenta su observación. La participación se atribuye al aporte específico revisado.
+  - type: dropdown
+    id: review_area
+    attributes:
+      label: Punto de revisión / Review area
+      options:
+        - R1 — Información y cápsulas
+        - R2 — J² = −I y módulo mínimo
+        - R3 — Dieciséis firmas, medida 1:15 y realización
+        - R4 — Recierre MF63B y complejidad
+        - R5 — Navier–Stokes y presupuesto PDE
+        - R6 — SU(2) y coercividad
+        - R7 — Tasas, radio y observables
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Archivo y sección / File and section
+      description: Incluya la versión o el commit si lo conoce.
+      placeholder: "02_formal_core/compatible_reclosure.es.md, sección 5"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Pregunta y aporte / Question and contribution
+      description: ¿Qué desea verificar, precisar o desarrollar, y qué permitiría el resultado?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia revisable / Evidence
+      description: Incluya derivación, cálculo, ejemplo, datos o pasos de reproducción. Declare las hipótesis necesarias.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado y alcance / Result and scope
+      description: Indique la conclusión obtenida o el entregable propuesto, y la clase de casos a la que se aplica.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno y referencias / Environment and references
+      description: Para cómputo, indique comandos, versiones, parámetros y procedencia de datos. Añada las referencias necesarias para la revisión.
+    validations:
+      required: false

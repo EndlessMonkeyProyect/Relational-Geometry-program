@@ -1,5 +1,5 @@
 # Material Vorticity Amplification in Growth Coordinates
-## Exact transverse dynamics, diagnostic factorization, and adversarial benchmarks
+## Exact transverse dynamics, diagnostic factorization, and reproducible benchmarks
 
 **Le Matt Ansatz Di Ego**  
 **September 2026**
@@ -28,15 +28,15 @@ P_\xi^\perp\frac{db}{dG}
 }
 $$
 
-valid on positive-growth segments. Thus transverse change is not automatically preserved while vorticity magnitude grows: it must be continually supplied by the projected second material dynamics. In Euler flow this law reduces to the known pressure-Hessian-controlled Lagrangian orientation dynamics. A Burgers-vortex benchmark gives an exact no-go against any universal pointwise lower bound on turning and against any unnormalized uniform bound on nearly-parallel accumulated growth in a class containing that vortex. Restricted Euler supplies a complementary model benchmark in which the nearly-parallel channel is approached while growth diverges.
+valid on positive-growth segments. The law identifies the projected second material dynamics that supplies transverse change per unit of amplification. In Euler flow it reduces to the known pressure-Hessian-controlled Lagrangian orientation dynamics. A Burgers-vortex calibration realizes positive material growth with fixed direction, demonstrating explicitly why amplification and turning deserve separate observables. Restricted Euler supplies a complementary model benchmark in which the nearly-parallel channel is approached while growth diverges in the model.
 
-A finite JHTDB screen is retained only as diagnostic evidence: it contains high-vorticity, low-turning states, but the most extreme values are method-sensitive and the extraction filters are not yet fully reproducible. The next decisive computation is therefore an instantaneous PDE budget for $D_t\omega$, including direct viscous and forcing contributions. We make no regularity or blowup claim for the unforced 3D Navier–Stokes equations.
+A finite JHTDB screen provides diagnostic evidence of selected high-vorticity, low-turning states, with documented method sensitivity and incomplete provenance of the extraction filters. The next decisive computation is an instantaneous PDE budget for $D_t\omega$, including direct viscous and forcing contributions. The present result is an exact framework for material amplification and its empirical assessment; extending it to global regularity or blowup for unforced 3D Navier–Stokes requires additional dynamical estimates.
 
 ## 1. Scope and relation to existing work
 
 Vorticity-direction geometry and geometric depletion have a substantial literature. Constantin and Fefferman established a foundational direction-of-vorticity regularity criterion. Gibbon, Holm, Kerr and Roulstone formulated Euler vorticity growth and rotation along particles in a quaternionic/Lagrangian framework governed by the pressure Hessian. Later work has emphasized tangential strain, viscous tilting, and the role of twist/anti-twist in intense turbulence.
 
-This manuscript does not claim novelty for the vorticity-direction equation, tangential strain, or pressure-Hessian control of Euler orientation. Its narrower contribution is to organize the material-vorticity state into growth coordinates, derive the exact transverse evolution law used below, and subject candidate mechanisms to explicit no-go examples and numerical sensitivity tests.
+Building on these established direction and pressure-Hessian equations, this manuscript organizes the material-vorticity state into growth coordinates and derives the exact transverse evolution law used below. Its contribution is a common diagnostic language linking amplification, turning, analytic calibration, and numerical sensitivity. That language specifies measurable balances for further review without assigning a new origin to the underlying vorticity-direction dynamics.
 
 ## 2. Governing equation and exact material channels
 
@@ -111,13 +111,15 @@ $$
 \Lambda_\perp=\frac{T+M}{a}.
 $$
 
-Then, for $a>0$,
+Then, for $a>0$ and $T+M>0$,
 
 $$
 \boxed{\frac{|b|}{a}=\mathcal D_\perp\Lambda_\perp.}
 $$
 
 This identity is exact by construction. Its value is diagnostic: $\Lambda_\perp\ll1$ represents transverse scarcity, whereas $\mathcal D_\perp\ll1$ with appreciable $\Lambda_\perp$ represents net compensation among transverse components.
+
+At $T+M=0$, both transverse contributions and $b$ vanish; the factorization has a zero-activity limit, while $\mathcal D_\perp$ itself is undefined.
 
 In the bundled JHTDB reconstruction, however, the residual was formed numerically as $r=v-S\xi$ with $v=D_t\omega/q$; hence $r_\perp=b-\tau$ is algebraically imposed. Small $|b|$ relative to $|\tau|$ then forces near compensation in that reconstruction. Therefore a physical viscous/forcing compensation mechanism remains **[Pending]** until $r_\perp^{\rm PDE}$ is computed independently from spatial fields and the full vorticity budget is closed.
 
@@ -159,7 +161,7 @@ $$
 \sqrt{1-\eta}\,\Delta N<G\le\Delta N.
 $$
 
-Thus $G$ and $\Delta N$ are equivalent within the channel up to the fixed factor $\sqrt{1-\eta}$; bounding $\Delta N$ is an in-channel reformulation, not a stronger theorem target by itself.
+Thus $G$ and $\Delta N$ are equivalent within the channel up to the fixed factor $\sqrt{1-\eta}$. This provides a direct conversion between accumulated material change and logarithmic amplification on the same interval.
 
 ## 5. Exact transverse evolution in growth coordinates
 
@@ -197,7 +199,7 @@ P_\xi^\perp\frac{db}{dG}
 }
 $$
 
-The homogeneous term $-b$ is a unit-rate relaxation per e-fold of vorticity growth. This does **not** imply that the nearly-parallel channel is a universal attractor: the signed forcing term $\mathcal Y_\perp/a$ can dominate. The mathematical question is therefore to identify and control the signed projected terms that reaccredit transverse change.
+The homogeneous term $-b$ is a unit-rate relaxation per e-fold of vorticity growth. The signed term $\mathcal Y_\perp/a$ can reinforce or overcome that relaxation. Their balance determines whether turning is maintained during amplification, making the projected terms a concrete target for dynamical estimates and measurement.
 
 An alternative scalar identity,
 
@@ -241,7 +243,7 @@ $$
 \Pi_\perp=\frac{P_\xi^\perp P\xi}{\alpha^2}.
 $$
 
-On positive-growth segments,
+On positive-growth segments with $|\beta|>0$,
 
 $$
 \boxed{
@@ -253,9 +255,9 @@ $$
 
 The sign of the projected pressure-Hessian term matters; a bound on $|\Pi_\perp|$ alone cannot determine exit from or entry into the channel.
 
-## 7. Exact no-go benchmark: Burgers vortex
+## 7. Exact calibration: Burgers vortex
 
-The classical Burgers vortex supplies an exact counterexample to overly strong channel conjectures. With
+The classical Burgers vortex makes the separation of amplification and material turning explicit. With
 
 $$
 u_r=-\frac{\gamma r}{2},\qquad u_z=\gamma z,
@@ -287,12 +289,9 @@ G=\log\frac{q(r_2)}{q(r_1)}
 =\frac{\gamma(r_1^2-r_2^2)}{4\nu}.
 $$
 
-Thus, in any class containing the classical Burgers vortex:
+This supplies an exact calibration for all three observables: fixed direction gives $b=0$, radial transport produces positive material amplification off the axis, and the endpoint ratio recovers accumulated growth. A stationary spatial field can therefore contain growing vorticity along a moving particle.
 
-- **NO-GO [Exact]:** no universal positive lower bound of the form $|D_t\xi|\ge c(D_t\log q)_+$;
-- **NO-GO [Exact]:** no unnormalized uniform bound on accumulated nearly-parallel growth $G_\eta$.
-
-The standard Burgers vortex on $\mathbb R^3$ has infinite total kinetic energy, so these no-go statements do not automatically rule out hypotheses restricted by finite energy, domain, or relative-vorticity conditions.
+The standard Burgers vortex on $\mathbb R^3$ has infinite total kinetic energy. Its role here is analytic calibration of the observables; questions in finite-energy Navier–Stokes classes require their own domain and energy assumptions.
 
 ## 8. Restricted Euler model benchmark
 
@@ -300,7 +299,7 @@ Restricted Euler replaces the anisotropic pressure Hessian by its isotropic loca
 
 Running the bundled reproducibility script with `--full` samples 200 Gaussian trace-free initial velocity-gradient matrices. All 200 reach the numerical event $\|A\|=10^6$ within the integration horizon. At the sampled point $t=T(1-10^{-4})$, the median $\rho_\perp$ is approximately $4.7\times10^{-23}$. The exact $|\beta|$-law above matches finite-difference estimates to six decimal places at the two documented checkpoints.
 
-This is **[Computational observation — model system]**, not evidence that Navier–Stokes itself follows restricted Euler. Its role is adversarial: local blowup can coexist with collapse toward the nearly-parallel channel when the nonlocal anisotropic pressure mechanism is removed.
+This is **[Computational observation — model system]**. It tests the channel law in a specified local pressure closure and shows how the ratio of turning to growth evolves as that model approaches its singular event. Comparison with the full PDE centers on the anisotropic pressure, viscous, and forcing contributions absent from this closure.
 
 ## 9. JHTDB diagnostics and limitations
 
@@ -335,15 +334,9 @@ $$
 
 This removes shared temporal-fit windows, but it does not remove numerical difficulty: $\Delta\omega$ and $\nabla\times f$ require high-order spatial information. Resolution convergence must be tested explicitly.
 
-## 10. External adversarial benchmark
+## 10. Relational correspondence and scaling
 
-On 8 September 2026, OpenAI publicly announced a finite-time blowup construction for forced three-dimensional incompressible Navier–Stokes, together with a Lean formalization. The public formalization metadata records `review.status: self-assessed`; on 11 September the Clay Mathematics Institute described the announcement as one that "has apparently been settled" while stating that its evaluation process will be deliberately unhurried.
-
-This repository uses that work only as an **external adversarial benchmark**. No theorem here depends on its validity. If the announced construction withstands evaluation, the material observables should be computed on its explicit asymptotic structure. If it does not, the exact identities and local benchmarks in this repository are unchanged.
-
-## 11. Relational correspondence and scaling
-
-The broader relational program interprets time operationally as comparison of rates and contains a conditional oscillatory realization with $R\varpi=\mathrm{const}$. That law must not be imposed on incompressible Navier–Stokes.
+The broader relational program interprets time operationally as comparison of rates and contains a conditional oscillatory realization with $R\varpi=\mathrm{const}$. A correspondence with incompressible Navier–Stokes can be investigated by identifying the spatial scale associated with a material rate and respecting the equation's own scaling.
 
 Under
 
@@ -353,18 +346,18 @@ $$
 
 lengths scale as $\lambda^{-1}$ and material rates as $\lambda^2$. Thus $R^2\varpi$, not $R\varpi$, is scale-invariant.
 
-Accordingly, any physical relational bridge to Navier–Stokes must first identify an independent spatial scale and then test whether its rate relation is parabolic, linear, or neither. Introducing $c$ into incompressible Navier–Stokes by definition would not provide new content.
+Accordingly, a physical relational bridge to Navier–Stokes requires an independently measured spatial scale and a test of its relation to the material rate. The scaling above gives a concrete consistency condition for that investigation.
 
-## 12. Research targets
+## 11. Research and review targets
 
 1. **Direct PDE budget.** Compute $r_\perp^{\rm PDE}=P_\xi^\perp(\nu\Delta\omega+\nabla\times f)/q$ and close $D_t\omega-S\omega-\nu\Delta\omega-\nabla\times f$ within quantified uncertainty.
 2. **Signed channel forcing.** Decompose $\mathcal Y_\perp/a$ into pressure, viscous, and forcing contributions and identify the signed terms controlling transverse reaccreditation.
 3. **Unconditional episodes.** Seed trajectories without conditioning on extreme $q$ and report $G_\eta$ distributions conditional on initial vorticity and available headroom.
 4. **Resolution audit.** Repeat instantaneous diagnostics on a better-resolved dataset/snapshot and test convergence of derivative-sensitive quantities.
-5. **Benchmark ladder.** Maintain Burgers $\to$ restricted Euler $\to$ DNS $\to$ explicit singular constructions as progressively harder falsifiers.
+5. **Benchmark ladder.** Connect Burgers calibration, restricted Euler model dynamics, and full-PDE DNS using the same observables and explicit assumptions at each level.
 
-## 13. Conclusion
+## 12. Conclusion
 
-The exact material split turns vorticity amplification into a two-channel problem: growth of magnitude along the current direction and transverse change of that direction. In growth coordinates, the transverse evolution satisfies an exact relaxation-plus-reaccreditation law. This local law neither proves regularity nor makes the nearly-parallel channel intrinsically dangerous: Burgers and restricted Euler show why both conclusions would be too strong.
+The exact material split turns vorticity amplification into a two-channel problem: growth of magnitude along the current direction and transverse change of that direction. In growth coordinates, the transverse evolution satisfies an exact law balancing relaxation with the projected second material dynamics. Together with analytic calibration and numerical audits, this gives reviewers an explicit route from a geometric observation to a testable physical budget.
 
-The useful open problem is narrower and more concrete: determine which signed nonlocal and viscous terms maintain or destroy transverse difference during sustained amplification, and whether their dynamics imply a quantitative restriction in a physically relevant class.
+The next problem is concrete: determine which signed nonlocal and viscous terms maintain or reduce transverse change during sustained amplification, and whether their dynamics imply a quantitative restriction in a physically relevant class.

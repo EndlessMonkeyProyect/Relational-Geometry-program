@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.py text eol=lf
+internal/ export-ignore
+NP/ export-ignore
+NP.rar export-ignore
+dist/ export-ignore

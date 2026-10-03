@@ -1,4 +1,6 @@
-# A conditional order-four operator realization
+# Order-four operator realization
+
+The [minimal reflexive extension](reflexive_extension.es.md) derives the condition below from an antisymmetric comparison and norm preservation. This note records its discrete and continuous consequences.
 
 Assume a real vector space equipped with an operator $J$ such that
 
@@ -12,13 +14,13 @@ $$
 J^3=-J,\qquad J^4=I.
 $$
 
-Hence the orbit of a generic nonzero $x$ under integer powers of $J$ is
+Hence the orbit of every nonzero real vector $x$ under integer powers of $J$ is
 
 $$
 x,\;Jx,\;-x,\;-Jx,\;x.
 $$
 
-This is an exact order-four cycle unless the state has additional degeneracy.
+This is an exact order-four cycle: equality of adjacent phases would produce a real eigenvalue whose square is $-1$, and $x=-x$ would force $x=0$.
 
 If the space also carries an inner product for which $J$ is orthogonal and skew-adjoint, then
 
@@ -34,4 +36,4 @@ $$
 
 with period $2\pi$.
 
-Status: **[Exact — conditional]**. The open question is whether the generative core forces such a $J$, rather than merely admitting one.
+Status: **[Exact under stated hypotheses]**. The next review question is which operational or physical systems realize the antisymmetric, norm-preserving comparison.

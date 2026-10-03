@@ -1,8 +1,8 @@
 # Navier–Stokes laboratory
 
-This branch studies material vorticity amplification in three-dimensional incompressible flow. Its purpose is to isolate exact observables and test structural conjectures adversarially.
+This laboratory makes a basic distinction in three-dimensional incompressible flow measurable: **how quickly vorticity grows, and how quickly its direction turns along a fluid particle**. Separating these channels gives exact observables, an evolution law in units of logarithmic growth, and a concrete way to examine which physical terms sustain directional change during amplification.
 
-The branch does **not** claim a proof of regularity or blowup for the unforced 3D Navier–Stokes equations.
+The contribution available for review is an exact diagnostic framework, supported by analytic calibration, a reproducible local-model benchmark, and selected turbulence data. Its scope is the geometry and measurement of material amplification; global regularity and blowup for unforced 3D Navier–Stokes remain open research questions within this program.
 
 ## Core exact objects
 
@@ -27,10 +27,14 @@ $$
 \boxed{P_\xi^\perp\frac{db}{dG}=\frac{\mathcal Y_\perp}{a}-b.}
 $$
 
-The homogeneous term $-b$ relaxes transverse change per unit logarithmic growth, while $\mathcal Y_\perp/a$ reaccredits it. This is an exact identity; whether either term dominates is a dynamical question.
+The homogeneous term $-b$ relaxes transverse change per unit logarithmic growth, while the signed term $\mathcal Y_\perp/a$ supplies or opposes it. This identifies the balance that a physical mechanism must explain. Dominance of either term is a dynamical question.
 
-## Current empirical status
+## Evidence and next review
 
-The bundled JHTDB data show selected high-vorticity states with small material turning, but the most extreme estimates are method-sensitive. The reconstructed residual used in the exploratory cancellation factorization is algebraically dependent on $b$ and strain, so a physical strain–viscous cancellation mechanism remains **[Pending]** until the PDE residual is computed independently.
+- **Exact calibration:** the Burgers vortex realizes positive material amplification with fixed vorticity direction, making the distinction between growth and turning explicit.
+- **Reproducible model:** the restricted Euler computation tests the growth-coordinate law in a local pressure closure and records the approach to small turning relative to growth.
+- **Turbulence diagnostics:** selected bundled JHTDB states combine high vorticity with small material turning. Their numerical sensitivity is documented in the manuscript and status table.
 
-See `manuscript.md`, `STATUS.md`, and `data/README.md`.
+The next decisive review is an independently computed vorticity PDE budget: measure the strain, viscous, and forcing contributions separately, close their sum, and quantify derivative sensitivity. The current reconstructed residual depends algebraically on $b$ and strain; independent spatial derivatives are needed to establish physical cancellation.
+
+Read the [manuscript](manuscript.md), [evidence status](STATUS.md), [benchmark guide](docs/benchmarks.md), and [data provenance](data/README.md). For focused review across the program, see [REVIEW](../REVIEW.md).

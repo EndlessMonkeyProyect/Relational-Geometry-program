@@ -1,0 +1,14 @@
+# Material de trabajo local y fuentes sin editar
+/internal/
+/NP/
+/NP.rar
+/dist/
+
+# Entornos y resultados generados
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db

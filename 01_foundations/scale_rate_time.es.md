@@ -16,7 +16,7 @@ $$
 \ddot f+\Gamma Gf=0
 $$
 
-y un modo $Gu_i=\lambda_i u_i$,
+con $\Gamma>0$ y un modo $Gu_i=\lambda_i u_i$ de autovalor positivo,
 
 $$
 \varpi_i^2=\Gamma\lambda_i.

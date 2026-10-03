@@ -1,5 +1,7 @@
 # Navier–Stokes branch status
 
+The established contribution is the exact separation of material amplification and turning, together with its evolution in growth coordinates. The table connects each result to the evidence available for review.
+
 | Item | Status | Evidence / scope |
 |---|---|---|
 | $D_t\omega/q=a\xi+b$, $b\perp\xi$ | **[Exact]** | material differentiation for $q>0$ |
@@ -9,11 +11,11 @@
 | $dG=\cos\theta\,dN$ | **[Exact]** | rate-space reparametrization |
 | $P_\xi^\perp db/dG=\mathcal Y_\perp/a-b$ | **[Exact]** | direct differentiation on $a>0$ |
 | Euler $\lvert\beta\rvert$ law with pressure Hessian | **[Exact]** | reduction of Euler Lagrangian orientation dynamics |
-| Positive order-one pointwise lower bound on turning | **NO-GO [Exact, class containing Burgers]** | Burgers vortex has $b=0,a>0$ |
-| Unnormalized uniform $G_\eta$ bound | **NO-GO [Exact, class containing Burgers]** | arbitrarily large parallel growth from large radial deficit |
+| Burgers calibration of independent growth and turning | **[Exact — analytic benchmark]** | $b=0$ with $a>0$ off the axis; classical whole-space vortex with infinite total kinetic energy |
 | Restricted Euler: approach to low-turning channel with model blowup | **[Computational observation — model]** | 200/200 bundled initial conditions reach numerical event; script included |
 | High-vorticity low-turning states in bundled JHTDB sample | **[Computational observation — sensitivity-limited]** | selected states survive some independent audits; strongest values are method-sensitive |
-| $\rho_\perp<0.05$ episode 995 as robust | **[Not established]** | FD4 7pt gives 0.0715 at $t=1$ |
+| Sensitivity audit for selected state 995 | **[Computational observation — method comparison]** | $\rho_\perp=0.0168$ with m2q8 7pt and 0.0715 with FD4 7pt at $t=1$; threshold classification depends on method |
 | Population-level tail law vs $q$ | **[Pending]** | complete filter/query provenance and unbiased sample required |
-| OpenAI forced blowup construction | **[External announced result / adversarial benchmark]** | public manuscript + Lean; independent evaluation ongoing as of 19 Sep 2026 |
 | Relational physical scale for $\Omega$ | **[Hypothesis]** | must be obtained independently and respect NS scaling |
+
+The priority for independent review is to verify the exact growth-coordinate derivation, reproduce the benchmark calculations, and compute the strain–viscous/forcing balance directly from the PDE. The current scope is local material dynamics and diagnostics; an extension to a global regularity or blowup theorem requires additional estimates.
