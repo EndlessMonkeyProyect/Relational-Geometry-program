@@ -16,10 +16,13 @@ body:
         - R1 — Información y cápsulas
         - R2 — J² = −I y módulo mínimo
         - R3 — Dieciséis firmas, medida 1:15 y realización
-        - R4 — Recierre MF63B y complejidad
+        - R4 — Recierre de compatibilidad y complejidad
         - R5 — Navier–Stokes y presupuesto PDE
         - R6 — SU(2) y coercividad
         - R7 — Tasas, radio y observables
+        - R8 — Comparadores locales e incorporación de novedad
+        - R9 — Acción, fase y contenido de cierre
+        - R10 — Herencia armónica y factores primitivos
     validations:
       required: true
   - type: input

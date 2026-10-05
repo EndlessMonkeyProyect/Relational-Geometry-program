@@ -35,6 +35,9 @@ class PublicReleaseTests(unittest.TestCase):
             "unlisted/private.md", "04_results/NO_GO_REGISTER.md",
             "publication/internal/audit.md", "publication/source.zip",
             "tests/__pycache__/cached.pyc", "publication/07_HISTORY/audit.md",
+            "03_navier_stokes/scripts/runs/log.jsonl",
+            "03_navier_stokes/scripts/refined/state.npz",
+            "03_navier_stokes/data/large_snapshot.npz",
         ]
         for path in private:
             self.write(path, "PRIVATE_SENTINEL_DO_NOT_EXPORT")

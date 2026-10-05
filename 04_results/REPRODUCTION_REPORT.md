@@ -1,30 +1,51 @@
-# Reproduction report
+# Reproduction report — 2.2.0-review
 
-Checks executed on 3 October 2026 for the local review edition. The results below identify what a reviewer can reproduce and which protocol was used.
+Checks below were executed locally on 5 October 2026. They distinguish reproduced controls from supplied production data and from independent specialist review.
+
+## Executed in this edition
 
 | Check | Result | Scope |
 |---|---|---|
-| Automated suite | 31 tests and 920 subtests passed | Exact finite controls, numerical algebraic consistency, repository structure and public-package behavior |
+| Automated suite | 47 tests and 927 subtests passed | Exact finite controls, numerical consistency, repository structure and public-package behavior |
 | Novelty criterion | 1 296 pairs of finite signatures and comparisons checked | Refinement agrees with failure of factorization in the enumerated domain |
 | Phase realization | 65 536 graphs enumerated; counts 6 561 / 2 401 / 1 753 reproduced | Outgoing phase lift / layerwise bijections / choices with exact four-step return |
 | Capsule composition | Exhaustive two-variable relations and seeded multi-factor checks passed | Join and valid existential projection agree with full assignment enumeration |
-| $SU(2)$ observable | Matrix, angular and trace expressions agree in seeded numerical controls | Includes common-conjugation invariance, central signs and Q8 examples |
+| Action and harmonic structure | Five new test methods passed | Canonical coordinates, invariant and phase, circular versus polygonal area, finite signature content and factor classification through index 32 |
+| Comparators and incorporation | Six new test methods passed | Weighted incidence, shift invariance, compatible cycles, weighted novelty projection, coupling and two-layer causal propagation |
+| Instantaneous-budget controls | Five test methods passed | Small-flow closure, refinement, forcing/input validation, undefined direction at zero vorticity, and a short single-versus-double-precision evolution |
+| $SU(2)$ observable | Matrix, angular and trace expressions agree in seeded controls | Common-conjugation invariance, central signs and Q8 examples |
 | Restricted Euler quick benchmark | 12/12 trajectories reached the numerical event; median $\rho_\perp=2.849309\times10^{-23}$ | Default 12-trajectory model protocol |
 | Euler identity checkpoints | Numeric and predicted values agree to six printed decimals | At $t/T=0.7$: $-12.851267$; at $0.9$: $-3.023353$ |
-| JHTDB derived-table checks | Script completed and reported endpoint/integral and differentiation sensitivities | Recalculation of bundled tables; original extraction was not rerun |
+| JHTDB derived-table checks | Completed; reported differentiation sensitivity and endpoint/integral differences | Recalculation of bundled tables; original extraction was not rerun |
 | Gaussian quick control | Six finite cases completed | $L=4,6$, block side 2, squared masses 0, 0.5, 0.1 |
 
-The Gaussian protocol and numerical values are recorded in [GAUSSIAN_CONTROL.md](../06_yang_mills/GAUSSIAN_CONTROL.md). The fluid-data scope is described in the [data guide](../03_navier_stokes/data/README.md).
+The numerical environment used NumPy 2.5.3 and SciPy 1.18.1 on Windows. The test suite and quick scripts are deterministic for their declared seeds. The Gaussian values and method are documented in [GAUSSIAN_CONTROL.md](../06_yang_mills/GAUSSIAN_CONTROL.md).
+
+The tests are controls on the stated constructions, not a replacement for their proofs. The small precision test does not certify the full production simulations.
+
+## Supplied production data
+
+The author supplied thirteen budget CSV tables with the Navier–Stokes patch dated 4 October. Their values are retained unchanged. They cover moderate-Reynolds-number runs A ($N=128$, $Re_\lambda\approx48$–$53$), A refined to $N=192$, and B ($N=128$, $Re_\lambda\approx38$).
+
+In those tables, median first-order closure residuals at the most intense points are approximately 12 %, 1.6 % and 0.8 % at $k_{\max}\eta\approx2$, 2.9 and 3.0. These are reported observations for those flows, not a universal resolution threshold.
+
+**The complete production simulations were not rerun for this integration.** Their protocol, mixed-precision provenance, statistical conditioning and resolution limitations are in the [budget note](../03_navier_stokes/docs/instantaneous_budget.md). The source estimates about two hours on two CPU cores; that runtime was not independently measured here. Full production reproduction and convergence studies are explicit next review tasks.
 
 ## Commands
 
-```bash
+~~~bash
 python -m pip install -r requirements.txt
 python -m pytest -q
 python 03_navier_stokes/scripts/restricted_euler_benchmark.py
 python 03_navier_stokes/scripts/review_checks.py
 python 06_yang_mills/scripts/gaussian_control.py --quick --json
 python tools/public_release.py
-```
+~~~
 
-The automated suite and these computations support the stated finite and numerical checks. General proofs are supplied in the mathematical notes; physical interpretation and independent specialist review have their own evidence requirements. The extended 200-trajectory Euler protocol and the large Gaussian sweep are available for subsequent reproduction.
+To regenerate the public manifest and ZIP after editing:
+
+~~~bash
+python tools/public_release.py --write-manifest --build
+~~~
+
+The public builder checks local Markdown destinations and hashes the selected files. Raw DNS snapshots, runtime products and internal working materials are excluded. The extended Euler protocol, large Gaussian sweep and production DNS remain available for independent reproduction.

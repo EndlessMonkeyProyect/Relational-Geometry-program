@@ -12,6 +12,12 @@ Si además el mapa a longitud es $R_i=c/\omega_i$, se obtiene $R_V/R_U=4$. Esta 
 
 La [dinámica cuadrática del comparador](../02_formal_core/second_order_dynamics.md) ofrece otra realización explícita: $\ddot f+\Gamma Gf=0$, con $G=C^\dagger C$ y $\Gamma>0$. Para modos de autovalor positivo, $\varpi_i^2=\Gamma\lambda_i$ y la escala espectral $R_i=\lambda_i^{-1/2}$ cumple $R_i|\varpi_i|=\sqrt\Gamma$. La asociación con una longitud medida requiere un mapa independiente.
 
+## Acción, escala relativa e incorporación
+
+La [acción relacional](../02_formal_core/relational_action_and_phase.es.md) añade un invariante canónico $\mathcal J$ para cada modo estable. Una realización física puede introducir $J_{\rm phys}=S_0\mathcal J$. La identificación de $S_0$, el contenido elemental y un observable de acción son obligaciones del mapa físico.
+
+Las [razones logarítmicas de escala](../02_formal_core/local_comparators_and_relational_laplacian.es.md) permiten trabajar con $\log(\ell_j/\ell_i)$ sin elegir una longitud absoluta. Su compatibilidad en ciclos y su respuesta cuadrática son exactas en la arquitectura declarada. La [incorporación de novedad](../02_formal_core/novelty_incorporation_and_dynamical_modes.es.md) identifica qué condiciones producen un ritmo nuevo antes de asociarle longitud.
+
 ## Objetivo protónico
 
 Al elegir $R_U=\hbar/(m_pc)$ en la realización anterior, la longitud objetivo es

@@ -6,17 +6,20 @@ El programa reúne resultados sobre información suficiente, composición, exten
 
 Cada revisión puede ser pequeña y completa: comprobar una identidad, reproducir un ejemplo, precisar una hipótesis o construir un caso nuevo. La invitación está abierta; la revisión externa y sus conclusiones se documentarán cuando existan, con su autoría y alcance.
 
-## Siete puntos de entrada
+## Diez puntos de entrada
 
 | ID y especialidad | Pregunta concreta | Entregable útil |
 |---|---|---|
 | **R1 · Información y cápsulas**. Información, lógica, sistemas de restricciones. | ¿La cápsula conserva las distinciones necesarias para la familia de contextos declarada? ¿Cómo se comprueba su suficiencia? | Prueba de suficiencia con hipótesis explícitas, ejemplo mínimo o implementación contrastada con enumeración. |
 | **R2 · Extensión reflexiva**. Álgebra y representaciones. | ¿Qué supuestos llevan a $J^2=-I$ y qué minimalidad satisface el módulo real correspondiente? | Verificación de la construcción, clasificación de sus casos y formulación precisa de la minimalidad. |
 | **R3 · Fase, medida y realización**. Sistemas dinámicos, probabilidad y geometría. | ¿Cómo se conectan las dieciséis firmas de dos coordenadas de fase, la medida $1:15$ y las transiciones realizables bajo sus respectivos supuestos? | Cálculo reproducible de la representación y la medida; construcción explícita de las transiciones y condiciones para preservar la estructura. |
-| **R4 · Recierre MF63B y complejidad**. Algoritmos, compilación de conocimiento y pruebas. | ¿Qué representaciones realizan `Join`, `Project`, `Normalize`, `Empty` y `Read` con costos controlados? | Familia concreta con cotas de tamaño, tiempo y certificados; reproducción del contador truncado o de otra cápsula suficiente. |
+| **R4 · Recierre de compatibilidad y complejidad**. Algoritmos, compilación de conocimiento y pruebas. | ¿Qué representaciones realizan `Join`, `Project`, `Normalize`, `Empty` y `Read` con costos controlados? | Familia concreta con cotas de tamaño, tiempo y certificados; reproducción del contador truncado o de otra cápsula suficiente. |
 | **R5 · Amplificación de vorticidad**. PDE, turbulencia y análisis numérico. | ¿Qué términos físicos mantienen el giro durante el crecimiento y cómo se verifica la ley en $G$ mediante un presupuesto independiente? | Derivación revisada o cálculo separado de deformación, viscosidad y forzamiento, con cierre del presupuesto y estudio de convergencia. |
 | **R6 · $SU(2)$ y coercividad**. Teoría gauge y desigualdades funcionales. | ¿Qué comparaciones controlan la varianza en una medida y un sector definidos, y cómo dependen sus constantes de la escala? | Verificación del observable de incompatibilidad o cota de Poincaré en un sistema definido, con dependencias explícitas. |
 | **R7 · Tasas, radio y observables**. Física matemática y modelado. | ¿Qué escala espacial independiente permite contrastar la relación entre radio y tasa en cada realización? | Definición operacional de escala y tasa, chequeo dimensional y predicción contrastable en un modelo o conjunto de datos. |
+| **R8 · Comparadores e incorporación**. Grafos, álgebra lineal y análisis espectral. | ¿Qué axiomas seleccionan el comparador local y cuándo una distinción nueva se convierte en un modo dinámico nuevo? | Verificación de la factorización por incidencia, del bloque de acoplamiento y de los criterios espectrales en una familia explícita. |
+| **R9 · Acción y contenido de cierre**. Mecánica discreta y teoría de la medida. | ¿Qué mapa conecta el contenido de firmas con el invariante canónico de un modo estable? | Construcción de un mapa que preserve las operaciones declaradas y distinga período, fase y acción. |
+| **R10 · Herencia y factores primitivos**. Teoría de números. | ¿Cómo se articula la clasificación de factores nuevos en $2^n-1$ con firmas informativas y reglas de composición? | Revisión de la clasificación, extensión aritmética o realización formal que especifique qué estructura conserva. |
 
 ## Dónde empieza cada revisión
 
@@ -27,6 +30,11 @@ Cada revisión puede ser pequeña y completa: comprobar una identidad, reproduci
 - **R5:** [Laboratorio Navier–Stokes](03_navier_stokes/README.md), [manuscrito](03_navier_stokes/manuscript.md) y [procedencia de datos](03_navier_stokes/data/README.md).
 - **R6:** [Rama Yang–Mills](06_yang_mills/README.md).
 - **R7:** [Puentes físicos](publication/physical_bridges.es.md).
+- **R8:** [Comparadores locales](02_formal_core/local_comparators_and_relational_laplacian.es.md) e [incorporación de novedad](02_formal_core/novelty_incorporation_and_dynamical_modes.es.md).
+- **R9:** [Acción relacional, fase y contenido](02_formal_core/relational_action_and_phase.es.md).
+- **R10:** [Herencia armónica y novedad](02_formal_core/harmonic_inheritance_and_novelty.es.md).
+
+La [ontología de diferencia y cierre](01_foundations/ontology_of_difference_and_closure.es.md) conecta las rutas. Los [criterios de control global](02_formal_core/novelty_and_global_control.es.md) precisan los próximos objetivos cuantitativos de R4 y R6.
 
 ## Cómo entregar una revisión
 

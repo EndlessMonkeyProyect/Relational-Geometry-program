@@ -4,6 +4,8 @@
 
 El programa propone estudiar la geometría y la identidad a partir de la información que una arquitectura de comparación permite distinguir y conservar. Su núcleo construye una secuencia explícita: diferencia, comparación, firma, residuo, extensión de representación, cierre y nueva referencia. Esta secuencia organiza tanto los resultados formales como las preguntas físicas y computacionales.
 
+La [ontología rectora](../01_foundations/ontology_of_difference_and_closure.es.md) es la entrada conceptual; este núcleo reúne sus realizaciones formales. La edición 2.2 añade la cadena comparador–respuesta–incorporación–acción y una clasificación de novedad armónica.
+
 ## 1. Diferencia y descripción
 
 Una referencia sin diferencias acreditadas es el nivel inicial de descripción. Una primera distinción aporta información respecto de esa referencia; conservar varias distinciones permite contarlas. Este es el sentido de la precedencia conceptual de la diferencia sobre la cardinalidad.
@@ -64,9 +66,21 @@ El alcance es relevante: un cierre puede convertirse en una unidad composicional
 
 ## 7. Tiempo, escala y física
 
+### Arquitectura, respuesta e incorporación
+
+En un grafo de comparaciones escalares, un comparador lineal local que anula una referencia común tiene forma $C=DB$, con $B$ la incidencia y $D$ los pesos. La respuesta $K=\Gamma C^\top C$ queda fijada una vez declarados esos datos. Los pesos que respetan una simetría transitiva sobre aristas reducen $K$ a un múltiplo del Laplaciano. La [prueba local](../02_formal_core/local_comparators_and_relational_laplacian.es.md) incluye razones logarítmicas de escala y el criterio de compatibilidad en ciclos.
+
+En una representación finita, la firma refinada produce $H^+=H\oplus N$. El bloque $PKQ$ de $K$ mide acoplamiento entre herencia y novedad; su anulación equivale a autonomía de ambos sectores. Los [modos integrados](../02_formal_core/novelty_incorporation_and_dynamical_modes.es.md) permiten examinar qué diferencias participan en una misma recurrencia.
+
+### Ritmo, contenido y escala
+
 El tiempo operacional se interpreta como comparación entre cambios: un proceso sirve de referencia para medir otro. La profundidad de una construcción ordena sus etapas; un reloj físico requiere un proceso identificado y una ley de evolución.
 
 La realización oscilatoria de un comparador cuadrático produce $\varpi_i^2=\Gamma\lambda_i$ y, para autovalores positivos, una escala espectral $R_i=\lambda_i^{-1/2}$. La relación $R_i|\varpi_i|=\sqrt\Gamma$ es exacta dentro de esa dinámica.
+
+En la recurrencia discreta de paso unitario, los modos con $0<\kappa<4$ tienen fase $\Omega=\arccos(1-\kappa/2)$. La [forma canónica](../02_formal_core/relational_action_and_phase.es.md) conserva $\mathcal J=(Q_c^2+P_c^2)/2$ y la interpolación circular da área $2\pi m\mathcal J$ para $m$ vueltas. Un mapa independiente entre ese contenido dinámico y el contenido aditivo de firmas constituiría una condición de selección de amplitudes.
+
+La [realización armónica](../02_formal_core/harmonic_inheritance_and_novelty.es.md) clasifica $2^n-1$ mediante factores heredados y primitivos. Se conecta al criterio informacional mediante valuaciones en un dominio explícito; su traducción a frecuencias exige un comparador y una dinámica.
 
 El [programa de puentes físicos](physical_bridges.es.md) desarrolla la cadena condicional desde el peso $1/16$ hasta razones de frecuencia y longitud, conserva el objetivo protónico $4\hbar/(m_pc)$ y define preguntas para química, gravedad y observables. Cada aplicación necesita un mapa propio entre estructura formal y medida física.
 
@@ -77,11 +91,13 @@ En [Navier–Stokes](../03_navier_stokes/README.md), la vorticidad $\omega=q\xi$
 $$P_\xi^\perp\frac{db}{dG}=\frac{\mathcal Y_\perp}{a}-b,
 \qquad\mathcal Y=D_t(D_t\omega/q).$$
 
-La ley identifica relajación transversal y aporte dinámico por unidad de crecimiento. Los siguientes cálculos pueden aislar presión, viscosidad y forzamiento mediante un presupuesto independiente.
+La ley identifica relajación transversal y aporte dinámico por unidad de crecimiento. El [presupuesto material](../03_navier_stokes/docs/instantaneous_budget.md) desarrolla la separación de presión, viscosidad y forzamiento. Incluye tablas DNS aportadas y controles pequeños reproducidos, con las convenciones de precisión y los límites de muestreo declarados.
 
 En [Yang–Mills](../06_yang_mills/README.md), el observable $\nu(U,V)=1-\tfrac12\operatorname{ReTr}(UVU^{-1}V^{-1})$ cuantifica exactamente el defecto de conmutación en $SU(2)$. La rama distingue el descriptor de configuraciones, las formas sobre estados y las desigualdades necesarias para relacionar coercividad con dinámica y escala.
 
 ## 9. Alcance de la propuesta
+
+La [nota de control global](../02_formal_core/novelty_and_global_control.es.md) establece dos rutas cuantitativas distintas: comparación de formas y coercividad en análisis; potencial de longitud acotada y política constructiva en computación. La [localidad](../02_formal_core/causal_propagation_and_closure_resources.es.md) aporta cotas de transporte, con sus recursos separados de ambas rutas.
 
 La contribución del programa está en su arquitectura articulada: establece qué cuenta como información nueva, construye extensiones mínimas bajo reglas explícitas, determina una medida en una representación de fase y formaliza la composición de descripciones suficientes. Los laboratorios traducen estas preguntas a objetos propios de cada dominio.
 

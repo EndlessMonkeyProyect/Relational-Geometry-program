@@ -41,3 +41,5 @@ $$
 $$
 
 The result is conditional on the quadratic local action and reflection-symmetric discretization. It does not establish that every physical realization of the program must be second order.
+
+For unit-step stable modes, the [canonical action and phase construction](relational_action_and_phase.es.md) gives the exact rotation and invariant. The [local comparator theorem](local_comparators_and_relational_laplacian.es.md) specifies how a scalar graph architecture restricts $C$, and [novelty incorporation](novelty_incorporation_and_dynamical_modes.es.md) separates new dimensions, coupling and spectral changes.

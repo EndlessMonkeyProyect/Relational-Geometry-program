@@ -83,6 +83,8 @@ El **Lema de Descenso Acreditado** propone una vía verificable: encontrar un en
 
 ## Revisión solicitada
 
+La [nota transversal de incorporación y control global](../02_formal_core/novelty_and_global_control.es.md) formula el teorema condicional de descenso con longitud y costo acotados. La [separación de recursos de cierre](../02_formal_core/causal_propagation_and_closure_resources.es.md) distingue transporte, rondas, anchura y trabajo local. Un comparador lógico debe derivarse de las operaciones del contrato; la construcción escalar en grafos aporta una realización de referencia para esa pregunta.
+
 Buscamos revisión en composición relacional, compilación de conocimiento, algoritmos de restricciones y complejidad de pruebas. Hay tareas abordables con resultados independientes:
 
 - verificar las demostraciones y los contratos de frontera de esta rama;

@@ -177,6 +177,8 @@ Para una misma medida puede tomarse $C_{\mathrm{tr}}=1$. Todas las constantes de
 
 ## 6. Revisión solicitada
 
+La [estructura transversal de incorporación](../02_formal_core/novelty_and_global_control.es.md) organiza detección, coercividad y comparación de formas. El [teorema del comparador local](../02_formal_core/local_comparators_and_relational_laplacian.es.md) muestra cómo unos axiomas restringen un comparador escalar; aquí la tarea correspondiente exige invariancia/covariancia gauge y dominios analíticos propios.
+
 El [control gaussiano por bloques](GAUSSIAN_CONTROL.md) incluye código ejecutable, protocolo rápido y una tabla de seis casos verificados. Permite examinar la forma relacional en modelos finitos lineales, con un observable de prueba especificado.
 
 Las identidades algebraicas anteriores pueden revisarse por cálculo directo. El programa dinámico requiere experiencia en teoría gauge, análisis de formas de Dirichlet, desigualdades funcionales y límites de escala.

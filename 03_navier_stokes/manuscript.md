@@ -30,7 +30,7 @@ $$
 
 valid on positive-growth segments. The law identifies the projected second material dynamics that supplies transverse change per unit of amplification. In Euler flow it reduces to the known pressure-Hessian-controlled Lagrangian orientation dynamics. A Burgers-vortex calibration realizes positive material growth with fixed direction, demonstrating explicitly why amplification and turning deserve separate observables. Restricted Euler supplies a complementary model benchmark in which the nearly-parallel channel is approached while growth diverges in the model.
 
-A finite JHTDB screen provides diagnostic evidence of selected high-vorticity, low-turning states, with documented method sensitivity and incomplete provenance of the extraction filters. The next decisive computation is an instantaneous PDE budget for $D_t\omega$, including direct viscous and forcing contributions. The present result is an exact framework for material amplification and its empirical assessment; extending it to global regularity or blowup for unforced 3D Navier–Stokes requires additional dynamical estimates.
+A finite JHTDB screen provides diagnostic evidence of selected high-vorticity, low-turning states, with documented method sensitivity and incomplete provenance of the extraction filters. An instantaneous budget in resolved spectral DNS ($Re_\lambda\approx38$–$53$) closes the balance, splits the transverse law into pressure, viscous and forcing terms, and finds that low turning at high vorticity is mainly a strain–viscous compensation while the projected pressure Hessian sustains turning against viscosity (§9.1). The present result is an exact framework for material amplification and its empirical assessment; extending it to global regularity or blowup for unforced 3D Navier–Stokes requires additional dynamical estimates.
 
 ## 1. Scope and relation to existing work
 
@@ -334,6 +334,16 @@ $$
 
 This removes shared temporal-fit windows, but it does not remove numerical difficulty: $\Delta\omega$ and $\nabla\times f$ require high-order spatial information. Resolution convergence must be tested explicitly.
 
+### 9.1 Instantaneous budget in resolved DNS
+
+The [budget note](docs/instantaneous_budget.md) reports the supplied computation in purpose-built pseudo-spectral DNS ($Re_\lambda\approx38$–$53$). Its production tables are retained for review; this integration reruns small controls, not the full simulation. The note specifies mixed-precision evolution and the independent reproduction required. **[Computational observation]** unless marked otherwise:
+
+1. **[Exact]** Differentiating the velocity-gradient equation splits the transverse law as $P_\xi^\perp db/dG=\mathcal P+\mathcal V_c+\mathcal F-2b$, with $\mathcal P=-P_\xi^\perp H\xi/a$ the projected deviatoric pressure Hessian. Instantaneous $D_t\omega$ and $\mathcal Y$ agree with time-resolved DNS evolution, and the residual collapses spectrally under refinement.
+2. In the supplied DNS, the median first-order residual at the most intense points is 12 % at $k_{\max}\eta\approx2$ and 0.8–1.6 % at approximately 3. These measurements motivate observable-specific resolution studies; they are not a universal threshold or an error estimate for JHTDB.
+3. Low-turning states ($\rho_\perp<0.05$) are rarer at high vorticity: about 4 % of growth points below $q_{\rm rms}$, about 1–2 % above $3q_{\rm rms}$.
+4. In low-turning, high-vorticity states the strain turning is not small ($\Lambda_\perp\approx0.5$–$0.6$); the independently computed viscous turning opposes it with comparable magnitude ($\cos\varphi\approx-0.95$, $\mathcal D_\perp\approx0.24$–$0.30$). The compensation in §3 is therefore physical in these flows, not an artifact of the reconstruction.
+5. For all growth states above $3q_{\rm rms}$, $\mathcal P$ reinforces $|b|$ in 86–87 % and $\mathcal V_c$ reduces it in 87–92 %, each at about four to five times the kinematic rate; forcing is negligible at these scales.
+
 ## 10. Relational correspondence and scaling
 
 The broader relational program interprets time operationally as comparison of rates and contains a conditional oscillatory realization with $R\varpi=\mathrm{const}$. A correspondence with incompressible Navier–Stokes can be investigated by identifying the spatial scale associated with a material rate and respecting the equation's own scaling.
@@ -350,10 +360,10 @@ Accordingly, a physical relational bridge to Navier–Stokes requires an indepen
 
 ## 11. Research and review targets
 
-1. **Direct PDE budget.** Compute $r_\perp^{\rm PDE}=P_\xi^\perp(\nu\Delta\omega+\nabla\times f)/q$ and close $D_t\omega-S\omega-\nu\Delta\omega-\nabla\times f$ within quantified uncertainty.
-2. **Signed channel forcing.** Decompose $\mathcal Y_\perp/a$ into pressure, viscous, and forcing contributions and identify the signed terms controlling transverse reaccreditation.
+1. **Direct PDE budget.** Compute $r_\perp^{\rm PDE}=P_\xi^\perp(\nu\Delta\omega+\nabla\times f)/q$ and close $D_t\omega-S\omega-\nu\Delta\omega-\nabla\times f$ within quantified uncertainty. *Reported for the supplied moderate-Reynolds-number DNS (§9.1); next: independently reproduce production runs and extend Reynolds number with precision and convergence controls.*
+2. **Signed channel forcing.** Decompose $\mathcal Y_\perp/a$ into pressure, viscous, and forcing contributions and identify the signed terms controlling transverse reaccreditation. *Decomposition exact; signs measured in DNS (§9.1). Open: whether the pressure–viscous balance has a dynamical explanation and how it scales with $Re_\lambda$.*
 3. **Unconditional episodes.** Seed trajectories without conditioning on extreme $q$ and report $G_\eta$ distributions conditional on initial vorticity and available headroom.
-4. **Resolution audit.** Repeat instantaneous diagnostics on a better-resolved dataset/snapshot and test convergence of derivative-sensitive quantities.
+4. **Resolution audit.** Repeat instantaneous diagnostics on a better-resolved dataset/snapshot and test convergence of derivative-sensitive quantities. *Done for $k_{\max}\eta\approx2\to3$: class statistics agree within 4 %, pointwise viscous terms differ by about 40 % (§9.1).*
 5. **Benchmark ladder.** Connect Burgers calibration, restricted Euler model dynamics, and full-PDE DNS using the same observables and explicit assumptions at each level.
 
 ## 12. Conclusion

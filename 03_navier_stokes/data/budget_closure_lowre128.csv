@@ -1,0 +1,11 @@
+tag,set,quantity,median,p90,max,n
+lowre128,top_q,|DtOmega_fd - N| / |N|,0.00811862,0.0238657,0.217695,4000
+lowre128,top_q,|P_perp(DtOmega_fd - N)|/q / |b|,0.00711341,0.0258847,0.655212,4000
+lowre128,top_q,|P_perp(DtOmega_fd - N)|/q / |r_nu_perp|,0.0326796,0.126434,3.64126,4000
+lowre128,top_q,|Y_fd - Y| / |Y|,0.00649154,0.0159699,0.10752,4000
+lowre128,top_q,|P_perp(Y_fd - Y)| / |Y_perp|,0.00801828,0.0303951,1.12804,4000
+lowre128,top_q_a>0,|DtOmega_fd - N| / |N|,0.00907792,0.0263757,0.217695,1566
+lowre128,top_q_a>0,|P_perp(DtOmega_fd - N)|/q / |b|,0.00732785,0.0249163,0.655212,1566
+lowre128,top_q_a>0,|P_perp(DtOmega_fd - N)|/q / |r_nu_perp|,0.0359741,0.118708,1.22184,1566
+lowre128,top_q_a>0,|Y_fd - Y| / |Y|,0.00633166,0.016567,0.10752,1566
+lowre128,top_q_a>0,|P_perp(Y_fd - Y)| / |Y_perp|,0.00693094,0.0327182,1.12804,1566

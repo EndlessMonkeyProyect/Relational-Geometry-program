@@ -16,6 +16,27 @@ Esta edición integra los materiales suministrados por el autor y la rama Navier
 
 ## Decisiones de integración
 
+### Ampliación del 5 de octubre de 2026
+
+La ontología pasa a ser el punto de entrada, y los desarrollos se integran por contenido, no como una secuencia de códigos de trabajo.
+
+| Material aportado | Destino y tratamiento |
+|---|---|
+| Ontología canónica ampliada v0.3 | [Diferencia, cierre e incorporación](../01_foundations/ontology_of_difference_and_closure.es.md): separa hipótesis generativa, definiciones, realizaciones y mapas físicos |
+| Acción relacional, comparación de acciones y contenido de cierre (MF65–67) | [Acción y fase](../02_formal_core/relational_action_and_phase.es.md): coordenadas canónicas, interpolación declarada y contenido uniforme |
+| Factores armónicos primitivos (MF69) | [Herencia y novedad](../02_formal_core/harmonic_inheritance_and_novelty.es.md): clasificación aritmética y realización por valuaciones |
+| Normalización causal y cierre global (MF44B) | [Propagación y recursos](../02_formal_core/causal_propagation_and_closure_resources.es.md): localidad, interfaz y costo de acreditación |
+| Novedad irreducible y operador de incorporación (MF70–71) | [Incorporación y modos](../02_formal_core/novelty_incorporation_and_dynamical_modes.es.md): espacios finitos con pesos positivos, acoplamiento y criterio espectral |
+| Estructura transversal de incorporación (MF72) | [Control global](../02_formal_core/novelty_and_global_control.es.md): dos criterios cuantitativos condicionales, analítico y algorítmico |
+| Canonicidad del comparador local (MF73) | [Comparadores y Laplaciano](../02_formal_core/local_comparators_and_relational_laplacian.es.md): teorema escalar gráfico, hipótesis de simetría y compatibilidad de ciclos |
+| Parche de presupuesto Navier–Stokes | [Presupuesto instantáneo](../03_navier_stokes/docs/instantaneous_budget.md), scripts y trece tablas CSV aportadas; controles pequeños ejecutados localmente |
+
+La integración corrige normalizaciones, explicita hipótesis y añade pruebas reproducibles. La identidad $K=\Gamma C^\dagger C$ exige productos internos declarados; estabilidad oscilatoria y periodicidad exacta se distinguen; la clasificación aritmética atribuye el teorema clásico de divisores primitivos. Las condiciones globales no se presentan como soluciones de Yang–Mills o P vs NP.
+
+Las tablas del parche se conservan sin modificar sus valores. Su reproducción completa de producción se distingue de los controles ejecutados en esta edición. La precisión, la resolución y el significado de las estadísticas se documentan en la nota del presupuesto.
+
+El historial de exploración y las auditorías de rutas permanecen internos. La exposición pública conserva las condiciones necesarias para interpretar justamente cada resultado.
+
 La exposición principal sigue los resultados y sus preguntas de revisión. Cada nota matemática es autosuficiente para comprobar el argumento que presenta. Los originales y los registros de trabajo se conservan en el archivo local del autor; la distribución pública se genera a partir de una selección explícita de archivos.
 
 En la forma hermítica compleja se explicita la conjugación: $B(fg,h)=B(f,\overline g h)$. La composición retiene las variables que usarán factores posteriores. La acreditación computacional se formula con certificados disponibles y verificables. Se distingue la capacidad de cuatro bits del índice de profundidad de una construcción.
@@ -37,3 +58,19 @@ FAFB5AA4604554E31CCCDC442590A70FD73E1804BC2BE8E9D316A17CBF13B6CC  control_gaussi
 2D6032A28B38B523E720CBFF48CCEDE738CF24BD46E273BA71E451987D25564A  relational_geometry_program_public_v2_0_0.zip
 DFD773F972D44695504F6EE21742201ACB0B51D0A7F5BE869332E6165F3E7BC6  relational_geometry_program_public_v2_0_0_EN.zip
 ```
+
+SHA-256 de las once fuentes distintas de la ampliación. Los códigos se conservan aquí sólo como referencias de procedencia; los archivos públicos tienen nombres descriptivos.
+
+| Referencia de fuente | SHA-256 |
+|---|---|
+| Ontología v0.3 (las dos copias aportadas coinciden) | 1CF85778D78844FDD69CC92D2573DA70F3B7F23224DD5DFDFA9AC39139941F43 |
+| MF44B | A077BAFC51F008522A6B37203A600D47FB62706C9FBFD8F652BA78BE36B7FEFC |
+| MF65 | 535BDB8938A6FCBDC4B0BCE3B354FB7D04F9E23A1A863589B5DACC40DC98718E |
+| MF66 | B6FC259AE4582B7ECD48263E51C3F6A8B5438188BE9914AE57B89206527B9F40 |
+| MF67 | 58941E0D14854C6BA633A618D3541CF4C59C985CE7115C0B126824775CFFAA83 |
+| MF69 | DD8BFEC2B3006186EA7D1A51A6184A59C3317E47245E12ED1F7F6B6290C36AEC |
+| MF70 | C6A749D3ABB9DCC758F2629D8D6292907D090067A6E58976294A63D35B332B6C |
+| MF71 | 3B41A76FBAEA76B63DA81EC8D871594A609C227881A0066D0D1D166EA0E545DB |
+| MF72 | AA2DBC2C97F43ADC9E191702B9AC4A03ED5AE7E7B1B9BDB3F1CEADA39A05091A |
+| MF73 | EB1224BD048062F5F2406394F9548A01E8148617054CC44C50DD584756B69140 |
+| Parche de presupuesto Navier–Stokes | 704A5F7C17AB679C44C908B001221259042006A7B4E6109EB3BE6FF9894CDF29 |

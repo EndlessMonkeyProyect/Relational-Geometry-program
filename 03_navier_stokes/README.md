@@ -35,6 +35,8 @@ The homogeneous term $-b$ relaxes transverse change per unit logarithmic growth,
 - **Reproducible model:** the restricted Euler computation tests the growth-coordinate law in a local pressure closure and records the approach to small turning relative to growth.
 - **Turbulence diagnostics:** selected bundled JHTDB states combine high vorticity with small material turning. Their numerical sensitivity is documented in the manuscript and status table.
 
-The next decisive review is an independently computed vorticity PDE budget: measure the strain, viscous, and forcing contributions separately, close their sum, and quantify derivative sensitivity. The current reconstructed residual depends algebraically on $b$ and strain; independent spatial derivatives are needed to establish physical cancellation.
+- **Instantaneous budget in resolved DNS:** the strain, viscous, forcing and pressure contributions are computed separately, closed against the evolving flow and audited for resolution. Low turning at high vorticity is mainly a strain–viscous compensation, and the projected pressure Hessian sustains turning against viscosity, at $Re_\lambda\approx38$–$53$ ([budget note](docs/instantaneous_budget.md)).
 
-Read the [manuscript](manuscript.md), [evidence status](STATUS.md), [benchmark guide](docs/benchmarks.md), and [data provenance](data/README.md). For focused review across the program, see [REVIEW](../REVIEW.md).
+The next review is to reproduce the production budget, measure precision sensitivity and extend it to higher Reynolds number with observable-specific convergence tests and Lagrangian episodes.
+
+Read the [manuscript](manuscript.md), [evidence status](STATUS.md), [benchmark guide](docs/benchmarks.md), [instantaneous budget](docs/instantaneous_budget.md), and [data provenance](data/README.md). For focused review across the program, see [REVIEW](../REVIEW.md).

@@ -4,6 +4,8 @@ El Programa de Geometría Relacional estudia cómo una diferencia llega a conver
 
 La idea organizadora es sencilla: una descripción es suficiente respecto de las preguntas que permite responder. Cuando aparece una comparación que esa descripción no puede resolver, la representación debe refinarse. El programa estudia qué se conserva, qué se añade y cuál es la extensión mínima necesaria.
 
+La [ontología de la diferencia, el cierre y la incorporación](../01_foundations/ontology_of_difference_and_closure.es.md) desarrolla ese hilo y es la entrada principal de esta edición. Incorpora una pregunta adicional: una vez registrada una novedad, ¿cómo responde a ella la arquitectura y qué condiciones permiten sostener una recurrencia común?
+
 ## Lo que ya permite hacer
 
 El núcleo define las **cápsulas** como clases de estados indistinguibles bajo un contrato de preguntas y contextos. Esto convierte el cierre en un objeto operacional. Dos interiores pueden ser diferentes y compartir la misma interfaz si responden igual a todas las preguntas del contrato. Una nueva comparación es informativa cuando separa al menos una de esas clases.
@@ -16,9 +18,15 @@ La composición de cápsulas añade una herramienta complementaria. Cuando dos r
 
 ## Por qué merece revisión
 
+La actualización añade una cadena concreta entre relaciones y dinámica. En el sector escalar lineal, unos axiomas locales fuerzan un comparador de diferencias ponderadas y su Laplaciano asociado. Sus bloques permiten calcular la mezcla entre herencia y novedad. Los modos estables admiten coordenadas canónicas rotatorias y un invariante de acción. Las razones de escala, expresadas mediante logaritmos, tienen un criterio exacto de compatibilidad en ciclos.
+
+La realización aritmética separa factores heredados de factores primitivos y amplía los primeros ejemplos a una clasificación completa apoyada en teoría clásica. Estos desarrollos ofrecen objetos específicos para contrastar la ontología, con sus mapas dinámicos y físicos declarados.
+
 El programa reúne conceptos amplios alrededor de obligaciones verificables. Una afirmación sobre información se traduce en una partición o factorización; una afirmación sobre geometría se traduce en operadores e invariantes; una afirmación sobre composición se traduce en relaciones y eliminación de variables. Ese paso de lenguaje conceptual a objetos explícitos permite discutir la propuesta en puntos concretos.
 
 Los laboratorios aportan vías de contraste. En Navier–Stokes, la descomposición material distingue crecimiento de magnitud y giro de la vorticidad, y su ley en coordenadas de crecimiento identifica los términos dinámicos que sostienen el cambio transversal. En Yang–Mills, un observable del conmutador de holonomías da una cantidad gauge-invariante que puede examinarse algebraica y numéricamente. En computación, las cápsulas permiten estudiar representación, certificados y composición de restricciones.
+
+El laboratorio de fluidos incorpora ahora un presupuesto presión–viscosidad–forzamiento con tablas de DNS aportadas por el autor y pruebas pequeñas de cierre y resolución que pueden repetirse. La documentación distingue esas pruebas de la regeneración completa de las simulaciones.
 
 La amplitud del programa está en estas conexiones y en una agenda de trabajo compartida. El respaldo de cada resultado se encuentra en su propia demostración o cálculo. Una revisión útil puede determinar tanto la validez de un paso como su relación con métodos existentes, su utilidad y las condiciones para ampliarlo.
 

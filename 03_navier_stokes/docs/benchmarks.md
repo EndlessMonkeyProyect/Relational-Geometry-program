@@ -18,6 +18,6 @@ Scope: numerical evidence for the restricted Euler model. Review centers on repr
 
 Purpose: measure the terms sustaining transverse change in full viscous dynamics and test resolution and stencil sensitivity.
 
-Scope: the bundled selected states document high vorticity with small estimated material turning, along with method-dependent values. The decisive next computation is an independently evaluated strain, viscous, and forcing budget; reconstructed residuals alone cannot establish a physical cancellation mechanism.
+Scope: the bundled JHTDB states document high vorticity with small estimated material turning, along with method-dependent values. The [instantaneous budget](instantaneous_budget.md) evaluates the strain, viscous, forcing and pressure terms independently in resolved spectral DNS, closes them against the evolving flow, and audits resolution; reconstructed residuals are no longer needed for the cancellation question at those parameters.
 
 The [manuscript](../manuscript.md) gives the derivations and quantitative sensitivity audit. The [status table](../STATUS.md) identifies the evidence available for each result and the measurements needed next.

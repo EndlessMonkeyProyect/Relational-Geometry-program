@@ -30,9 +30,9 @@ EXCLUDED_NAMES = {
     "internal", "_internal", ".internal", "np", "np.rar", "dist", ".git",
     "archive", "history", "07_history", "no_go_register.md", "__pycache__",
     ".pytest_cache", ".mypy_cache", ".ruff_cache", ".tox", ".venv", "venv",
-    "node_modules", ".ds_store",
+    "node_modules", ".ds_store", "runs", "refined",
 }
-EXCLUDED_SUFFIXES = {".zip", ".rar", ".7z", ".pyc", ".pyo", ".tmp", ".bak"}
+EXCLUDED_SUFFIXES = {".zip", ".rar", ".7z", ".pyc", ".pyo", ".tmp", ".bak", ".npz"}
 MANIFEST_NAME = "MANIFEST.json"
 
 

@@ -1,6 +1,6 @@
 # Dependency graph
 
-The repository adopts these dependency constraints:
+The [ontology](../01_foundations/ontology_of_difference_and_closure.es.md) organizes the following dependency constraints:
 
 - **Difference before cardinality.** Counting requires already distinguishable records.
 - **Complement before orthogonality.** A residue/complement can exist before an inner product.
@@ -9,3 +9,7 @@ The repository adopts these dependency constraints:
 - **Formal scale before physical radius.** $R_i=\lambda_i^{-1/2}$ is spectral unless an independent physical map is derived.
 - **Relative rate before a chosen clock.** Rate ratios are dimensionless; duration requires a reference process.
 - **Correspondence before physical identity.** Similar algebra does not establish that two systems are the same object.
+- **Architecture before response.** Graph relations plus linear local axioms determine weighted incidence; inner products, weights and the dynamical scale remain explicit inputs.
+- **Representation before incorporation.** Refining a signature adds a representational sector; a declared operator determines whether it mixes and which rhythms it supports.
+- **Interpolation before orbit area.** Circular and polygonal interpolation define different areas for the same sampled orbit.
+- **Quantitative control before global conclusion.** Coercivity requires constants; constructive descent requires a bound on chain length and per-step resources.

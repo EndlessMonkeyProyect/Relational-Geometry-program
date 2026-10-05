@@ -2,8 +2,9 @@ cff-version: 1.2.0
 message: "Please cite the version and the specific result used."
 title: "Relational Geometry Program: Information, Phase, Composition, and Physical Laboratories"
 type: software
+repository-code: "https://github.com/EndlessMonkeyProyect/Relational-Geometry-program"
 authors:
   - name: "Le Matt Ansatz Di Ego"
-version: "2.1.0-review"
-date-released: "2026-10-03"
+version: "2.2.0-review"
+date-released: "2026-10-05"
 license: "NOASSERTION"
