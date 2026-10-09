@@ -6,7 +6,7 @@ Las contribuciones pueden ampliar una demostración, mejorar una explicación, r
 
 ## Preparar un aporte
 
-1. Elija un punto **R1–R7** de [REVIEW](REVIEW.md) e identifique el archivo y la sección afectados. Puede abrir un Issue para presentar el trabajo o entregar directamente un cambio pequeño mediante pull request.
+1. Elija un punto **R1–R13**, o una obligación de la auditoría canónica, de [REVIEW](REVIEW.md) e identifique el archivo y la sección afectados. Puede abrir un Issue para presentar el trabajo o entregar directamente un cambio pequeño mediante pull request.
 2. Explique qué aporta el resultado: qué permite calcular, distinguir, componer o medir. Declare las hipótesis junto al enunciado y conecte la conclusión con la evidencia disponible.
 3. Incluya el desarrollo suficiente para revisarlo. Una demostración identifica su dominio y sus casos límite; un experimento registra entradas, parámetros, método y procedencia de datos; una implementación declara su contrato y el costo que evalúa.
 4. Resuma el resultado obtenido y la siguiente pregunta que habilita. Cite las fuentes utilizadas y preserve la atribución de las contribuciones anteriores.
@@ -43,3 +43,7 @@ python tools/public_release.py
 ```
 
 El primer comando actualiza `MANIFEST.json` y genera `dist/relational_geometry_program_public.zip` a partir de la selección pública. El segundo comprueba que el manifiesto y los enlaces corresponden a los archivos actuales. La generación del ZIP produce un artefacto local; su publicación se realiza como una acción posterior de mantenimiento.
+
+## Mantenimiento canónico
+
+Aplicar [STATUS_CANONICAL](STATUS_CANONICAL.md) y la [leyenda](00_orientation/EPISTEMIC_LEGEND.md). La presentación pública desarrolla los aportes junto con sus hipótesis, evidencia y cuestiones abiertas. El registro NO-GO, el archivo histórico y las auditorías de desarrollo se conservan en el área interna, excluidos tanto del paquete como de los nuevos commits publicados. Publicar requiere una solicitud explícita.

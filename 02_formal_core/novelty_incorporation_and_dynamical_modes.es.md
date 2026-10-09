@@ -17,7 +17,7 @@ $$\boxed{d\text{ no factoriza por }\Phi\iff N\ne0}.$$
 
 Prueba: si $d$ factoriza, las particiones y sus espacios de funciones coinciden. Si divide una fibra, el indicador de una nueva clase pertenece a $H^+$ pero no a $H$; su proyección ortogonal residual es no nula. La positividad de los pesos impide que esa distinción desaparezca en norma.
 
-La dimensión añadida es el incremento del número de clases realizables. La [nota de información](closure_information.es.md) desarrolla el criterio sin requerir dinámica.
+[DERIVADO] La dimensión añadida al espacio de funciones es el incremento del número de clases realizables. [DEFINICIÓN] Una coordenada independiente del dominio exige además imagen producto completa; ese requisito no se sigue del incremento representacional. La [nota de información](closure_information.es.md) desarrolla el criterio sin requerir dinámica.
 
 ## 2. Operador de respuesta
 

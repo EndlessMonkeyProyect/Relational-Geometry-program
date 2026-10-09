@@ -51,3 +51,7 @@ El control muestra cómo verificar tres requisitos de realización en un univers
 La contribución reúne estructura de fase, accesibilidad, capacidad de identificación y medida en una cadena explícita. La revisión puede comprobar la demostración, comparar su formulación con construcciones existentes y estudiar dominios donde las acciones independientes tengan significado operacional.
 
 Procedencia: edición pública fuente 2.0.0, secciones de cierre de segundo orden, medida e implementación de fases; *Núcleo integrado*, §§18–23. Esta edición explicita la conjugación en la compatibilidad hermítica. [Revisión R3](../REVIEW.md).
+
+## Límite generativo y físico
+
+[CONDICIONAL] El producto completo se supone o se acredita mediante acciones independientes en un dominio. Codificar sus 16 estados en cuatro bits no deriva cuatro discriminantes del núcleo ontológico. **$b=4$ permanece abierto.** [PUENTE FÍSICO] Seleccionar $q=4$ exige un mapa independiente del orden $o_J=4$ y del peso formal $1/16$. Véase [notación y requisito binario](binary_refinement.md).

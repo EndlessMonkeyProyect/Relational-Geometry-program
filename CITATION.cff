@@ -5,6 +5,6 @@ type: software
 repository-code: "https://github.com/EndlessMonkeyProyect/Relational-Geometry-program"
 authors:
   - name: "Le Matt Ansatz Di Ego"
-version: "2.2.0-review"
-date-released: "2026-10-05"
+version: "3.0.0-review"
+date-released: "2026-10-09"
 license: "NOASSERTION"

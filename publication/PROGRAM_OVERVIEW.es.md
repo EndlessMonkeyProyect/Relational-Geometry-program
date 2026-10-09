@@ -1,39 +1,21 @@
-# Una arquitectura relacional de información y geometría
+# Cierre, resolución y composición: presentación del programa
 
-El Programa de Geometría Relacional estudia cómo una diferencia llega a convertirse en información utilizable, cómo esa información sostiene una identidad y cómo varias identidades pueden componerse conservando lo relevante. Busca que términos como dimensión, cierre, escala y tiempo tengan una función explícita dentro de esa construcción.
+**Le Matt Ansatz Di Ego · v3.0.0-review**
 
-La idea organizadora es sencilla: una descripción es suficiente respecto de las preguntas que permite responder. Cuando aparece una comparación que esa descripción no puede resolver, la representación debe refinarse. El programa estudia qué se conserva, qué se añade y cuál es la extensión mínima necesaria.
+El Programa de Geometría Relacional estudia qué información debe conservar un sistema para seguir siendo reconocible y componerse con otros. Una descripción suficiente conserva respuestas; un recierre reutiliza esa descripción bajo operaciones compatibles; una representación efectiva permite además preguntar cuánto cuesta construirla, actualizarla y consultarla.
 
-La [ontología de la diferencia, el cierre y la incorporación](../01_foundations/ontology_of_difference_and_closure.es.md) desarrolla ese hilo y es la entrada principal de esta edición. Incorpora una pregunta adicional: una vez registrada una novedad, ¿cómo responde a ella la arquitectura y qué condiciones permiten sostener una recurrencia común?
+La [ontología](../01_foundations/ontology_of_difference_and_closure.es.md) organiza el recorrido. El [lenguaje canónico](../01_foundations/canonical_relational_language.es.md) conecta sus términos con objetos revisables y mantiene explícitas las correspondencias físicas.
 
-## Lo que ya permite hacer
+## Qué conecta la v3
 
-El núcleo define las **cápsulas** como clases de estados indistinguibles bajo un contrato de preguntas y contextos. Esto convierte el cierre en un objeto operacional. Dos interiores pueden ser diferentes y compartir la misma interfaz si responden igual a todas las preguntas del contrato. Una nueva comparación es informativa cuando separa al menos una de esas clases.
+La [resolución respecto de una referencia](../02_formal_core/resolution_and_modal_weights.es.md) reúne proyección, autocoincidencia, diferencias de grafos y composición independiente. En el contrato declarado, $r_{\rm ref}=2^{-\mathcal R}$ establece una relación exacta entre resolución y peso.
 
-En una realización lineal con producto interno, una comparación orientada antisimétrica que conserva la norma determina una estructura concreta: $J^2=-I$, un plano mínimo generado por una novedad y su imagen, y una órbita de cuatro fases. El interés es la conexión explícita entre condiciones de comparación y estructura geométrica. La selección de esas condiciones por un sistema físico es una pregunta adicional identificable.
+Los [espines](spin_composition_and_relational_information.es.md) ofrecen ejemplos calculables de suficiencia para una pregunta, reutilización frente a continuaciones y estructura en correlaciones. La [rama computacional](../05_computation/contextual_sat_and_representation_cost.es.md) caracteriza la economía del cociente SAT y el costo de un esquema explícito de tablas.
 
-El desarrollo de segundo orden construye dos coordenadas de fase independientes. Sus dieciséis firmas forman $\mathbb Z_4\times\mathbb Z_4$. Una medida normalizada, local e invariante bajo los dos avances de fase asigna $1/16$ a cada firma: una firma y su complemento tienen razón $1:15$. El resultado establece una estructura de representación, su capacidad de identificación y una medida determinada por simetría. Su traducción a tasas y longitudes se desarrolla como un puente físico con supuestos propios.
+Comparadores, acción, dinámica de cocientes y estimaciones uniformes completan el núcleo. Los laboratorios de química, crecimiento, fluidos y gauge permiten contrastar implementaciones y representaciones con sus propios protocolos.
 
-La composición de cápsulas añade una herramienta complementaria. Cuando dos relaciones comparten una frontera, se pueden unir sus condiciones y eliminar las variables interiores conservando exactamente las posibilidades de la frontera exterior. El teorema da una semántica precisa a la idea de que un cierre puede actuar como unidad de una construcción posterior. En computación, permite formular por separado la corrección de la composición y el costo de representarla.
+## Reconocer cada aporte por su alcance
 
-## Por qué merece revisión
+Una demostración matemática acredita su enunciado bajo hipótesis. Una realización en mecánica cuántica estándar muestra cómo funciona una interfaz concreta. Una hipótesis sobre radio o gravedad exige un mapa a observables y un contraste independiente. Cada nivel tiene valor y una pregunta de revisión propia.
 
-La actualización añade una cadena concreta entre relaciones y dinámica. En el sector escalar lineal, unos axiomas locales fuerzan un comparador de diferencias ponderadas y su Laplaciano asociado. Sus bloques permiten calcular la mezcla entre herencia y novedad. Los modos estables admiten coordenadas canónicas rotatorias y un invariante de acción. Las razones de escala, expresadas mediante logaritmos, tienen un criterio exacto de compatibilidad en ciclos.
-
-La realización aritmética separa factores heredados de factores primitivos y amplía los primeros ejemplos a una clasificación completa apoyada en teoría clásica. Estos desarrollos ofrecen objetos específicos para contrastar la ontología, con sus mapas dinámicos y físicos declarados.
-
-El programa reúne conceptos amplios alrededor de obligaciones verificables. Una afirmación sobre información se traduce en una partición o factorización; una afirmación sobre geometría se traduce en operadores e invariantes; una afirmación sobre composición se traduce en relaciones y eliminación de variables. Ese paso de lenguaje conceptual a objetos explícitos permite discutir la propuesta en puntos concretos.
-
-Los laboratorios aportan vías de contraste. En Navier–Stokes, la descomposición material distingue crecimiento de magnitud y giro de la vorticidad, y su ley en coordenadas de crecimiento identifica los términos dinámicos que sostienen el cambio transversal. En Yang–Mills, un observable del conmutador de holonomías da una cantidad gauge-invariante que puede examinarse algebraica y numéricamente. En computación, las cápsulas permiten estudiar representación, certificados y composición de restricciones.
-
-El laboratorio de fluidos incorpora ahora un presupuesto presión–viscosidad–forzamiento con tablas de DNS aportadas por el autor y pruebas pequeñas de cierre y resolución que pueden repetirse. La documentación distingue esas pruebas de la regeneración completa de las simulaciones.
-
-La amplitud del programa está en estas conexiones y en una agenda de trabajo compartida. El respaldo de cada resultado se encuentra en su propia demostración o cálculo. Una revisión útil puede determinar tanto la validez de un paso como su relación con métodos existentes, su utilidad y las condiciones para ampliarlo.
-
-## La revisión que buscamos
-
-Hay entradas para especialistas en álgebra y geometría, teoría de la información, complejidad computacional, dinámica de fluidos y teoría gauge. También es valiosa una revisión conceptual que evalúe si las definiciones hacen trabajo explicativo y si los mapas entre niveles están suficientemente especificados.
-
-Las preguntas prioritarias son: qué comparaciones selecciona una dinámica; cómo una estructura relacional adquiere una medida física independiente; qué costo tienen las representaciones composicionales; y qué observables distinguen las propuestas físicas de otras explicaciones. La [guía de revisión](../REVIEW.md) identifica objetos, preguntas y entregables para cada especialidad.
-
-Para entrar en detalle: [núcleo integrado](relational_geometry_core.es.md), [resultados](../04_results/RESULTS_REGISTER.md) y [objetivos físicos](physical_bridges.es.md).
+La [v3](UPDATE_3_0.md) presenta estas conexiones con pruebas, código y procedencia. La [revisión está abierta](../REVIEW.md): verificar un resultado, reproducir un control o construir una extensión son contribuciones identificables y atribuibles.

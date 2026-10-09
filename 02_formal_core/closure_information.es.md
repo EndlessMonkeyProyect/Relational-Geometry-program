@@ -37,3 +37,20 @@ La igualdad de interfaces caracteriza la indistinguibilidad cuando la familia de
 El resultado es un criterio semántico exacto. Una implementación especifica cómo representa las firmas y qué certificados o cálculos permiten decidir la factorización. Ese costo constituye una pregunta propia de la [rama computacional](../05_computation/README.md).
 
 Procedencia: *Núcleo integrado del Programa de Geometría Relacional*, §§7–10; *Hilo canónico de cierre, localidad y escala relacional*, secciones de firmas y fronteras; edición pública fuente 2.0.0. [Revisión R1](../REVIEW.md).
+
+## Identidad, novedad y dimensión independiente
+
+[DEFINICIÓN] La firma $\Phi$ es una interfaz de identidad: sus fibras son clases de solución del contrato. Llamar «cierre suficiente» a este cociente es terminología semántica; acreditar su reutilización requiere testigos separados. El [estado canónico](../STATUS_CANONICAL.md) fija esa distinción.
+
+[DEFINICIÓN] Para una interfaz $I:U\to K$, se entiende la factorización mediante $f:\operatorname{Im}I\to\operatorname{Im}d$. Así, sin suponer valores en fibras vacías,
+
+$$d\ne f\circ I\ \text{para todo }f
+\iff \exists x,y:\ I(x)=I(y),\ d(x)\ne d(y).$$
+
+[DERIVADO] Esto refina la partición; no obliga a que todas las respuestas de $d$ coexistan con todas las identidades previas. [DEFINICIÓN] La independencia combinatoria exige
+
+$$\operatorname{Im}(I,d)=\operatorname{Im}(I)\times\operatorname{Im}(d).$$
+
+[CONDICIONAL] Para una coordenada independiente se exige la imagen producto completa; el refinamiento sólo exige dividir alguna fibra. Independencia combinatoria, métrica e independencia probabilística son nociones distintas: las dos últimas requieren declarar estructura y medida.
+
+El orden usado en $\Pi\vee\Pi(d)$ es «menos información $\preceq$ más información»: el join es refinamiento común. Véanse [join](common_reference_join.md) y [refinamiento binario](binary_refinement.md).

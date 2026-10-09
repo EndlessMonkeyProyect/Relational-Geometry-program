@@ -20,5 +20,28 @@ Each question starts from an available result and names the next advance.
 | Novelty subspace and coupling block | Construct the relevant operator and prove either spectral novelty or a controlled coupled realization | R8 |
 | Canonical action and uniform signature content | Construct a non-arbitrary map from content to action with a declared physical scale | R9 |
 | Primitive-factor classification | Extend the arithmetic realization while specifying its relation to informative refinement | R10 |
+| Contextual quotient and channel classification | Choose contracts independently and construct nontrivial compositional promotion in a target domain | R11 |
+| Exact quotient dynamics | Extend to nonlinear or approximate closure with quantified memory and visible-action error | R11 |
+| Reconstructed chemical benchmark | Document each energy source and test representation utility with independent or nested validation | R12 |
+| Paired growth analysis | Predeclare equivalence tolerances and compare descriptors with retained microscopic memory | R13 |
 
 See [REVIEW.md](../REVIEW.md) for the object, expertise and useful deliverable for each route.
+
+## Canonical obligations — October 2026
+
+All rows below are [ABIERTO], governed by [STATUS_CANONICAL](../STATUS_CANONICAL.md).
+
+| Obligation | Required evidence |
+|---|---|
+| Four generative independent bits | Explicit discriminants and accredited witnesses for all 16 joint values; a relabelling of an assumed product is insufficient |
+| Join and accreditation | Specify the order, prove least upper bound, supply admissible witnesses and control their total cost |
+| Proton A/B | Select the physical mode and $q$ independently; construct electromagnetic response before comparison with charge radius |
+| Action scale | Supply an independent amplitude/content map; phase closure alone cannot derive $\hbar$ |
+| Gravity | Candidate equations, weak-field map, Newton/GR comparison and separately fixed falsifiable predictions |
+| Yang–Mills | Coercivity, physical comparison, scale control, continuum and mass gap |
+| Navier–Stokes | Multiscale lemma and conversion to $\varepsilon$-regularity; independent production reproduction |
+| P vs NP | Uniform certificate construction, coupling costs, polynomial bounds and automatizability |
+| Chemistry / ROSI | Baselines for group, electronic counts, $Z$, occupations; held-out evaluation and explicit search budgets |
+| Diophantine closure | Locate a source definition and reproducible protocol for $\kappa_\varepsilon$ before claiming a result |
+
+Each extension requires a proof or an independently specified protocol in its declared domain. Review routes are listed in [REVIEW.md](../REVIEW.md).

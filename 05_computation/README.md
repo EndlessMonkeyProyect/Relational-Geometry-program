@@ -96,3 +96,13 @@ Buscamos revisión en composición relacional, compilación de conocimiento, alg
 Para entregar observaciones o proponer una colaboración, véase [Revisión del programa](../REVIEW.md).
 
 Procedencia: *MF-63B — Recierre acreditado de compatibilidad*, §§2–5, 7–9, 12–15; *Programa Relacional — Rama P vs NP*, §§5–12 y 16–27. Estas notas públicas reúnen y precisan el contenido de esas fuentes; no representan una certificación externa.
+
+## PSR acreditado, costos y límites
+
+[DEFINICIÓN] Determinación semántica significa que la consulta tiene respuesta bajo el contrato; acreditación significa disponer de un testigo aceptado. El residuo de acreditación reúne obligaciones aún sin certificado. Una consecuencia semántica sin certificado no se reclasifica como independencia.
+
+[DEFINICIÓN] $PSR^{acr}$ separa existencia de una arquitectura derivable con costo acotado y construcción de esa arquitectura. El costo de acoplamiento registra el trabajo de compatibilidad conjunta que no está resuelto por cápsulas aisladas. Véase [testigos y costo](../02_formal_core/accreditation_witness_cost.md).
+
+[CONDICIONAL] Una realización eficiente requiere construir y mantener interfaces suficientes, escoger continuaciones y ejecutar consultas con costos uniformes. La compatibilidad global se verifica para la conjunción completa; los criterios locales deben justificar su suficiencia. El [recierre contextual y sus recursos](../02_formal_core/contextual_reclosure_and_resource_cost.es.md) precisa esas obligaciones.
+
+[ABIERTO] No se afirma $P=NP$. Hace falta acreditar una política uniforme, costos de todas las operaciones y cotas globales. [ROSI](ROSI.md) organiza auditoría y falsación; no sustituye esas pruebas.

@@ -1,8 +1,8 @@
 {
   "manifest_version": 1,
-  "release": "2.2.0-review",
-  "date": "2026-10-05",
-  "file_count": 90,
+  "release": "3.0.0-review",
+  "date": "2026-10-09",
+  "file_count": 135,
   "counting_rule": "Public files excluding MANIFEST.json (included separately in ZIP).",
   "files": [
     {
@@ -17,53 +17,68 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "8ba1c01378d6434a10d84fd2fd4a199532a04c8c8a678b818bf1f563c73c2e89",
-      "bytes": 333
+      "sha256": "ded865e77761c2cf5f6b635fe9444b9bef0276361db53129080936ad15e18d10",
+      "bytes": 410
     },
     {
       "path": "00_orientation/CONCEPT_MAP.md",
-      "sha256": "c7a8bacf105971242d9db101fbe52d21cf8fa0d5a7fcd2bc0508460cca5a06ab",
-      "bytes": 1780
+      "sha256": "54cea7dd5a96be1467ce734d603a060a159359fa9a5bcb4e4df0a1e6e12c9dd5",
+      "bytes": 2335
     },
     {
       "path": "00_orientation/DEPENDENCY_GRAPH.md",
-      "sha256": "07eccd708f52c8f00b07263c5b02bd2be8f80d42e4291a697a5da85460af9eed",
-      "bytes": 1552
+      "sha256": "b02d564f54cab55affea03023d005e56914198aa5ff6de65d2c04aa71d7f896b",
+      "bytes": 2779
     },
     {
       "path": "00_orientation/EPISTEMIC_LEGEND.md",
-      "sha256": "7dd239aa887934e122e52d6cfc7581529598c97a0e6cbcf9a89494475ac6f2ed",
-      "bytes": 1669
+      "sha256": "83aacf810afd278c3facfca91c1db5a8ffaebf4127907d3e335b284c736788a4",
+      "bytes": 1985
     },
     {
       "path": "00_orientation/START_HERE.md",
-      "sha256": "ec546886d2e41a0708780e63c089ac33ccddc509c335d970d0b75bba8e15e83e",
-      "bytes": 1870
+      "sha256": "fd24daf94437ac08caca90fb01d22381a0d9b84eedaa0fbbc5d382b9e45e8d9c",
+      "bytes": 1093
+    },
+    {
+      "path": "01_foundations/canonical_relational_language.es.md",
+      "sha256": "5a454a58e75a821d5287e3cb6f181e4c73700e768f312c3f985d1e717d493570",
+      "bytes": 7291
     },
     {
       "path": "01_foundations/closure_identity.es.md",
-      "sha256": "ede9739f9a29710faa46dfef2538f39607ee9a871daf59d2ac1002659aef3faf",
-      "bytes": 1196
+      "sha256": "5ce978b524b0994a22d53ebf47f9510efca6c03f7ad2d85b50e5cdfffd42dd67",
+      "bytes": 2025
     },
     {
       "path": "01_foundations/generative_core.es.md",
-      "sha256": "e7c6416bc55ffd64690167addb744ec6c90cecdc5bfaf59785007f7dc9f58515",
-      "bytes": 2149
+      "sha256": "eeb07f071266fae8b1df13aae1b63c3fb5d3eae1e30871e79437ba07bc12915c",
+      "bytes": 2147
     },
     {
       "path": "01_foundations/ontology_of_difference_and_closure.es.md",
-      "sha256": "c69a87fc5b5fede4aa40e251dc5fe2decc551b7b640339df20c174b587acc6cb",
-      "bytes": 9894
+      "sha256": "8736c8b1f70ca51ee5fc5c896990756c1ce108ecb45d023082a9a58a22fc6c55",
+      "bytes": 6549
     },
     {
       "path": "01_foundations/order_four_and_pi.es.md",
-      "sha256": "b3f694382da451995c6d8446cc6169d7483a5486d1ffe82e3eb8efa51091c0a8",
-      "bytes": 1983
+      "sha256": "5fa4c1eb582689764c59482b5fc4f6f54f77b71e0b7332202dd7ec3952ba4a92",
+      "bytes": 2185
     },
     {
       "path": "01_foundations/scale_rate_time.es.md",
       "sha256": "f56b4f57df7bfcdde0780259d6a7fcce7495e012b43f442fdceaf3f2916308b4",
       "bytes": 1537
+    },
+    {
+      "path": "02_formal_core/accreditation_witness_cost.md",
+      "sha256": "36f324c8659d4796796e696f156a0240bde7013238878a938cc8c41be66d6fcf",
+      "bytes": 2743
+    },
+    {
+      "path": "02_formal_core/binary_refinement.md",
+      "sha256": "2569e20443430158c4b622775b07d22745d163a043a636680ef99ad22d5d8380",
+      "bytes": 2271
     },
     {
       "path": "02_formal_core/causal_propagation_and_closure_resources.es.md",
@@ -72,8 +87,18 @@
     },
     {
       "path": "02_formal_core/closure_information.es.md",
-      "sha256": "0627406536b76fbf745f6fa9258bd3fc777475e3a10d04f5b49c91152ee2966e",
-      "bytes": 3180
+      "sha256": "384904f8b11f5a1cb663337c22d3ee398a3618340d1da64aa15be715a7fc762b",
+      "bytes": 4549
+    },
+    {
+      "path": "02_formal_core/collective_dynamics_on_quotients.es.md",
+      "sha256": "824b74cf0a47ca312c490f2448484e4ab6e7e63dfc5dd6a8fd91337f6e8c08bf",
+      "bytes": 8918
+    },
+    {
+      "path": "02_formal_core/common_reference_join.md",
+      "sha256": "e2c515536893539570442b0cd42591f60145a88b825bc5eed632f7f9b2b79d24",
+      "bytes": 1973
     },
     {
       "path": "02_formal_core/comparator_and_residue.md",
@@ -86,9 +111,24 @@
       "bytes": 7386
     },
     {
+      "path": "02_formal_core/contextual_identity_and_scale_promotion.es.md",
+      "sha256": "fa601abe32263bc7e527904acb328683b36a9e54865ff6bb946dd764f0db2901",
+      "bytes": 8611
+    },
+    {
+      "path": "02_formal_core/contextual_reclosure_and_resource_cost.es.md",
+      "sha256": "b6e94d45d3ac98514aa2e225c075b5a2dd9d61fca74dcd4e6babb0a2f5e2b390",
+      "bytes": 13948
+    },
+    {
+      "path": "02_formal_core/finite_comparison_contract_and_modal_weights.es.md",
+      "sha256": "82989e9992ef83c88ba8e76208d3521f0e7a618f6ba7625de507e78eecd273f2",
+      "bytes": 10716
+    },
+    {
       "path": "02_formal_core/harmonic_inheritance_and_novelty.es.md",
-      "sha256": "8d60f90646066598e88d89fb9ea15814981f3e2c7120154515cbd5d7a38c002e",
-      "bytes": 4599
+      "sha256": "9647044e9388b8ebe5c30cbac5b71fb29382ebb58c917ccfda2d75c9ae068296",
+      "bytes": 5125
     },
     {
       "path": "02_formal_core/local_comparators_and_relational_laplacian.es.md",
@@ -102,8 +142,8 @@
     },
     {
       "path": "02_formal_core/novelty_incorporation_and_dynamical_modes.es.md",
-      "sha256": "424cbe0e7c76d6f47ed58e5f4419fc97007afb171c25abff22310e35c6144798",
-      "bytes": 5486
+      "sha256": "e6e6eb1617ec83423e9ae1913095cb4a54e28853c04cd138eabef73c8a1f81a1",
+      "bytes": 5675
     },
     {
       "path": "02_formal_core/order_four_operator.md",
@@ -112,8 +152,13 @@
     },
     {
       "path": "02_formal_core/phase_measure.es.md",
-      "sha256": "17a940cb0d7d7d839d3e1e2673d3f642620cb6294b682f1087a5ad1e490e62f8",
-      "bytes": 3470
+      "sha256": "c286fd1ab75230699bd54dc0417bf839e9fb9223ecb299246cb90d7841ebb65a",
+      "bytes": 3906
+    },
+    {
+      "path": "02_formal_core/redistributive_closure_and_information_channels.es.md",
+      "sha256": "5c25caab1dd8538ce0375afc5b8ff0d434a1b10973ea5eb7f007f7100f395836",
+      "bytes": 6667
     },
     {
       "path": "02_formal_core/reflexive_extension.es.md",
@@ -122,8 +167,18 @@
     },
     {
       "path": "02_formal_core/relational_action_and_phase.es.md",
-      "sha256": "1e47d0dedacb46ca410e5b3c480e232206e5b7e287894eb27481356e79f387c1",
-      "bytes": 4990
+      "sha256": "f636fca73d8761add78620a94ac181555cc8a5f01bed876e835326b7ad5a9c7b",
+      "bytes": 5308
+    },
+    {
+      "path": "02_formal_core/relative_closure_and_uniform_control.es.md",
+      "sha256": "982c0c87a967ebadc5cc4b7fdf4f67abc7baa2918c3fb026c5645c9b532b52d2",
+      "bytes": 14497
+    },
+    {
+      "path": "02_formal_core/resolution_and_modal_weights.es.md",
+      "sha256": "9036748d05a4a8d17c268568a8c765bb91cd0ae0123d604a72656a28256784fa",
+      "bytes": 9533
     },
     {
       "path": "02_formal_core/second_order_dynamics.md",
@@ -137,8 +192,8 @@
     },
     {
       "path": "03_navier_stokes/STATUS.md",
-      "sha256": "9dcf0d857f97a9b0f74afe9788e0fbc6b2d4508850c694b6d2724a67d97db2c7",
-      "bytes": 3740
+      "sha256": "48149efaae69210af92454e6dc802d54a7dd5dbc56ef3f6b5fc839918ab77f73",
+      "bytes": 4266
     },
     {
       "path": "03_navier_stokes/data/README.md",
@@ -297,23 +352,33 @@
     },
     {
       "path": "04_results/OPEN_PROBLEMS.md",
-      "sha256": "6874d4937c7478a502f3ee755ca4b374c90950f42f1760687b8870c448c3cb49",
-      "bytes": 2348
+      "sha256": "3fb792203b9d4bcc74a256237c76b9f79f817737056338f0af4b89125ce412bc",
+      "bytes": 4453
     },
     {
       "path": "04_results/REPRODUCTION_REPORT.md",
-      "sha256": "a4192156774f1cef11bee9023f0adfdf2dcbb7b99b9688b201a35d8951a3e477",
-      "bytes": 4429
+      "sha256": "9a92a72f9168bfb1eab308640b35cc74ba741500a3ef3c6eb6a403da46082883",
+      "bytes": 5751
     },
     {
       "path": "04_results/RESULTS_REGISTER.md",
-      "sha256": "37434e6d872ade8496a15aeaa14b1cd3cb005b74dfe7d56439af9df87e81aba1",
-      "bytes": 6757
+      "sha256": "8c81e40bb0034f4a346e38596918ad4eca788a9a28b3f3f027b44fe5a7044208",
+      "bytes": 11611
     },
     {
       "path": "05_computation/README.md",
-      "sha256": "979b270972b5e1d51194b574f76adb7679955549f8fc8fce202fb1aeff5bb9db",
-      "bytes": 7731
+      "sha256": "fbc5f5e285c9c4ebaa4cd5f7e87ff49b09b5edcfc4e24dd5d678179068bd85c3",
+      "bytes": 9022
+    },
+    {
+      "path": "05_computation/ROSI.md",
+      "sha256": "6f6445d33b0d7aa0f7820d6c71430e0d65a87dd78a62e4a5e7e4c3d0cb7a3982",
+      "bytes": 1456
+    },
+    {
+      "path": "05_computation/contextual_sat_and_representation_cost.es.md",
+      "sha256": "aa7dd3a8590ac33eeda94f5f899257711f5f957c66f007498b4d6c534cfb7743",
+      "bytes": 11611
     },
     {
       "path": "06_yang_mills/GAUSSIAN_CONTROL.md",
@@ -322,8 +387,8 @@
     },
     {
       "path": "06_yang_mills/README.md",
-      "sha256": "b1d4e6c4e9e7a7f0c831f25e0ddb17fba80c5a8d6665ab0c3f5ddb5a4cd08772",
-      "bytes": 9890
+      "sha256": "7128d1ee17019a142ab0e2fca00d47b133dcad8b388482633976eeab84dd7a56",
+      "bytes": 10595
     },
     {
       "path": "06_yang_mills/scripts/gaussian_control.py",
@@ -331,14 +396,74 @@
       "bytes": 6065
     },
     {
+      "path": "07_emergence_laboratory/README.md",
+      "sha256": "fcad74f83ca9f394333cb9b48214f4974003b0f6efdefc54f0742d16c6c1f0c7",
+      "bytes": 2652
+    },
+    {
+      "path": "07_emergence_laboratory/chemistry/README.es.md",
+      "sha256": "6aa3ca2dc643986394a87fa252933ad0abea834069e9221323acd810faa0cc4c",
+      "bytes": 9381
+    },
+    {
+      "path": "07_emergence_laboratory/chemistry/data/bond_energy_dataset.csv",
+      "sha256": "d866c96c14178402c3a8a974f09977d2facc43f0e45abceab22d3642961e4244",
+      "bytes": 6593
+    },
+    {
+      "path": "07_emergence_laboratory/chemistry/data/supplied_feature_ranking.csv",
+      "sha256": "ee03aa8f95b0c4c8dbb29a86107f697d9cd088b0b985760277985dbc68ddfe55",
+      "bytes": 545
+    },
+    {
+      "path": "07_emergence_laboratory/chemistry/data/supplied_model_results.csv",
+      "sha256": "25c29054a1c9a0ddb61c9dff77807fe87cfdbdf4af96dad7fc474762cfbf9656",
+      "bytes": 552
+    },
+    {
+      "path": "07_emergence_laboratory/chemistry/reproduce_bond_energy.py",
+      "sha256": "36647064953899cdfb98c8a9fa6b5d2ae5da4b54bf2c32ac677dcfb5f37f38b2",
+      "bytes": 9229
+    },
+    {
+      "path": "07_emergence_laboratory/chemistry/validation_protocol.es.md",
+      "sha256": "49de4f6fe98faee78d506f13d3c235db1f5190091f04a5479f0cc43292458c64",
+      "bytes": 3198
+    },
+    {
+      "path": "07_emergence_laboratory/growth/README.es.md",
+      "sha256": "f5d5f2030143d1ef6496a19b64840c5bc38a9af2d95d39f09e9a2077ff9f1fd5",
+      "bytes": 10633
+    },
+    {
+      "path": "07_emergence_laboratory/growth/data/supplied_final_runs.csv",
+      "sha256": "81b17b0eb7540529c0a834f1aa0001f0ed773914b1a5d6329091c22811f912d2",
+      "bytes": 7760
+    },
+    {
+      "path": "07_emergence_laboratory/growth/data/supplied_growth_trace.csv",
+      "sha256": "2f090ce8f9828f64af922eee69b9db661053c8c15f1dc8dd8baaeaa4f3202edb",
+      "bytes": 53312
+    },
+    {
+      "path": "07_emergence_laboratory/growth/data/supplied_unpaired_comparison.csv",
+      "sha256": "da42f19afdf917e836ea6876258f950f68388bcd53f9ddabf24baac5868fb20b",
+      "bytes": 624
+    },
+    {
+      "path": "07_emergence_laboratory/growth/scripts/transient_bias_growth.py",
+      "sha256": "ed2c18c7c47798b7881211ef04eb01dd6f6222a70f058aa058982040631d7a94",
+      "bytes": 17246
+    },
+    {
       "path": "CITATION.cff",
-      "sha256": "5359ba1424b6c5ee67a936bf422bbbe78e1b98205d9b6f0cc016c7ae95a4f83d",
+      "sha256": "9111cddbebecb8a9d38b953bfdf1e8488b80905a9aa57c58c1b70c7ce732431c",
       "bytes": 401
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "311327846c2ab4c6dbba42443e622f87dc2663125693629cc781815ba763be91",
-      "bytes": 3860
+      "sha256": "c7eb5eed30c560b962be076a464fb0ac5aa79374fc4937a7193a9e472574eef9",
+      "bytes": 4363
     },
     {
       "path": "NOTICE.md",
@@ -347,33 +472,43 @@
     },
     {
       "path": "README.es.md",
-      "sha256": "ebb379b593b110ecbfdd94f97405eeef302b1e140253886b5bdd806e559e169b",
-      "bytes": 6868
+      "sha256": "8cb4a6bae2cf07138a497901b3b56444cd3005b0a8ce7823e44cad3426ddc1a1",
+      "bytes": 3529
     },
     {
       "path": "README.md",
-      "sha256": "80c6245ed8ce9c9c7d0b060736be719bc77fe6fef4d658982a7ef01483c3828f",
-      "bytes": 6811
+      "sha256": "eba0c240df5fe58b1c32e8f2319996c3362f890c6fcc21f54baeb7064c0dac04",
+      "bytes": 3462
     },
     {
       "path": "REVIEW.md",
-      "sha256": "ea25fd8897089ac18874d73cb9efb449a7a5e9584483ae57d78ab284ad6d82a8",
-      "bytes": 6591
+      "sha256": "59c5ea343d7b92f5ec7cd8d9e96b86e4c813dceb043cdf94e0f3eda01c87b692",
+      "bytes": 10694
     },
     {
       "path": "STATUS.md",
-      "sha256": "9e3bb38a46a97bb0afda6db9361bd04b04f1a4c5a31564832535dab3b8b6d6e7",
-      "bytes": 3089
+      "sha256": "7df8d09146922d648f3798aef688849117aa070a937c9c93fb88cf910830aa16",
+      "bytes": 410
+    },
+    {
+      "path": "STATUS_CANONICAL.md",
+      "sha256": "0e7483982836bdad0f4766924d16aeac4fff938af720e7135e425b380f940017",
+      "bytes": 4737
     },
     {
       "path": "publication/PROGRAM_OVERVIEW.es.md",
-      "sha256": "2a877eddbfc069323e707e4665d7c5ca00ea5fbe696285c4f9ac841c1420ff32",
-      "bytes": 6204
+      "sha256": "070094178cd6f0732430b475f84a6f3f851364e2daa177ede4c4c4d7192fd644",
+      "bytes": 2313
     },
     {
       "path": "publication/UPDATE_2_2.md",
-      "sha256": "d80dca56631e255c8ea718856c011bedbbdf002cade1ce3445a2d1367c7035a4",
-      "bytes": 2488
+      "sha256": "88b40d0d5187c20314e5a826df12198a06fffd1dc42466925eda6a8c27f8d232",
+      "bytes": 2733
+    },
+    {
+      "path": "publication/UPDATE_3_0.md",
+      "sha256": "d31e0cc86023fee5287e54e03fbe51bb61bbb5c456e693f0d774c6a598d79f56",
+      "bytes": 3785
     },
     {
       "path": "publication/academic_context_and_research_interfaces.md",
@@ -381,14 +516,34 @@
       "bytes": 2799
     },
     {
+      "path": "publication/composition_dependent_gravity_constraints.es.md",
+      "sha256": "476f921d6ea29021dfbac8aafabc21759e63bf324379502043af213921ccf2ab",
+      "bytes": 3345
+    },
+    {
+      "path": "publication/gravity.es.md",
+      "sha256": "92573900886546a93fff35ecbf745951b3c73b5c815e0761e4e885b5141b2b42",
+      "bytes": 1988
+    },
+    {
       "path": "publication/physical_bridges.es.md",
-      "sha256": "8d46f342605bc22bcc311aa5c5732d2a6640c3b6405510037c98e9da61518b61",
-      "bytes": 4639
+      "sha256": "a46660bb9b8e615b29fd0c04248c6fb5fcd7e544e52409a31578f4a77d17a314",
+      "bytes": 6961
+    },
+    {
+      "path": "publication/proton_radius_hypothesis.es.md",
+      "sha256": "f9bdcc7fb1da0bd5f886659bdee7bec32c733722174a5d67a771a1f881013dc0",
+      "bytes": 3000
     },
     {
       "path": "publication/relational_geometry_core.es.md",
-      "sha256": "f4c73deeffc35acc96215c1441b76dfb66aeed2f2de078a0162d06d19ce6b024",
-      "bytes": 11058
+      "sha256": "efa475b76871e1d61f02167481c2ae1cd718589011366beb605bda7d099a95cf",
+      "bytes": 13128
+    },
+    {
+      "path": "publication/spin_composition_and_relational_information.es.md",
+      "sha256": "12957efcd22312eddef7b386658ff7b60bc5c87d3fd27854ae4361f6e76fc972",
+      "bytes": 10359
     },
     {
       "path": "pytest.ini",
@@ -402,8 +557,8 @@
     },
     {
       "path": "references/SOURCE_PROVENANCE.md",
-      "sha256": "4c2671650c8a8a15c617f07fedb5d7d83f40c2c9b3b7601a3c2bf83cdd4f9a6b",
-      "bytes": 7699
+      "sha256": "c3c9cd4ebc6f1c9574b83f01daf450eedb8386f992e7148c691e9475961f9e10",
+      "bytes": 10747
     },
     {
       "path": "requirements.txt",
@@ -416,9 +571,29 @@
       "bytes": 4298
     },
     {
+      "path": "tests/test_canonical_audit.py",
+      "sha256": "987e4c77497d3adc6eb3dabd72e4771b8b1fa4466e4e4be5fd9dff9297aa8858",
+      "bytes": 1377
+    },
+    {
+      "path": "tests/test_canonical_boundaries.py",
+      "sha256": "ac9002cf2a7ed3ab6a9841ce975da95b1cb503a20e45701bce4b22338f72088e",
+      "bytes": 1819
+    },
+    {
       "path": "tests/test_capsules_gauge.py",
       "sha256": "f89b084923a971fbbf5dd4530914c4c433a5a08143115347d2166b6c00b13ec9",
       "bytes": 13466
+    },
+    {
+      "path": "tests/test_chemical_seed_benchmark.py",
+      "sha256": "d0aef8dd40caec2dfc6d623765c809be869699fee509b14840fc00216e0e4c4c",
+      "bytes": 6783
+    },
+    {
+      "path": "tests/test_collective_dynamics.py",
+      "sha256": "b4b061d73107cc463c2f8a06da5407306848bc5c4101527fcb189f3da6db8dee",
+      "bytes": 8919
     },
     {
       "path": "tests/test_comparators_and_incorporation.py",
@@ -426,9 +601,24 @@
       "bytes": 4530
     },
     {
+      "path": "tests/test_contextual_identity_and_channels.py",
+      "sha256": "d8929a68c26941c925d4082a051211056e447127b0a6ca39424228650dccce03",
+      "bytes": 3813
+    },
+    {
+      "path": "tests/test_contextual_reclosure.py",
+      "sha256": "5ba3d8d7f564d357c2d735954f3fc9865e08212e51b607cc4b1c71b0d13bbc73",
+      "bytes": 9450
+    },
+    {
       "path": "tests/test_exact_identities.py",
       "sha256": "3c7148f2b1987297c5c1f5b292f2fb70116f9dad4281a005c999763ba5090fb2",
       "bytes": 1187
+    },
+    {
+      "path": "tests/test_finite_comparison_contract.py",
+      "sha256": "9eaaf7e4a420f37ebeff382d5a7357a1cc87cbb625fbd54ed13530b0ea61f525",
+      "bytes": 8390
     },
     {
       "path": "tests/test_instantaneous_budget.py",
@@ -436,9 +626,14 @@
       "bytes": 4013
     },
     {
+      "path": "tests/test_physical_correspondence_contracts.py",
+      "sha256": "116955b246f0d1429d1ebc65ce05306f5f47eb09baf8e1dcd32770772176d14a",
+      "bytes": 2332
+    },
+    {
       "path": "tests/test_public_release.py",
-      "sha256": "275fd959426cc7f84c670e161430c872106033c41b750160a862427d3c3a8770",
-      "bytes": 4776
+      "sha256": "d3ba3d683cdef24673a17f5eb3fbcc26fefd3a5a8579a5b07ce96686107c0f5b",
+      "bytes": 5141
     },
     {
       "path": "tests/test_relational_core.py",
@@ -446,14 +641,44 @@
       "bytes": 8316
     },
     {
+      "path": "tests/test_relative_closure_control.py",
+      "sha256": "4cd1f0fe26b62f2480341cb429b5312ff97841f0a5c11b69207c4bde8ef9b551",
+      "bytes": 7856
+    },
+    {
       "path": "tests/test_repository.py",
-      "sha256": "1a0e4899f364d2ff1692a791eb4ac89989262b5a63d0e1307006f6fff178d391",
-      "bytes": 1420
+      "sha256": "a90dbbdec153968318dcc081eafb28b22920e9cb6bb523530020d5889cacad65",
+      "bytes": 2676
+    },
+    {
+      "path": "tests/test_resolution_modal_weights.py",
+      "sha256": "cfacff20d2ff396bf864f1c26e7fd9688775a2e184decd218cc7412cc86f01b4",
+      "bytes": 7750
+    },
+    {
+      "path": "tests/test_sat_representation_cost.py",
+      "sha256": "6a27756dd8d8ee7b82ff7d11171891a00aa784a1a41d605b2ff332b5cdda8a70",
+      "bytes": 11641
+    },
+    {
+      "path": "tests/test_seed_bias_growth.py",
+      "sha256": "a8e81feeb81b917098c763f541cdd525a999513ab7c6a840f6fed373590ef118",
+      "bytes": 6570
+    },
+    {
+      "path": "tests/test_spin_composition.py",
+      "sha256": "7c89e75776b55d27dc5603c28928bd8ad2e394d8e4199dc02cb0edb1197602ae",
+      "bytes": 5523
+    },
+    {
+      "path": "tools/canonical_audit.py",
+      "sha256": "6ac35d1d65aee1c8925d715997d7af0259a21a7489169c7c1ae79a4fd301518f",
+      "bytes": 6734
     },
     {
       "path": "tools/public_release.py",
-      "sha256": "c12405a36b25ebdc95d29796571a8e02de0e5ab5a975be302dcb33c8f291a680",
-      "bytes": 10417
+      "sha256": "50bb4d62422b443bf0a824ff237f5774beff6141ffb3aeb61c73b7317c364fc6",
+      "bytes": 10529
     }
   ]
 }

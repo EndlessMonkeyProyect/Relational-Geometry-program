@@ -3,6 +3,12 @@
 The [ontology of difference, closure and incorporation](../01_foundations/ontology_of_difference_and_closure.es.md) is the conceptual entry point. The arrows organize obligations and constructions; they do not assert that every later layer follows without additional assumptions.
 
 ~~~text
+totality / reflection / difference / indefinition
+              |
+     comparison / solution = identity
+              |
+     accredited closure / new reference
+              |
 questions and admitted contexts
               |
       sufficient signature
@@ -17,7 +23,7 @@ questions and admitted contexts
               |
    coupling / spectral modes / recurrence
               |
-   persistent interface and reusable closure
+   accreditation of a reusable identity interface
               |
    a declared map to measured observables
 ~~~
@@ -30,5 +36,9 @@ questions and admitted contexts
 | Heredity and novelty | Primitive prime factors and an explicit valuation signature |
 | Locality and closure | Propagation bounds and separate interface, round and processing resources |
 | Global control | Coercivity constants in analysis; constructive bounded descent in computation |
+| Collective identity | Contextual quotient, sufficient compression and congruent composition |
+| Information channels | Minimal channel sets, joint reconstruction and redundancy |
+| Quotient dynamics | Invariant kernel, autonomous second-order evolution and induced metric |
+| Exploratory benchmarks | Chemical prediction and transient-bias growth, separately documented |
 
 The laboratories retain their own objects: compatibility relations in computation, gauge-invariant functions in Yang–Mills, and material-vorticity budgets in Navier–Stokes. See the [dependency graph](DEPENDENCY_GRAPH.md), [results register](../04_results/RESULTS_REGISTER.md) and [review questions](../REVIEW.md).

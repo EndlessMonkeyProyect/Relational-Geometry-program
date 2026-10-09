@@ -1,17 +1,19 @@
-# How to read the results
+# Leyenda epistemológica obligatoria
 
-Each result carries the kind of support needed to assess it.
+Toda afirmación importante se lee con una de estas etiquetas, junto con hipótesis, dominio y evidencia. [STATUS_CANONICAL](../STATUS_CANONICAL.md) es la autoridad actual.
 
-| Label | Meaning | Useful review |
-|---|---|---|
-| Definition | Specifies an object or adopted conceptual vocabulary. | Clarity, consistency, explanatory usefulness. |
-| Exact under stated hypotheses | A mathematical consequence with assumptions and a proof. | Check each implication and the stated domain. |
-| Explicit realization | A construction satisfying declared rules. | Check the construction and which systems realize the rules. |
-| Computational observation | A finite numerical result from a documented method. | Reproduce it and evaluate numerical or sampling uncertainty. |
-| Reported computational observation | A supplied numerical result whose complete production run has not been repeated in this integration. | Independently reproduce the protocol and check provenance, precision and sampling. |
-| Physical bridge | A proposed map from a formal object to a measurable quantity. | Specify the observable and test the map independently. |
-| Research target | A question with a defined next result or experiment. | Help establish the missing step. |
+| Etiqueta | Alcance |
+|---|---|
+| [DEFINICIÓN] | Objeto, contrato o convención adoptada; no es descubrimiento experimental |
+| [POSTULADO / HIPÓTESIS GENERATIVA] | Premisa conceptual de la construcción; no conclusión demostrada |
+| [DERIVADO] | Consecuencia matemática con hipótesis y prueba explícitas |
+| [CONDICIONAL] | Aplicación o resultado sujeto a supuestos aún por acreditar en el dominio; incluye controles finitos con alcance declarado |
+| [PUENTE FÍSICO] | Mapa propuesto entre un objeto formal y un observable; requiere evidencia independiente |
+| [ABIERTO] | Obligación sin solución acreditada en el corpus |
+| [ESPECULACIÓN PROGRAMÁTICA] | Agenda o intuición sin derivación y contraste completos |
 
-“Exact” describes mathematical status under the assumptions; independent review has its own status. A finite computational check supports a construction within the tested cases. Physical validation requires a specified observable and independent data.
+En documentos técnicos conservados, `Exact`, `Program derivation` y `Exact under stated hypotheses` corresponden a [DERIVADO] sólo bajo las hipótesis escritas; `conditional` a [CONDICIONAL]; `Pending` y `Research target` a [ABIERTO]; `Correspondencia` a [PUENTE FÍSICO] cuando hay observables físicos, o a [CONDICIONAL] para analogías matemáticas. `Hypothesis` es [POSTULADO / HIPÓTESIS GENERATIVA] o [ESPECULACIÓN PROGRAMÁTICA] según el contexto.
 
-A conditional theorem proves an implication. Applying it to a physical or computational problem also requires establishing its hypotheses in that domain. See the [reproduction report](../04_results/REPRODUCTION_REPORT.md) for the checks actually executed.
+`Computational observation` se lee [CONDICIONAL: control finito del modelo]. `Reported` añade que el cálculo fue suministrado y no reproducido en la integración indicada. Son calificadores de evidencia, no validación física ni pruebas generales. Los informes fechados conservan el alcance de su propia ejecución.
+
+Ningún número verifica independientemente el supuesto que lo generó. Coincidencia, ajuste, calibración, analogía y elección posterior de correspondencia no son derivaciones. Las demostraciones, los tests y la evidencia física tienen funciones distintas.

@@ -32,25 +32,30 @@ class PublicReleaseTests(unittest.TestCase):
     def test_zip_uses_allowlist_and_excludes_private_sentinels(self):
         private = [
             "internal/audit.md", "NP/private.md", "NP.rar", "dist/old.md",
-            "unlisted/private.md", "04_results/NO_GO_REGISTER.md",
+            "unlisted/private.md", "archive/internal/audit.md", "archive/README.md",
+            "04_results/NO_GO_REGISTER.md", "publication/30_falsifiers_no_go/note.md",
+            "publication/70_reviews/review.md", "publication/90_history/old.md",
             "publication/internal/audit.md", "publication/source.zip",
             "tests/__pycache__/cached.pyc", "publication/07_HISTORY/audit.md",
             "03_navier_stokes/scripts/runs/log.jsonl",
             "03_navier_stokes/scripts/refined/state.npz",
             "03_navier_stokes/data/large_snapshot.npz",
+            "07_emergence_laboratory/growth/outputs/microstates.json",
         ]
         for path in private:
             self.write(path, "PRIVATE_SENTINEL_DO_NOT_EXPORT")
+        self.write("STATUS_CANONICAL.md", "# Canonical authority\n")
         release.write_manifest(self.root)
         archive_path = release.build_release(self.root)
         with zipfile.ZipFile(archive_path) as archive:
             self.assertEqual(set(archive.namelist()), {
                 "README.md", "04_results/RESULTS_REGISTER.md", "MANIFEST.json",
+                "STATUS_CANONICAL.md",
             })
             for name in archive.namelist():
                 self.assertNotIn(b"PRIVATE_SENTINEL_DO_NOT_EXPORT", archive.read(name))
             manifest = json.loads(archive.read("MANIFEST.json"))
-            self.assertEqual(manifest["file_count"], 2)
+            self.assertEqual(manifest["file_count"], 3)
             for entry in manifest["files"]:
                 content = archive.read(entry["path"])
                 self.assertEqual(entry["sha256"], hashlib.sha256(content).hexdigest())

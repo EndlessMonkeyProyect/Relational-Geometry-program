@@ -1,8 +1,18 @@
-# Reproduction report — 2.2.0-review
+# Reproduction report — 3.0.0-review
 
-Checks below were executed locally on 5 October 2026. They distinguish reproduced controls from supplied production data and from independent specialist review.
+The complete automated suite was executed locally on 9 October 2026: **134 tests and 953 subtests passed**. The offline document audit found no integrity errors in 135 selected files, including 74 Markdown documents. These checks distinguish reproducible controls from supplied production data and independent specialist review.
 
-## Executed in this edition
+## Executed for version 3.0
+
+The suite covers the existing formal and laboratory controls and adds explicit tests of contextual reclosure, finite comparison contracts, relative uniform control, resolution weights, spin composition, SAT representation costs and conditional physical correspondences.
+
+The four new LV2-related test modules contain 31 test methods: eight for resolution and modal weights, nine for spin composition, nine for SAT representations, and five for the algebra and numerical values used in the physical correspondence notes. These are finite controls under declared assumptions, not independent empirical confirmation of the physical hypotheses.
+
+The suite ran on Windows with NumPy 2.5.3, SciPy 1.18.1 and pytest 9.1.1. The public-package checks validate the selected files and local links. Production DNS, large Monte Carlo runs and new chemistry experiments were not rerun for this edition.
+
+## Earlier executed controls — 5 October 2026
+
+The following records retain the earlier reproduction results. The standalone quick scripts listed here were run on that date; their historical numerical outputs are not presented as new version-3 production runs.
 
 | Check | Result | Scope |
 |---|---|---|

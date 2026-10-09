@@ -92,3 +92,7 @@ Una escala física $S_0$ convierte $\mathcal J$ y $\mathcal A_{\rm circ}$ en mag
 Las pruebas en [acción y estructura armónica](../tests/test_action_and_harmonic_structure.py) verifican el cambio canónico, la rotación, la invariancia, áreas y contenidos en ejemplos. Las demostraciones anteriores tienen alcance general bajo sus hipótesis.
 
 Procedencia: integración corregida de los desarrollos de acción variacional, acción simpléctica y contenido de cierre del autor. [Ontología](../01_foundations/ontology_of_difference_and_closure.es.md).
+
+## Alcance de la selección de acción
+
+[CONDICIONAL] El cierre de fase fija una condición de retorno; la selección finita de amplitudes exige el mapa adicional de §5. La unidad física de acción y su relación con $\hbar$ se investigan por separado en el [puente físico](../publication/physical_bridges.es.md).

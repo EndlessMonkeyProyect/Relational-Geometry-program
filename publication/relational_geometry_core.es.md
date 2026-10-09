@@ -1,10 +1,12 @@
 # Núcleo integrado del Programa de Geometría Relacional
 
+[DEFINICIÓN] [CONDICIONAL] Lectura subordinada al [estado canónico 2.4](../STATUS_CANONICAL.md). Las realizaciones matemáticas conservan sus hipótesis; las secciones sobre incorporaciones 2.2/2.3 describen procedencia, no otra autoridad vigente.
+
 **Le Matt Ansatz Di Ego · Edición para revisión**
 
-El programa propone estudiar la geometría y la identidad a partir de la información que una arquitectura de comparación permite distinguir y conservar. Su núcleo construye una secuencia explícita: diferencia, comparación, firma, residuo, extensión de representación, cierre y nueva referencia. Esta secuencia organiza tanto los resultados formales como las preguntas físicas y computacionales.
+El programa estudia geometría y descripciones reutilizables a partir de la información que una arquitectura de comparación permite distinguir y conservar. El lenguaje vigente recorre unidad, reflexión, diferencia, comparación, resolución, cierre, singularidad relacional, nueva comparación y recierre. Las clases contextuales realizan formalmente partes de esta propuesta; su interpretación física requiere un mapa propio.
 
-La [ontología rectora](../01_foundations/ontology_of_difference_and_closure.es.md) es la entrada conceptual; este núcleo reúne sus realizaciones formales. La edición 2.2 añade la cadena comparador–respuesta–incorporación–acción y una clasificación de novedad armónica.
+La [ontología rectora](../01_foundations/ontology_of_difference_and_closure.es.md) es la entrada conceptual. La edición 2.5 integra recierre contextual, recursos, contratos finitos y control uniforme sobre las realizaciones formales aquí reunidas. El uso matemático de identidad se conserva; el concepto ontológico actual es singularidad relacional.
 
 ## 1. Diferencia y descripción
 
@@ -30,7 +32,16 @@ Para particiones finitas, la ganancia de capacidad de identificación es $\Delta
 
 Un cierre conserva una descripción suficiente respecto de un contrato declarado. Si conserva además la procedencia necesaria, puede utilizarse como referencia en una comparación posterior. Para un contrato fijo, cerrar de nuevo produce una estructura equivalente; una nueva pregunta permite un refinamiento posterior.
 
-La identidad se reconoce por relaciones e invariantes preservados bajo transformaciones admisibles. La continuación de una identidad exige una extensión compatible de esos invariantes. En grafos, transportes y operadores aparecen realizaciones de reconstrucción interna y consistencia; el [texto de cierre e identidad](../01_foundations/closure_identity.es.md) da ejemplos.
+[DEFINICIÓN] La fibra de solución de un resolutor es $I_\alpha=R^{-1}(\alpha)$. Al declarar preguntas y continuaciones se obtiene una clase contextual. El cierre acredita una descripción suficiente reutilizable; persistencia e interpretación física son propiedades adicionales. El [texto de clases y singularidad relacional](../01_foundations/closure_identity.es.md) conecta esta construcción con realizaciones de circuitos y operadores.
+
+La [identidad colectiva](../02_formal_core/contextual_identity_and_scale_promotion.es.md)
+se define respecto de preguntas, contextos y composición declarados. El cociente
+contextual es la descripción suficiente más gruesa; una operación desciende
+exactamente cuando esa equivalencia es una congruencia. Una interfaz suficiente,
+no inyectiva y no constante puede realizar una promoción compresiva si es
+reutilizable en la escala siguiente. La recuperación de las partes depende
+de los [canales disponibles](../02_formal_core/redistributive_closure_and_information_channels.es.md),
+no solamente de la interfaz colectiva.
 
 ## 4. La extensión reflexiva mínima
 
@@ -74,17 +85,32 @@ En una representación finita, la firma refinada produce $H^+=H\oplus N$. El blo
 
 ### Ritmo, contenido y escala
 
+Una interfaz lineal sobreyectiva $T$ porta de forma autónoma la recurrencia de
+segundo orden para todas las condiciones iniciales exactamente cuando
+$TK=\bar K T$, o equivalentemente $K(\ker T)\subseteq\ker T$.
+La [prueba en cocientes](../02_formal_core/collective_dynamics_on_quotients.es.md)
+construye la métrica inducida y separa la acción visible de la acción oculta.
+Una suma puede cerrar aunque sus componentes estén acoplados; la reducción
+conserva los modos visibles, no crea por sí sola frecuencias nuevas.
+
 El tiempo operacional se interpreta como comparación entre cambios: un proceso sirve de referencia para medir otro. La profundidad de una construcción ordena sus etapas; un reloj físico requiere un proceso identificado y una ley de evolución.
 
 La realización oscilatoria de un comparador cuadrático produce $\varpi_i^2=\Gamma\lambda_i$ y, para autovalores positivos, una escala espectral $R_i=\lambda_i^{-1/2}$. La relación $R_i|\varpi_i|=\sqrt\Gamma$ es exacta dentro de esa dinámica.
 
 En la recurrencia discreta de paso unitario, los modos con $0<\kappa<4$ tienen fase $\Omega=\arccos(1-\kappa/2)$. La [forma canónica](../02_formal_core/relational_action_and_phase.es.md) conserva $\mathcal J=(Q_c^2+P_c^2)/2$ y la interpolación circular da área $2\pi m\mathcal J$ para $m$ vueltas. Un mapa independiente entre ese contenido dinámico y el contenido aditivo de firmas constituiría una condición de selección de amplitudes.
 
-La [realización armónica](../02_formal_core/harmonic_inheritance_and_novelty.es.md) clasifica $2^n-1$ mediante factores heredados y primitivos. Se conecta al criterio informacional mediante valuaciones en un dominio explícito; su traducción a frecuencias exige un comparador y una dinámica.
+La [realización armónica](../02_formal_core/harmonic_inheritance_and_novelty.es.md) clasifica $2^h-1$ mediante factores heredados y primitivos. Se conecta al criterio informacional mediante valuaciones en un dominio explícito; su traducción a frecuencias exige un comparador y una dinámica.
 
-El [programa de puentes físicos](physical_bridges.es.md) desarrolla la cadena condicional desde el peso $1/16$ hasta razones de frecuencia y longitud, conserva el objetivo protónico $4\hbar/(m_pc)$ y define preguntas para química, gravedad y observables. Cada aplicación necesita un mapa propio entre estructura formal y medida física.
+El [programa de puentes físicos](physical_bridges.es.md) desarrolla la cadena condicional desde el peso $1/16$ hasta razones de frecuencia y longitud, separa los puentes protónicos alternativos A ($4\bar\lambda_p$) y B ($\sqrt{15}\bar\lambda_p$) y define preguntas para química, gravedad y observables. Cada aplicación necesita un mapa propio entre estructura formal y medida física.
 
 ## 8. Laboratorios con objetos concretos
+
+El [laboratorio de representación y emergencia](../07_emergence_laboratory/README.md)
+añade dos objetos exploratorios: un benchmark químico de reparametrización y
+utilidad predictiva, y un modelo reticular con sesgo transitorio que distingue
+memoria en descriptores de memoria microscópica. No son realizaciones ya
+demostradas de todos los criterios de identidad y autonomía; permiten formular
+las consultas y los próximos contrastes necesarios.
 
 En [Navier–Stokes](../03_navier_stokes/README.md), la vorticidad $\omega=q\xi$ se descompone materialmente como $D_t\omega/q=a\xi+b$. Para $q>0$ y $a>0$, la ley en crecimiento $G=\log q$ es
 

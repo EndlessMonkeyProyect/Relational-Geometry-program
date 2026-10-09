@@ -6,7 +6,7 @@ El programa reúne resultados sobre información suficiente, composición, exten
 
 Cada revisión puede ser pequeña y completa: comprobar una identidad, reproducir un ejemplo, precisar una hipótesis o construir un caso nuevo. La invitación está abierta; la revisión externa y sus conclusiones se documentarán cuando existan, con su autoría y alcance.
 
-## Diez puntos de entrada
+## Trece puntos de entrada
 
 | ID y especialidad | Pregunta concreta | Entregable útil |
 |---|---|---|
@@ -20,6 +20,9 @@ Cada revisión puede ser pequeña y completa: comprobar una identidad, reproduci
 | **R8 · Comparadores e incorporación**. Grafos, álgebra lineal y análisis espectral. | ¿Qué axiomas seleccionan el comparador local y cuándo una distinción nueva se convierte en un modo dinámico nuevo? | Verificación de la factorización por incidencia, del bloque de acoplamiento y de los criterios espectrales en una familia explícita. |
 | **R9 · Acción y contenido de cierre**. Mecánica discreta y teoría de la medida. | ¿Qué mapa conecta el contenido de firmas con el invariante canónico de un modo estable? | Construcción de un mapa que preserve las operaciones declaradas y distinga período, fase y acción. |
 | **R10 · Herencia y factores primitivos**. Teoría de números. | ¿Cómo se articula la clasificación de factores nuevos en $2^n-1$ con firmas informativas y reglas de composición? | Revisión de la clasificación, extensión aritmética o realización formal que especifique qué estructura conserva. |
+| **R11 · Identidad y dinámica colectiva**. Álgebra, información y sistemas dinámicos. | ¿Qué contrato hace suficiente una interfaz y cuándo porta por sí misma la evolución? | Contrato independiente, prueba de congruencia o invariancia del núcleo, y comparación entre canales visibles y modos ocultos. |
+| **R12 · Representación predictiva en química**. Química de datos y validación estadística. | ¿Cuánto aporta la coordenada compacta frente a otras representaciones al separar selección y evaluación? | Trazabilidad bibliográfica de las energías, réplica LOEO y contraste independiente o anidado de fórmulas prefijadas. |
+| **R13 · Crecimiento y memoria**. Simulación estocástica y reducción de modelos. | ¿Qué descriptores permanecen próximos bajo perturbaciones tempranas y cuáles predicen continuaciones? | Ensamble emparejado nuevo, tolerancias declaradas, estudio de tamaño y contraste entre descriptores y microestados. |
 
 ## Dónde empieza cada revisión
 
@@ -33,8 +36,26 @@ Cada revisión puede ser pequeña y completa: comprobar una identidad, reproduci
 - **R8:** [Comparadores locales](02_formal_core/local_comparators_and_relational_laplacian.es.md) e [incorporación de novedad](02_formal_core/novelty_incorporation_and_dynamical_modes.es.md).
 - **R9:** [Acción relacional, fase y contenido](02_formal_core/relational_action_and_phase.es.md).
 - **R10:** [Herencia armónica y novedad](02_formal_core/harmonic_inheritance_and_novelty.es.md).
+- **R11:** [Identidad contextual](02_formal_core/contextual_identity_and_scale_promotion.es.md), [canales informativos](02_formal_core/redistributive_closure_and_information_channels.es.md) y [dinámica en cocientes](02_formal_core/collective_dynamics_on_quotients.es.md).
+- **R12:** [Coordenadas compactas y energía de enlace](07_emergence_laboratory/chemistry/README.es.md).
+- **R13:** [Forma colectiva y memoria de un sesgo transitorio](07_emergence_laboratory/growth/README.es.md).
 
 La [ontología de diferencia y cierre](01_foundations/ontology_of_difference_and_closure.es.md) conecta las rutas. Los [criterios de control global](02_formal_core/novelty_and_global_control.es.md) precisan los próximos objetivos cuantitativos de R4 y R6.
+
+## Entradas de la edición integrada
+
+- **R4 / R11:** [Recierre contextual y recursos](02_formal_core/contextual_reclosure_and_resource_cost.es.md): acción de continuaciones, congruencia, fibras y costos de la política completa.
+- **R8 / R9:** [Contrato finito y pesos](02_formal_core/finite_comparison_contract_and_modal_weights.es.md): escala del comparador, eventos diagonales, medida y dinámica seleccionadas.
+- **R5 / R6:** [Cierre relativo y control uniforme](02_formal_core/relative_closure_and_uniform_control.es.md): constantes finitas, control de escala y condiciones de paso a conclusiones globales.
+- **R7:** [Puentes físicos](publication/physical_bridges.es.md): diccionario de masa, radio, frecuencia y momento, y un observable independiente para la hipótesis de comparación electromagnética.
+
+### Nuevas conexiones de la v3
+
+- **R3 / R8:** [Resolución y pesos](02_formal_core/resolution_and_modal_weights.es.md): métrica, referencia, composición e incidencia.
+- **R4:** [SAT y representación](05_computation/contextual_sat_and_representation_cost.es.md): canonización, tamaño codificado y esquema completo de tablas.
+- **R7 / R11:** [Espines](publication/spin_composition_and_relational_information.es.md): interfaz del par, continuaciones, medición y correlaciones.
+- **R7:** [Protón](publication/proton_radius_hypothesis.es.md) y [gravedad](publication/composition_dependent_gravity_constraints.es.md): mapas a observables y protocolos condicionales.
+- **R12:** [Protocolo químico](07_emergence_laboratory/chemistry/validation_protocol.es.md): objetivos, referencias simples y evaluación independiente.
 
 ## Cómo entregar una revisión
 
@@ -43,3 +64,11 @@ Abra un **Issue** del repositorio con la plantilla «Revisión de un resultado»
 Una observación que precisa una hipótesis y una reproducción que confirma un cálculo son aportes distintos y ambos son valiosos. En cada caso registraremos qué se revisó, con qué método y hasta dónde llega el resultado. Las ampliaciones pueden proponerse como un Issue o un pull request siguiendo [CONTRIBUTING](CONTRIBUTING.md).
 
 La revisión de una parte se atribuye a esa parte. El reconocimiento de contribuciones se acordará con sus autores; una participación puntual no se presentará como aval externo del programa completo.
+
+## Criterios de revisión
+
+Toda revisión debe usar [STATUS_CANONICAL](STATUS_CANONICAL.md) y separar definición, prueba condicional, realización y puente físico. Las hipótesis y el alcance forman parte de cada enunciado público; las notas de exploración permanecen internas.
+
+Prioridades: (1) identidad como solución antes de acreditación; (2) novedad frente a producto completo; (3) minimal frente a least y costo de testigos; (4) ausencia de derivación de $b=4$; (5) $q=2n_{\rm amp}$ y puentes protónicos A/B; (6) fase frente a acción; (7) coercividad, multiescala y automatizabilidad como obligaciones distintas. El entregable debe identificar una hipótesis, comprobar una implicación o aportar un contraejemplo con dominio explícito.
+
+No se solicita certificar experimentalmente el programa por un ajuste numérico. Para física, fijar antes mapa, parámetros y observable; para química, añadir baselines y separar selección de evaluación. [Resumen de la v3](publication/UPDATE_3_0.md).

@@ -1,120 +1,70 @@
-# Ontología de la diferencia, el cierre y la incorporación
+# Ontología de la diferencia, singularidad relacional y recierre
 
-**Le Matt Ansatz Di Ego · Programa de Geometría Relacional · Edición 2.2.0**
+**Le Matt Ansatz Di Ego · Edición 3.0.0-review**
 
-La propuesta del programa es que una identidad puede estudiarse por las diferencias que conserva, las comparaciones que admite y la interfaz que permite reutilizarla. Una diferencia nueva requiere ampliar la descripción; una arquitectura de comparación determina cómo responde el sistema; un cierre suficiente permite que esa estructura actúe como nueva referencia.
+La propuesta organiza una pregunta: **¿qué diferencias debe conservar una descripción para resolver una comparación y volver a usarse como unidad?** El [lenguaje canónico](canonical_relational_language.es.md) enlaza esta ontología con el núcleo formal y las realizaciones de la v3.
 
-Este documento es el punto de entrada conceptual del programa. Las definiciones organizan la propuesta; los resultados enlazados muestran realizaciones matemáticas concretas; los puentes físicos formulan mapas a observables. Cada nivel tiene su propia justificación.
+## 1. Referencia, comparación e información
 
-## 1. De la referencia a la información
+[POSTULADO] La unidad inicial es una referencia sin diferencias acreditadas. La reflexión abre comparación; la diferencia precede al conteo. Es un orden conceptual, no una cronología cosmológica.
 
-Como hipótesis generativa, se parte de una referencia sin diferencias acreditadas, no de una colección situada de antemano en espacio y tiempo. La normalización de esa referencia a uno es una convención representacional.
+Un contrato declara realizaciones, preguntas y continuaciones. Dos estados son distinguibles cuando alguna de esas preguntas, tras una continuación admitida, responde de manera distinta. El [cociente contextual](../02_formal_core/contextual_reclosure_and_resource_cost.es.md) conserva exactamente esas distinciones.
 
-Una diferencia cuenta como información cuando eliminarla haría indistinguibles dos realizaciones que el contrato exige separar. El contrato declara preguntas, contextos y transformaciones admitidos. La indeterminación reúne las respuestas pertinentes todavía no excluidas; resolverla conserva sus consecuencias en una estructura reutilizable.
+Una nueva comparación aporta información cuando no factoriza por la firma existente. Refinar clases, ampliar un espacio de funciones y añadir una coordenada independiente son operaciones relacionadas pero distintas. La [nota de novedad](../02_formal_core/closure_information.es.md) precisa sus condiciones.
 
-Una distinción binaria tiene capacidad de un bit. Dos distinciones binarias independientes admiten cuatro respuestas conjuntas. Estos conteos expresan capacidad de identificación; dimensión geométrica y frecuencia requieren sus propias construcciones.
+## 2. Cierre y singularidad relacional
 
-## 2. Cierre, interfaz e identidad
+[DEFINICIÓN] Cerrar es disponer de una descripción suficiente para el contrato. Una **singularidad relacional** es una diferencia cerrada que puede seguir participando como unidad en comparaciones pertinentes. La información se describe por las relaciones que sostienen su distinguibilidad.
 
-Sea $X$ el dominio de realizaciones y $\Phi:X\to\Sigma$ una firma. El cierre es suficiencia respecto del contrato: cada pregunta admitida puede responderse a partir de $\Phi$. Una identidad es un cierre persistente bajo las transformaciones declaradas; puede tener dinámica interna mientras preserve su interfaz pertinente.
+Esta singularidad no es una divergencia matemática, una singularidad de Navier–Stokes ni un agujero negro. El término ontológico no establece una propiedad física por su nombre.
 
-Para una relación de restricciones $R(I,B)$, con interior $I$ y frontera $B$,
+La [interfaz colectiva](../02_formal_core/contextual_identity_and_scale_promotion.es.md) permite conservar respuestas sin recuperar cada constituyente. Los [canales informativos](../02_formal_core/redistributive_closure_and_information_channels.es.md) precisan recuperación conjunta y redundancia. Perder acceso desde un canal no implica borrar información en todos ellos.
 
-$$\mathcal I_B(R)=\exists I\,R(I,B)$$
+## 3. Recierre y residuo
 
-conserva exactamente las asignaciones admisibles de frontera. Es suficiente para contextos que interactúan sólo por $B$ mediante restricciones de ese tipo. Retener futuras variables compartidas hace posible la [composición exacta de interfaces](../02_formal_core/compatible_reclosure.es.md).
+Una descripción cerrada participa en una nueva comparación. Si ésta puede resolverse conservando lo pertinente, hablamos de **recierre**, sin imaginar una salida y una vuelta a un lugar.
 
-En el programa se adopta como criterio de una identidad nueva la conservación de procedencia junto con una diferencia pertinente adicional: herencia y novedad. Este criterio orienta las realizaciones; su persistencia debe comprobarse en cada dinámica.
+Una composición $\star$ desciende al cociente cuando respeta su equivalencia. Si un contrato enriquecido refina otro, la proyección entre cocientes tiene fibras que reúnen las diferencias todavía distinguidas por el contrato fino. Ésta es una realización exacta de residuo relativo, no una sustancia o energía por definición.
 
-## 3. La novedad exige representación
+El [recierre y su economía](../02_formal_core/contextual_reclosure_and_resource_cost.es.md) separan suficiencia mínima de costos de construcción, tamaño, actualización y consulta.
 
-Una comparación $d$ amplía la firma a $(\Phi,d)$. Aporta información nueva exactamente cuando divide alguna clase anterior, es decir, cuando no existe $\bar d$ tal que $d=\bar d\circ\Phi$.
+## 4. Comparación, dinámica y escala
 
-En un dominio finito con pesos estrictamente positivos, las funciones representables por cada firma forman espacios $H\subseteq H^+$. La descomposición ortogonal
+Con productos internos declarados, una respuesta puede adoptar
 
-$$H^+=H\oplus N,\qquad N=H^+\cap H^\perp$$
+$$K=\Gamma C^\dagger C,\qquad\Gamma>0.$$
 
-convierte la novedad en una dirección representacional verificable: $d$ es nueva si y sólo si $N\ne0$. El [criterio de novedad](../02_formal_core/closure_information.es.md) y la [incorporación dinámica](../02_formal_core/novelty_incorporation_and_dynamical_modes.es.md) precisan estos pasos.
+En el [contrato escalar local](../02_formal_core/local_comparators_and_relational_laplacian.es.md), linealidad e invariancia de referencia fuerzan diferencias ponderadas. Los bloques de $K$ describen acoplamiento; los [modos estables](../02_formal_core/relational_action_and_phase.es.md) admiten acción canónica.
 
-Esta es la lectura operacional de una extensión de dimensión: capacidad adicional para conservar información que la firma anterior no representaba.
+Una interfaz lineal sobreyectiva $T$ porta la dinámica de segundo orden para todas las condiciones iniciales exactamente cuando
 
-## 4. Comparación orientada y fase
+$$TK=\bar K T\quad\Longleftrightarrow\quad K(\ker T)\subseteq\ker T.$$
 
-En una realización real lineal, una comparación antisimétrica que conserva la norma induce un operador $J$ con $J^2=-I$. Para $x\ne0$,
+La [métrica del cociente](../02_formal_core/collective_dynamics_on_quotients.es.md) distingue modos visibles y ocultos. Reutilizar una interfaz en una escala nueva requiere comprobar estas condiciones en la realización elegida.
 
-$$x\longmapsto Jx\longmapsto-x\longmapsto-Jx\longmapsto x.$$
+## 5. Simetría, pesos y selección
 
-Se obtiene un plano invariante mínimo y una órbita de cuatro fases. Dos coordenadas de fase independientemente accesibles producen dieciséis firmas. La medida normalizada e invariante les asigna peso $1/16$.
+La [realización finita de comparación](../02_formal_core/finite_comparison_contract_and_modal_weights.es.md) conserva la escala del comparador rotatorio. Transitividad, medida invariante y normalización dan pesos iguales en el conjunto declarado; con $2^k$ registros, cada peso es $2^{-k}$.
 
-Los resultados conectan hipótesis de comparación, geometría y medida. Sus demostraciones están en [extensión reflexiva](../02_formal_core/reflexive_extension.es.md) y [fase y medida](../02_formal_core/phase_measure.es.md).
+El resultado determina pesos bajo un contrato, no el valor físico de $k$, un canal particular ni un estado dinámicamente seleccionado. La [estructura de fases](../02_formal_core/phase_measure.es.md) y la [herencia aritmética](../02_formal_core/harmonic_inheritance_and_novelty.es.md) mantienen sus hipótesis propias.
 
-## 5. De las relaciones al operador de respuesta
+La [resolución respecto de una referencia](../02_formal_core/resolution_and_modal_weights.es.md) añade un contrato métrico: $\mathcal R=\log_2(N\sum p_i^2)$ y $r_{\rm ref}=2^{-\mathcal R}$. En composición independiente, la resolución se suma. Esta cantidad, el peso de un evento y la probabilidad de un sector cuántico se distinguen por sus estados y proyectores.
 
-Una arquitectura puede responder a diferencias mediante un comparador lineal $C$. Con productos internos declarados,
+## 6. Tiempo, radio y luz
 
-$$K=\Gamma C^\dagger C,\qquad \Gamma>0,\qquad
-\langle x,Kx\rangle=\Gamma\|Cx\|^2.$$
+La recurrencia permite ritmo; comparar ritmos permite tiempo operacional. Profundidad lógica no es duración. El radio relacional designa conceptualmente un borde de distinguibilidad; para medirlo hace falta un observable y una regla de comparación.
 
-El operador registra la respuesta a diferencias detectables. En un grafo de comparaciones binarias, linealidad, localidad e invariancia ante una referencia común fuerzan la forma
+[HIPÓTESIS FÍSICO-ONTOLÓGICA] La luz y el espectro como primer espacio físico de comparación orientan una rama del programa. No se afirma prioridad cronológica de fotones ni una derivación cosmológica.
 
-$$C=DB,\qquad K=\Gamma B^\top D^2B,$$
+Una identificación $R=c/\omega$, una masa modal o un radio de carga pertenecen a [puentes físicos](../publication/physical_bridges.es.md). Deben fijar unidades, correspondencias y predicciones independientes.
 
-donde $B$ es la incidencia orientada y $D$ contiene pesos reales; la segunda igualdad usa productos internos euclídeos. Una simetría transitiva sobre aristas, respetada por las conductancias $w_e^2$, reduce $K$ a un múltiplo del Laplaciano. La [nota del comparador local](../02_formal_core/local_comparators_and_relational_laplacian.es.md) da la prueba y las libertades que permanecen.
+## 7. Laboratorios y obligaciones comunes
 
-Respecto de $H^+=H\oplus N$, el bloque $PKQ$ mide acoplamiento entre herencia y novedad. Un modo integrado tiene componentes en ambos sectores. Aparecer, acoplarse y persistir son propiedades distintas que ahora pueden comprobarse con objetos explícitos.
-
-## 6. Recurrencia, ritmo y acción
-
-La realización cuadrática discreta usa
-
-$$x_{n+1}-2x_n+x_{n-1}=-Kx_n.$$
-
-Para un autovalor $0<\kappa<4$, el modo es una rotación de fase $\Omega=\arccos(1-\kappa/2)$ por actualización. Un ritmo recurrente permite comparar cambios; un reloj físico añade una duración $\tau_0$ por actualización.
-
-La dinámica posee una acción variacional y, en coordenadas canónicas modales, un invariante $\mathcal J=(Q_c^2+P_c^2)/2$. Sobre la interpolación circular declarada, $m$ vueltas encierran acción $2\pi m\mathcal J$. La [nota de acción y fase](../02_formal_core/relational_action_and_phase.es.md) distingue la fase, el contenido de la órbita y la curva usada para medir área.
-
-La medida sobre firmas ofrece a su vez un contenido finito $\mathfrak J(A)=|A|J_{\rm tot}/N$. Si una realización establece $\mathcal J=\mathfrak J(A)$, selecciona amplitudes específicas. Construir ese mapa es una pregunta concreta de investigación.
-
-## 7. Herencia aritmética y escala relativa
-
-En la familia declarada $M_n=2^n-1$, las valuaciones primas separan factores heredados y factores que aparecen por primera vez. La [clasificación de herencia y novedad](../02_formal_core/harmonic_inheritance_and_novelty.es.md) identifica el primer caso mixto en $n=4$ y caracteriza toda la familia usando un teorema clásico de divisores primitivos.
-
-Esta realización describe repertorios multiplicativos. Para conectarlos con modos se necesita un mapa explícito a comparaciones y un operador dinámico. La [incorporación](../02_formal_core/novelty_incorporation_and_dynamical_modes.es.md) permite preguntar si ese mapa añade dimensión, mezcla o un autovalor diferente.
-
-Para escalas positivas $\ell_i$, la comparación relativa
-
-$$s_i=\log(\ell_i/\ell_{\rm ref}),\qquad
-(Bs)_{i\to j}=\log(\ell_j/\ell_i)$$
-
-es independiente de una reescala global. Las razones se componen sumando sus logaritmos; la compatibilidad en ciclos determina si pueden coexistir en un cierre común.
-
-## 8. Localidad y laboratorios
-
-Una actualización local de radio $r$ sólo puede transmitir una diferencia a distancia de grafo $rn$ tras $n$ pasos. La [separación de recursos](../02_formal_core/causal_propagation_and_closure_resources.es.md) distingue ese transporte de la anchura de interfaces, las rondas de acreditación y el costo del cálculo.
-
-| Laboratorio | Pregunta propia | Objeto disponible |
+| Rama | Objeto disponible | Próximo contraste |
 |---|---|---|
-| [Computación](../05_computation/README.md) | ¿Cómo componer y acreditar cierres con costos controlados? | Interfaces exactas, contador truncado y condiciones de descenso |
-| [Yang–Mills](../06_yang_mills/README.md) | ¿Qué comparaciones controlan cuantitativamente toda diferencia pertinente? | Observable $SU(2)$, control gaussiano y programa de coercividad |
-| [Navier–Stokes](../03_navier_stokes/README.md) | ¿Qué sostiene el crecimiento y el giro de la vorticidad? | Identidades materiales y presupuesto presión–viscosidad–forzamiento |
+| [Computación](../05_computation/README.md) | Interfaces exactas y recierre de restricciones | Política y recursos uniformes sin oráculo |
+| [Yang–Mills](../06_yang_mills/README.md) | Observable no abeliano y controles de bloque | Puente dinámico y constantes en los límites |
+| [Navier–Stokes](../03_navier_stokes/README.md) | Identidades y presupuestos materiales | Control euleriano de migración y cambios de escala |
+| [Representación y crecimiento](../07_emergence_laboratory/README.md) | Predictores y descriptores con protocolos explícitos | Evaluación independiente y suficiencia de continuaciones |
 
-La [estructura transversal](../02_formal_core/novelty_and_global_control.es.md) organiza estas preguntas sin identificar sus operadores ni sus conclusiones.
-
-## 9. Mapa a observables y próxima revisión
-
-Una realización física debe especificar cómo mide longitud, duración y acción. Si establece una escala de acción $S_0$, el área física es $S_0\mathcal A_{\rm rel}$; una fase física puede entonces escribirse como $\exp(i\mathcal A_{\rm phys}/\hbar)$. Cada cociente debe ser dimensionalmente consistente.
-
-Los [puentes físicos](../publication/physical_bridges.es.md) estudian relaciones entre tasa, longitud y observables. El interés del programa está en la cadena de obligaciones verificables: información suficiente, representación, respuesta, recurrencia y escala medida.
-
-### Notación de enlace
-
-| Símbolo | Significado |
-|---|---|
-| $X,\Phi,\Sigma$ | Realizaciones, firma y respuestas de la firma |
-| $H,N,P,Q$ | Sector heredado, novedad y sus proyecciones |
-| $J$ | Operador de comparación orientada, $J^2=-I$ |
-| $B,C,K$ | Incidencia de grafo, comparador y respuesta dinámica |
-| $\Omega,\mathcal J,\mathfrak J$ | Fase por paso, acción modal y contenido de firmas |
-| $\ell_i,\tau_0,S_0$ | Escala de longitud, duración por paso y unidad física de acción |
-
-Procedencia: ontología ampliada v0.3 y desarrollos sobre acción, novedad y comparadores aportados por el autor, integrados en esta edición. Véase [procedencia](../references/SOURCE_PROVENANCE.md). [Preguntas de revisión](../REVIEW.md).
+El [cierre relativo y control uniforme](../02_formal_core/relative_closure_and_uniform_control.es.md) articula estas obligaciones sin identificar las ramas como un mismo teorema. [Estado y alcance](../STATUS_CANONICAL.md) · [Procedencia](../references/SOURCE_PROVENANCE.md).

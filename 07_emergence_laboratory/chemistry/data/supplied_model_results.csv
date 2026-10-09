@@ -1,0 +1,6 @@
+condition,selected_feature,rmse_kJ_mol,mae_kJ_mol,r2
+baseline_no_second_coordinate,electronegativity difference only,53.52087426749364,44.49138003970419,0.5903119982107965
+ROSI_seed,rV_sum,50.79751388027456,40.56289102705255,0.6309444315328501
+no_seed_generic_symbolic_search,1/(g-13) pair-sum,50.39533671201766,40.65764986003832,0.6367651164277364
+no_seed_exact_rV_equivalent,1/(g-10) pair-sum,50.79751388027456,40.56289102705255,0.6309444315328501
+fake_seed_null_median_best_of_8,"best feature after random permutation of (P,rV)",53.05429534688183,,

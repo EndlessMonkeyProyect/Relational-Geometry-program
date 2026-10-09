@@ -3,6 +3,8 @@
 /NP/
 /NP.rar
 /dist/
+/archive/
+/04_results/NO_GO_REGISTER.md
 
 # Entornos y resultados generados
 __pycache__/
@@ -17,3 +19,4 @@ Thumbs.db
 03_navier_stokes/scripts/runs/
 03_navier_stokes/scripts/refined/
 *.npz
+/07_emergence_laboratory/**/outputs/

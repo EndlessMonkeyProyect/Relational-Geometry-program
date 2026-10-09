@@ -51,14 +51,14 @@ No se afirma una derivación de $\pi$ desde la nada. Se identifica el punto estr
 Si se adopta
 
 $$
-r_V(\varepsilon)=2^{-\varepsilon},\qquad
-M_\varepsilon=2^\varepsilon-1,
+r_V(q)=2^{-q},\qquad
+M_h=2^h-1,
 $$
 
 y se llama particularizante a un nivel cuyo soporte primo contiene simultáneamente herencia y novedad respecto de niveles menores, el primer caso ocurre en
 
 $$
-\varepsilon=4,\qquad M_4=15=3\cdot5.
+h=4,\qquad M_4=15=3\cdot5.
 $$
 
 [Program derivation] Esto es exacto **después** de adoptar la regla binaria. No constituye una derivación independiente del orden cuatro algebraico.
@@ -66,3 +66,5 @@ $$
 ### Problema central
 
 [Pending] El objetivo no es coleccionar apariciones de cuatro, sino demostrar o falsar que existe una estructura abstracta mínima que las obliga simultáneamente.
+
+[ABIERTO] El caso aritmético $h=4$, el orden $o_J=4$, el exponente $q=4$, el número $b$ de discriminantes y la dimensión $d_R$ no se identifican automáticamente. **$b=4$ no está derivado.** [Convenciones](../02_formal_core/binary_refinement.md).

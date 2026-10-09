@@ -195,3 +195,9 @@ Proponemos tareas concretas:
 La convocatoria y el formato de observaciones están en [Revisión del programa](../REVIEW.md).
 
 Procedencia: *Programa Relacional — Rama Yang–Mills*, §§3–13 y 18–29; *Cierre, localidad y escala relacional mínima*, §§37–40. Las identidades se exponen aquí con sus hipótesis; los resultados de análisis y de límite continuo se presentan como programa de trabajo.
+
+## 7. Alcance y siguiente construcción
+
+[DERIVADO] El núcleo algebraico de esta nota, el testigo finito $Q_8$ y las expresiones del conmutador ofrecen objetos de revisión directa. [CONDICIONAL] La selección de $\mathfrak{su}(2)$ depende de las hipótesis compactas declaradas; el control gaussiano abeliano/U(1) tiene un dominio distinto del sector no abeliano.
+
+[ABIERTO] La siguiente construcción debe especificar comparaciones entre configuraciones, su dominio funcional y una cota de coercividad positiva uniforme. Un peso multiplicativo por sí solo no proporciona esa cota. Coercividad relacional, puente físico, continuo y mass gap permanecen como objetivos; no se afirma solución de Clay.

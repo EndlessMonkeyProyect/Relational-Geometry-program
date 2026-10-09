@@ -41,7 +41,7 @@ La exposición principal sigue los resultados y sus preguntas de revisión. Cada
 
 En la forma hermítica compleja se explicita la conjugación: $B(fg,h)=B(f,\overline g h)$. La composición retiene las variables que usarán factores posteriores. La acreditación computacional se formula con certificados disponibles y verificables. Se distingue la capacidad de cuatro bits del índice de profundidad de una construcción.
 
-El número protónico se mantiene como objetivo documental de un puente condicional, y la revisión de antecedentes queda identificada en su alcance. Esta edición no incorpora una actualización de valores experimentales ni un dictamen de prioridad.
+El número protónico se mantiene como objetivo documental de un puente condicional, y la revisión de antecedentes queda identificada en su alcance. La integración v3 añade fuentes puntuales para el radio protónico, la frecuencia hiperfina y el contraste MICROSCOPE, sin reivindicar prioridad universal.
 
 ## Huellas de las fuentes suministradas
 
@@ -74,3 +74,34 @@ SHA-256 de las once fuentes distintas de la ampliación. Los códigos se conserv
 | MF72 | AA2DBC2C97F43ADC9E191702B9AC4A03ED5AE7E7B1B9BDB3F1CEADA39A05091A |
 | MF73 | EB1224BD048062F5F2406394F9548A01E8148617054CC44C50DD584756B69140 |
 | Parche de presupuesto Navier–Stokes | 704A5F7C17AB679C44C908B001221259042006A7B4E6109EB3BE6FF9894CDF29 |
+
+## Integración canónica local 2.4 — 6 de octubre de 2026
+
+La revisión editorial del 6 de octubre incorpora las precisiones del autor sobre identidad, notación, cierre y puentes físicos. Las versiones previas y auditorías se preservan localmente; la distribución presenta los resultados vigentes con sus condiciones. Esta revisión no incorpora nuevos datos externos.
+
+Se integraron los contratos de identidad, independencia, comparación y acreditación desde el corpus del autor. La exposición pública contiene las formulaciones autosuficientes seleccionadas; sus archivos de trabajo se preservan por separado.
+
+Las bibliografías externas existentes se conservan en [EXTERNAL_SOURCES](EXTERNAL_SOURCES.md). Esa integración anterior no actualizó constantes; las referencias externas añadidas en v3 se identifican a continuación.
+
+
+## Integración pública v3 — 9 de octubre de 2026
+
+La edición integra resultados seleccionados de la revisión 5.9 y del lenguaje LV2. Los dos documentos aportados como LV2 y LV2.1 coinciden byte por byte. La revisión de contenido se concentra en cierre contextual, comparación finita, control uniforme y los desarrollos de resolución, espines, SAT y correspondencias físicas. No se importa en bloque el archivo fuente.
+
+| Desarrollo | Destino público |
+|---|---|
+| Interfaz, congruencia y recursos | [Recierre y costo](../02_formal_core/contextual_reclosure_and_resource_cost.es.md) |
+| Contrato finito y selección modal | [Comparación finita](../02_formal_core/finite_comparison_contract_and_modal_weights.es.md) |
+| Control relativo y escala | [Control uniforme](../02_formal_core/relative_closure_and_uniform_control.es.md) |
+| Resolución respecto de la referencia | [Resolución y pesos](../02_formal_core/resolution_and_modal_weights.es.md) |
+| Composición de espines | [Información relacional en espines](../publication/spin_composition_and_relational_information.es.md) |
+| Economía contextual SAT | [Representación y costo](../05_computation/contextual_sat_and_representation_cost.es.md) |
+| Correspondencias y validación | [Protón](../publication/proton_radius_hypothesis.es.md), [gravedad](../publication/composition_dependent_gravity_constraints.es.md), [protocolo químico](../07_emergence_laboratory/chemistry/validation_protocol.es.md) |
+
+Huellas SHA-256 de los paquetes fuente preservados por el autor:
+
+- Revisión 5.9: 39EF7F8EEC742844CCCBCE2F0B1CF0983915838D420828D922FBAB58684E2470.
+- Paquete LV2: 80B16BDAAFFE7FB1571A8AE1D67DD221EC177791C27FE34AA2A2990F6C9ABAB4.
+- Documento de lenguaje LV2: 63FA79605434E3E873420FB931914B12EE9060A3E5A99DAAE9A139A0A1C42AFC.
+
+Las notas físicas enlazan fuentes primarias específicas: Trinhammer–Bohr (2019), CODATA 2022, Kramida (2010) y MICROSCOPE (2022). Los valores se identifican por su fuente y fecha, sin presentarlos como predicciones nuevas del programa. El [informe de reproducción](../04_results/REPRODUCTION_REPORT.md) delimita la verificación ejecutada.

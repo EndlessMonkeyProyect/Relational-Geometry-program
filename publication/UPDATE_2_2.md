@@ -1,5 +1,7 @@
 # Ontology-integrated update — 2.2.0-review
 
+**Documento histórico.** Describe esa edición; el estado vigente es [STATUS_CANONICAL](../STATUS_CANONICAL.md). Las afirmaciones de publicación registran el estado declarado entonces y no fueron verificadas remotamente en esta integración.
+
 **Le Matt Ansatz Di Ego · 5 October 2026**
 
 This edition uses the [ontology of difference, closure and incorporation](../01_foundations/ontology_of_difference_and_closure.es.md) as the program's conceptual entry point. Descriptive filenames identify the subject of each contribution.

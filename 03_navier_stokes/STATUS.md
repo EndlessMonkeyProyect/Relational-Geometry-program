@@ -23,3 +23,7 @@ The established contribution is the exact separation of material amplification a
 | Relational physical scale for $\Omega$ | **[Hypothesis]** | must be obtained independently and respect NS scaling |
 
 Production DNS values above are supplied results; the 5 October integration reruns small implementation controls rather than the full production protocol. The priority is independent reproduction, precision sensitivity, observable-specific resolution studies and Lagrangian episodes. The current scope is local material dynamics and diagnostics.
+
+## Scope and next analytical step — 3.0
+
+[DERIVADO] Exact vorticity geometry and the declared depletion mechanisms retain their domains. [ABIERTO] A multiscale lemma and global regularity remain research targets. Low turning alone is not a singularity criterion: the Burgers control is regular in its stated class and has infinite whole-space kinetic energy. The [relative-control note](../02_formal_core/relative_closure_and_uniform_control.es.md) separates trajectory estimates from Eulerian migration and scale control.

@@ -19,18 +19,18 @@ import zipfile
 
 PUBLIC_DIRECTORIES = (
     "00_orientation", "01_foundations", "02_formal_core", "03_navier_stokes",
-    "04_results", "05_computation", "06_yang_mills", "publication",
+    "04_results", "05_computation", "06_yang_mills", "07_emergence_laboratory", "publication",
     "references", "tests", "tools", ".github",
 )
 PUBLIC_FILES = (
-    "README.md", "README.es.md", "STATUS.md", "REVIEW.md", "CONTRIBUTING.md",
+    "README.md", "README.es.md", "STATUS.md", "STATUS_CANONICAL.md", "REVIEW.md", "CONTRIBUTING.md",
     "requirements.txt", "pytest.ini", "CITATION.cff", "NOTICE.md", ".gitignore", ".gitattributes",
 )
 EXCLUDED_NAMES = {
     "internal", "_internal", ".internal", "np", "np.rar", "dist", ".git",
-    "archive", "history", "07_history", "no_go_register.md", "__pycache__",
+    "history", "07_history", "archive", "30_falsifiers_no_go", "70_reviews", "90_history", "no_go_register.md", "__pycache__",
     ".pytest_cache", ".mypy_cache", ".ruff_cache", ".tox", ".venv", "venv",
-    "node_modules", ".ds_store", "runs", "refined",
+    "node_modules", ".ds_store", "runs", "refined", "outputs",
 }
 EXCLUDED_SUFFIXES = {".zip", ".rar", ".7z", ".pyc", ".pyo", ".tmp", ".bak", ".npz"}
 MANIFEST_NAME = "MANIFEST.json"

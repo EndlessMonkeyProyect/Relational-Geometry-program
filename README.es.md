@@ -1,56 +1,42 @@
 # Programa de Geometría Relacional
 
-**De la diferencia al cierre: información, incorporación, dinámica y escala**
+**Cierre contextual, resolución y composición**
 
-Le Matt Ansatz Di Ego · [English](README.md) · [Invitación a revisión](REVIEW.md)
+Le Matt Ansatz Di Ego · [English](README.md) · **v3.0.0-review · 9 de octubre de 2026**
 
-El Programa de Geometría Relacional desarrolla un lenguaje común para una pregunta concreta: **¿qué información debe conservar un sistema para distinguir estados, mantener su identidad y componerse con otros sistemas?** Su punto de partida son las diferencias y comparaciones; desde ellas construye las representaciones necesarias para conservar información.
+¿Qué información debe conservar un sistema para seguir siendo reconocible y componerse con otros? El programa desarrolla esta pregunta mediante interfaces suficientes, geometría de la comparación y modelos reproducibles. La v3 conecta la resolución respecto de una referencia con pesos calculables, ejemplos cuánticos y el costo de realizar un cierre.
 
-El aporte es una arquitectura conceptual acompañada de resultados matemáticos explícitos y laboratorios computacionales. Permite conectar preguntas sobre información y geometría con objetos que se pueden calcular, verificar y ampliar. Este repositorio busca hacer visibles esas contribuciones y facilitar la revisión de sus conexiones y aplicaciones.
+## Aportes centrales
 
-La [ontología de la diferencia, el cierre y la incorporación](01_foundations/ontology_of_difference_and_closure.es.md) organiza la lectura: una diferencia requiere representación; una arquitectura de comparación determina una respuesta; la dinámica permite estudiar recurrencia y persistencia; un mapa a observables da significado físico a la escala.
+- **Interfaces contextuales y recierre:** una clase conserva las respuestas de todas las continuaciones admitidas; la congruencia permite componer clases y las fibras cuantifican distinciones residuales.
+- **Resolución y peso:** en un contrato finito explícito, $r_{\rm ref}=2^{-\mathcal R}$ conecta autocoincidencia, proyección, diferencias de una red y composición independiente.
+- **Composición de espines:** probabilidades de espín total, correlaciones del singlete y quiralidad ternaria proporcionan ejemplos exactos en mecánica cuántica estándar.
+- **Representación y costo:** la caracterización del cociente contextual SAT y la anchura de tablas separan semántica, canonización y recursos.
+- **Dinámica y escala:** comparadores locales, acción, dinámica de cocientes y cotas de control uniforme conectan descripciones individuales y colectivas.
+- **Laboratorios y observables:** fluidos, teoría gauge, química y crecimiento aportan controles reproducibles; las notas de protón y gravedad fijan correspondencias y condiciones de contraste.
 
-**Actualización 2.2.0-review · 5 de octubre de 2026.** Se integran comparadores locales, incorporación de novedad, acción y fase, clasificación armónica y un presupuesto computacional de vorticidad. [Qué incorpora esta edición](publication/UPDATE_2_2.md).
+[Qué incorpora la v3](publication/UPDATE_3_0.md) · [Resultados y evidencia](04_results/RESULTS_REGISTER.md)
 
-La edición anterior 2.1.0-review está [archivada en Zenodo](https://doi.org/10.5281/zenodo.23123168). Ese DOI identifica el depósito anterior, no esta actualización de GitHub.
+## Ruta de lectura
 
-## Aportes principales
+1. [Lenguaje canónico y notación](01_foundations/canonical_relational_language.es.md).
+2. [Recierre contextual y recursos](02_formal_core/contextual_reclosure_and_resource_cost.es.md).
+3. [Resolución y pesos](02_formal_core/resolution_and_modal_weights.es.md).
+4. [Espines e información relacional](publication/spin_composition_and_relational_information.es.md).
+5. [SAT y costo de representación](05_computation/contextual_sat_and_representation_cost.es.md).
+6. [Puentes físicos](publication/physical_bridges.es.md), [laboratorios](07_emergence_laboratory/README.md) y [estado por rama](STATUS_CANONICAL.md).
 
-| Aporte | Resultado | Importancia |
-|---|---|---|
-| **Información y cierre** | Una firma agrupa estados según las preguntas que pueden responder. Una comparación aporta información nueva exactamente cuando no factoriza por la firma anterior. | Ofrece un criterio operacional de novedad y descripción suficiente. |
-| **Extensión reflexiva mínima** | Una comparación lineal antisimétrica que conserva la norma induce $J^2=-I$. Una novedad no nula genera un plano real mínimo y una órbita de cuatro fases. | Conecta reglas de comparación explícitas con dimensión, ortogonalidad y cierre de fase. |
-| **Dieciséis firmas y medida invariante** | Dos coordenadas de cuatro fases accesibles independientemente producen $\mathbb Z_4^2$. La medida local normalizada e invariante da $1/16$ a una firma y $15/16$ a su complemento. | Explicita la cadena entre estructura de fase, conteo y medida, con hipótesis revisables. |
-| **Composición exacta de cápsulas** | Unir relaciones compatibles y eliminar variables interiores conserva la relación completa accesible desde la frontera. | Da una base para componer restricciones y reutilizar interfaces en computación. |
-| **Comparador local y respuesta** | Localidad, linealidad e invariancia de referencia fuerzan diferencias ponderadas en un grafo; su forma cuadrática es un Laplaciano ponderado. | Conecta relaciones declaradas con un operador calculable, razones de escala y compatibilidad de ciclos. |
-| **Incorporación y acción** | El bloque entre herencia y novedad mide mezcla; los modos en la banda estable admiten una rotación canónica y un invariante de acción. | Separa nueva información, acoplamiento, ritmo y contenido de una órbita. |
-| **Herencia armónica** | La familia de firmas multiplicativas tiene una clasificación completa en factores heredados y primitivos, apoyada en aritmética clásica. | Hace comprobable el criterio de repetición y ampliación de repertorio. |
-| **Observables y presupuesto de Navier–Stokes** | Identidades exactas separan amplificación y giro; el nuevo laboratorio calcula presión, viscosidad y forzamiento por separado. | Añade tablas DNS aportadas y controles reproducibles de cierre, precisión y resolución, con alcance documentado. |
-| **Observable relacional no abeliano** | Un observable del conmutador en $SU(2)$ cuantifica cuánto dejan de conmutar dos holonomías. | Aporta un objeto calculable y una ruta precisa hacia preguntas de coercividad en Yang–Mills. |
+La ontología organiza la investigación; los teoremas declaran sus hipótesis y las aplicaciones físicas declaran sus observables. «Singularidad relacional» significa una diferencia cerrada reutilizable como unidad, no una singularidad de una PDE ni un agujero negro. Los resultados de esta edición no anuncian una solución propia de P vs NP, Yang–Mills o regularidad global de fluidos.
 
-El alcance acompaña a cada aporte: las afirmaciones algebraicas incluyen sus hipótesis; los cálculos incluyen su protocolo; las interpretaciones físicas identifican el mapa a observables que debe revisarse. El [registro de resultados](04_results/RESULTS_REGISTER.md) enlaza cada contribución con su desarrollo.
+## Reproducir y revisar
 
-## Por dónde entrar
-
-- **Para conocer la propuesta:** [ontología rectora](01_foundations/ontology_of_difference_and_closure.es.md), [presentación breve](publication/PROGRAM_OVERVIEW.es.md) y [núcleo integrado](publication/relational_geometry_core.es.md).
-- **Para revisar las pruebas:** [información y cierre](02_formal_core/closure_information.es.md), [extensión reflexiva](02_formal_core/reflexive_extension.es.md), [fases y medida](02_formal_core/phase_measure.es.md) y [teorema de composición](02_formal_core/compatible_reclosure.es.md).
-- **Para explorar aplicaciones:** [computación](05_computation/README.md), [Navier–Stokes](03_navier_stokes/README.md), [Yang–Mills](06_yang_mills/README.md) y [objetivos físicos](publication/physical_bridges.es.md).
-- **Para seguir la actualización:** [comparadores locales](02_formal_core/local_comparators_and_relational_laplacian.es.md), [incorporación y modos](02_formal_core/novelty_incorporation_and_dynamical_modes.es.md), [acción y fase](02_formal_core/relational_action_and_phase.es.md), [novedad armónica](02_formal_core/harmonic_inheritance_and_novelty.es.md) y [control global](02_formal_core/novelty_and_global_control.es.md).
-- **Para aportar una revisión:** elija una [pregunta concreta](REVIEW.md). Verificar una prueba, una implementación o un puente físico ya es una contribución útil.
-
-El programa propone una arquitectura compartida; cada dominio aporta sus objetos, hipótesis y evidencia. Las cotas de complejidad, la selección dinámica de comparaciones y la conversión de medida formal en observables físicos constituyen objetivos de investigación definidos.
-
-## Reproducibilidad
-
-Con Python 3.11 o posterior, desde la raíz del repositorio:
-
-```bash
+~~~bash
 python -m pip install -r requirements.txt
 python -m pytest -q
-python 03_navier_stokes/scripts/restricted_euler_benchmark.py
-python 03_navier_stokes/scripts/review_checks.py
-python 06_yang_mills/scripts/gaussian_control.py --quick
+python tools/canonical_audit.py
 python tools/public_release.py
-```
+~~~
 
-Las pruebas comprueban ejemplos finitos, consistencia algebraica e integridad de la distribución. Las demostraciones y sus hipótesis están en los documentos. Véanse el [estado del programa](STATUS.md), la [guía de colaboración](CONTRIBUTING.md) y los [términos de uso](NOTICE.md).
+El [informe de reproducción](04_results/REPRODUCTION_REPORT.md) identifica las verificaciones ejecutadas y los datos de producción suministrados. La revisión está abierta en español o inglés: elegí una [pregunta concreta](REVIEW.md) y compartí una prueba, reproducción o extensión con alcance explícito.
+
+Autoría y cita: [CITATION.cff](CITATION.cff). Condiciones de uso: [NOTICE.md](NOTICE.md). Archivo del programa: [versiones en Zenodo](https://doi.org/10.5281/zenodo.23123167). Para citar un resultado, identificá su versión y el DOI específico del depósito correspondiente.

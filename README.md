@@ -1,58 +1,42 @@
 # Relational Geometry Program
 
-**From difference to closure: information, incorporation, dynamics, and scale**
+**Contextual closure, resolution and composition**
 
-Le Matt Ansatz Di Ego · [Español](README.es.md) · [Review invitation](REVIEW.md)
+Le Matt Ansatz Di Ego · [Español](README.es.md) · **v3.0.0-review · 9 October 2026**
 
-The Relational Geometry Program develops a common language for a concrete question: **what information must a system preserve to distinguish states, retain its identity, and compose with other systems?** Its central move is to start with distinctions and comparisons, then construct the representations needed to retain them.
+What information must a system retain to remain distinguishable and compose with other systems? The program develops this question through sufficient interfaces, comparison geometry and reproducible models. Version 3 connects resolution relative to a reference with calculable weights, quantum examples and the cost of implementing closure.
 
-This repository brings together conceptual foundations, explicit mathematical constructions, and computational laboratories. Its value is structural and practical: it connects questions about information and geometry to objects that can be calculated, checked, and extended. We invite focused review of those connections and their applications.
+## Core contributions
 
-Start with the [ontology of difference, closure, and incorporation (Spanish)](01_foundations/ontology_of_difference_and_closure.es.md). It organizes the route from distinguishable information to representation, local comparators, dynamical response, recurrence, and measurable scale.
+- **Contextual interfaces and reclosure:** classes preserve answers under admitted continuations; congruence enables composition on classes, while refinement fibers quantify residual distinctions.
+- **Resolution and weight:** in an explicit finite contract, $r_{\rm ref}=2^{-\mathcal R}$ connects collision probability, projection, graph differences and independent composition.
+- **Spin composition:** total-spin probabilities, singlet correlations and ternary chirality provide exact worked examples in standard quantum mechanics.
+- **Representation and cost:** the characterization of contextual SAT and dense-table width separates semantics, canonicalization and computational resources.
+- **Dynamics and scale:** local comparators, action, quotient dynamics and uniform-control criteria connect individual and collective descriptions.
+- **Laboratories and observables:** fluid, gauge, chemistry and growth studies provide reproducible controls; proton and gravity notes define conditional physical maps and comparison protocols.
 
-**Version 2.2.0-review · 5 October 2026.** This update integrates the ontology with local graph comparators, novelty incorporation, canonical action variables, harmonic inheritance and a material-vorticity budget. [Edition summary](publication/UPDATE_2_2.md).
+[What version 3 integrates](publication/UPDATE_3_0.md) · [Results and evidence](04_results/RESULTS_REGISTER.md)
 
-The earlier 2.1.0-review edition is [archived on Zenodo](https://doi.org/10.5281/zenodo.23123168). That DOI identifies the earlier deposit, not this updated GitHub content.
+## Reading route
 
-## Contributions worth examining
+1. [Canonical language and typed notation](01_foundations/canonical_relational_language.es.md).
+2. [Contextual reclosure and resources](02_formal_core/contextual_reclosure_and_resource_cost.es.md).
+3. [Resolution and modal weights](02_formal_core/resolution_and_modal_weights.es.md).
+4. [Spin composition and relational information](publication/spin_composition_and_relational_information.es.md).
+5. [Contextual SAT and representation cost](05_computation/contextual_sat_and_representation_cost.es.md).
+6. [Physical bridges](publication/physical_bridges.es.md), [laboratories](07_emergence_laboratory/README.md), and [branch scope](STATUS_CANONICAL.md).
 
-| Contribution | What it establishes | Why it matters |
-|---|---|---|
-| **Information and closure** | A signature partitions states by the questions they can answer; a new comparison refines that partition exactly when it does not factor through the existing signature. | Gives an operational criterion for new information and sufficient descriptions. |
-| **Minimal reflexive extension** | An antisymmetric, norm-preserving linear comparison satisfies $J^2=-I$. A nonzero new direction generates a real plane and a four-phase orbit. | Connects stated comparison rules to dimension, orthogonality, and a closed phase structure. |
-| **Sixteen phase signatures and invariant measure** | Two independently accessible four-phase coordinates give $\mathbb Z_4^2$. A normalized local inner product invariant under both phase translations assigns weight $1/16$ to each signature and $15/16$ to its complement. | Makes the chain from phase structure to counting and measure explicit and reviewable. |
-| **Exact composition of capsules** | Joining compatible relations and eliminating internal variables preserves the full relation visible at the external boundary. | Provides a compositional foundation for constraint solving and reusable interfaces. |
-| **Local comparators and response** | Linearity, edge locality and reference invariance force weighted differences; the response is a weighted graph Laplacian. | Turns a declared comparison architecture into a calculable operator and scale-compatibility conditions. |
-| **Incorporation and action** | Cross-sector blocks measure mixing; stable modes have an exact canonical rotation and action invariant. | Separates information, coupling, rhythm and orbit content. |
-| **Harmonic inheritance** | Primitive-divisor theory completes the inherited/new-factor classification of the declared binary family. | Gives a checkable arithmetic realization of repertoire expansion. |
-| **Navier–Stokes observables and budget** | Exact material identities now accompany separately computed pressure, viscosity and forcing terms. | Supplies DNS tables and small reproducible closure, precision and resolution controls, with documented evidence scope. |
-| **Non-Abelian relational observable** | An explicit $SU(2)$ commutator observable measures failure of two holonomies to commute. | Gives the Yang–Mills branch a computable object and a route toward coercivity questions. |
+The ontology organizes the investigation; formal statements specify their hypotheses, and physical applications specify their observables. A “relational singularity” is a closed distinction reusable as a unit, not a PDE singularity or a black hole. This edition does not announce the program's own solution of P versus NP, Yang–Mills or global fluid regularity. The linked new mathematical notes are in Spanish; reviews in either language are welcome.
 
-These results have different scopes. Algebraic statements apply under the hypotheses written in their proofs; model computations have documented protocols; physical interpretations identify additional maps to observables that need review. The [results register](04_results/RESULTS_REGISTER.md) connects each contribution to its evidence.
+## Reproduce and review
 
-## Read according to your interest
-
-- **Understand the program:** [ontology (Spanish)](01_foundations/ontology_of_difference_and_closure.es.md), [Spanish overview](publication/PROGRAM_OVERVIEW.es.md) and [integrated core](publication/relational_geometry_core.es.md).
-- **Check the mathematics:** [information and closure](02_formal_core/closure_information.es.md), [reflexive extension](02_formal_core/reflexive_extension.es.md), [phase structure and invariant measure](02_formal_core/phase_measure.es.md), and [composition theorem](02_formal_core/compatible_reclosure.es.md).
-- **Explore applications:** [computation and constraints](05_computation/README.md), [Navier–Stokes](03_navier_stokes/README.md), [Yang–Mills](06_yang_mills/README.md), and [physical research targets](publication/physical_bridges.es.md).
-- **Examine the new formal chain (Spanish):** [local comparators](02_formal_core/local_comparators_and_relational_laplacian.es.md), [incorporation and modes](02_formal_core/novelty_incorporation_and_dynamical_modes.es.md), [action and phase](02_formal_core/relational_action_and_phase.es.md), [harmonic novelty](02_formal_core/harmonic_inheritance_and_novelty.es.md), and [global-control conditions](02_formal_core/novelty_and_global_control.es.md).
-- **Contribute a review:** choose a [specific review question](REVIEW.md). A focused check of one proof, implementation, or physical bridge is a useful contribution.
-
-The shared architecture is the research program's organizing proposal. Each domain supplies its own objects, hypotheses, and evidence. Computational complexity bounds, dynamical selection of comparisons, and conversion of formal measure into physical observables are active research targets.
-
-## Reproduce and inspect
-
-Use Python 3.11 or later. From the repository root:
-
-```bash
+~~~bash
 python -m pip install -r requirements.txt
 python -m pytest -q
-python 03_navier_stokes/scripts/restricted_euler_benchmark.py
-python 03_navier_stokes/scripts/review_checks.py
-python 06_yang_mills/scripts/gaussian_control.py --quick
+python tools/canonical_audit.py
 python tools/public_release.py
-```
+~~~
 
-The tests check finite examples, algebraic consistency, and release integrity. Proofs and assumptions are included in the documents. See [status](STATUS.md) for evidence levels and [contributing](CONTRIBUTING.md) for review and reproduction details.
+The [reproduction report](04_results/REPRODUCTION_REPORT.md) distinguishes executed checks from supplied production data. Choose a [focused review question](REVIEW.md) and contribute a proof, reproduction or extension with a stated scope.
 
-Authorship and reuse terms are recorded in [CITATION.cff](CITATION.cff) and [NOTICE.md](NOTICE.md).
+Authorship and citation: [CITATION.cff](CITATION.cff). Reuse terms: [NOTICE.md](NOTICE.md). Program archive: [Zenodo versions](https://doi.org/10.5281/zenodo.23123167). Cite the version and the corresponding deposit's version-specific DOI.
